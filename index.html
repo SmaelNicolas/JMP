@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css"
+			rel="stylesheet" />
+		<script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/build/ol.js"></script>
+	</head>
+
+	<body>
+		<div class="boxSearch" id="boxSearchAbroad">
+			<h3 class="boxSearch--name">Study Abroad</h3>
+			<input type="text" id="searchPlaces" placeholder="🔎" />
+			<button id="byPlaces">Top Places</button>
+		</div>
+		<div class="boxSearch hideBox" id="boxSearchUni">
+			<h3 class="boxSearch--name">Top Universities</h3>
+			<input type="text" id="searchUniversities" placeholder="🔎" />
+			<button id="byCountry">Country</button>
+		</div>
+		<div id="containerWithCards"></div>
+	</body>
+	<script type="module" src="./Js/script.js"></script>
+</html>

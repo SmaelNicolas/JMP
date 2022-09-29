@@ -1,0 +1,178 @@
+[
+	{
+		"id": 1,
+		"name": "bangor university",
+		"description": "Founded 1884 as the University College of North Wales. A Constituent Institution of the University of Wales",
+		"link": "https://google.com.ar",
+		"coordenadas": {
+			"latitud": -34.6037,
+			"longitud": -58.3816
+		},
+		"pais": "Australia"
+	},
+	{
+		"id": 2,
+		"name": "edge hill university",
+		"description": "Founded 1970 as coventry (lanchester) polytechnic. acquired present status and title 1992",
+		"link": "https://google.com.ar",
+		"coordenadas": {
+			"latitud": -34.6037,
+			"longitud": -58.3816
+		},
+		"pais": "New York"
+	},
+	{
+		"id": 3,
+		"name": "aston university",
+		"description": "Founded 1895 as Technical School, became College of Technology 1951 and first in the country to be designated as College of Advanced Technology 1956. Acquired present status and title 1966.",
+		"link": "https://google.com.ar",
+		"coordenadas": {
+			"latitud": -34.6037,
+			"longitud": -58.3816
+		},
+		"pais": "Australia"
+	},
+	{
+		"id": 4,
+		"name": "coventry university",
+		"link": "https://google.com.ar",
+		"description": "Founded 1970 as coventry (lanchester) polytechnic. acquired present status and title 1992",
+		"coordenadas": {
+			"latitud": -34.6037,
+			"longitud": -58.3816
+		},
+		"pais": "Colombia"
+	},
+	{
+		"id": 5,
+		"name": "bangor university",
+		"description": "Founded 1884 as the University College of North Wales. A Constituent Institution of the University of Wales",
+		"link": "https://google.com.ar",
+		"coordenadas": {
+			"latitud": -34.6037,
+			"longitud": -58.3816
+		},
+		"pais": "Italia"
+	},
+	{
+		"id": 6,
+		"name": "edge hill university",
+		"description": "Founded 1970 as coventry (lanchester) polytechnic. acquired present status and title 1992",
+		"link": "https://google.com.ar",
+		"coordenadas": {
+			"latitud": -34.6037,
+			"longitud": -58.3816
+		},
+		"pais": "New York"
+	},
+	{
+		"id": 7,
+		"name": "aston university",
+		"description": "Founded 1895 as Technical School, became College of Technology 1951 and first in the country to be designated as College of Advanced Technology 1956. Acquired present status and title 1966.",
+		"link": "https://google.com.ar",
+		"coordenadas": {
+			"latitud": -34.6037,
+			"longitud": -58.3816
+		},
+		"pais": "Francia"
+	},
+	{
+		"id": 8,
+		"name": "coventry university",
+		"link": "https://google.com.ar",
+		"description": "Founded 1970 as coventry (lanchester) polytechnic. acquired present status and title 1992",
+		"coordenadas": {
+			"latitud": -34.6037,
+			"longitud": -58.3816
+		},
+		"pais": "Francia"
+	},
+	{
+		"id": 9,
+		"name": "bangor university",
+		"description": "Founded 1884 as the University College of North Wales. A Constituent Institution of the University of Wales",
+		"link": "https://google.com.ar",
+		"coordenadas": {
+			"latitud": -34.6037,
+			"longitud": -58.3816
+		},
+		"pais": "Chile"
+	},
+	{
+		"id": 10,
+		"name": "edge hill university",
+		"description": "Founded 1970 as coventry (lanchester) polytechnic. acquired present status and title 1992",
+		"link": "https://google.com.ar",
+		"coordenadas": {
+			"latitud": -34.6037,
+			"longitud": -58.3816
+		},
+		"pais": "Paris"
+	},
+	{
+		"id": 11,
+		"name": "aston university",
+		"description": "Founded 1895 as Technical School, became College of Technology 1951 and first in the country to be designated as College of Advanced Technology 1956. Acquired present status and title 1966.",
+		"link": "https://google.com.ar",
+		"coordenadas": {
+			"latitud": -34.6037,
+			"longitud": -58.3816
+		},
+		"pais": "Paris"
+	},
+	{
+		"id": 12,
+		"name": "coventry university",
+		"link": "https://google.com.ar",
+		"description": "Founded 1970 as coventry (lanchester) polytechnic. acquired present status and title 1992",
+		"coordenadas": {
+			"latitud": -34.6037,
+			"longitud": -58.3816
+		},
+		"pais": "Paris"
+	},
+	{
+		"id": 13,
+		"name": "bangor university",
+		"description": "Founded 1884 as the University College of North Wales. A Constituent Institution of the University of Wales",
+		"link": "https://google.com.ar",
+		"coordenadas": {
+			"latitud": -34.6037,
+			"longitud": -58.3816
+		},
+		"pais": "Paris"
+	},
+	{
+		"id": 14,
+		"name": "edge hill university",
+		"description": "Founded 1970 as coventry (lanchester) polytechnic. acquired present status and title 1992",
+		"link": "https://google.com.ar",
+		"coordenadas": {
+			"latitud": -34.6037,
+			"longitud": -58.3816
+		},
+		"pais": "New York"
+	},
+	{
+		"id": 15,
+		"name": "aston university",
+		"description": "Founded 1895 as Technical School, became College of Technology 1951 and first in the country to be designated as College of Advanced Technology 1956. Acquired present status and title 1966.",
+		"link": "https://google.com.ar",
+		"coordenadas": {
+			"latitud": -34.6037,
+			"longitud": -58.3816
+		},
+		"pais": "New York"
+	},
+	{
+		"id": 16,
+		"name": "coventry university",
+		"link": "https://google.com.ar",
+		"description": "Founded 1970 as coventry (lanchester) polytechnic. acquired present status and title 1992",
+		"coordenadas": {
+			"latitud": -34.6037,
+			"longitud": -58.3816
+		},
+		"pais": "Argentina"
+	}
+]
