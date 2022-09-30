@@ -40,12 +40,15 @@ export const boxSearch = () => {
 	const searchUniversitiesByCity = (value) => {
 		//filtro el arreglo con los que coincidan con el lugar
 		let filteredArray = dataUniversidades.filter(
-			(item) => value.toLowerCase() === item.pais.toLowerCase() && item
+			(item) => value.toLowerCase() === item.country.toLowerCase() && item
 		);
+
 		//reset del container de cards
 		container.innerHTML = "";
+
 		//crea las cards de los lugares filtrados
 		filteredArray.map((item) => handleCardsByName(item, container));
+
 		//agrega el evento hover sobre el contenedor de las cards y maps
 		filteredArray.map((item) => {
 			document
@@ -66,6 +69,7 @@ export const boxSearch = () => {
 						" all 0.3s";
 				});
 		});
+
 		//agrega el mapa para cada card
 		filteredArray.map((item) => {
 			createMap(item.street, item.id);
