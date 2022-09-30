@@ -1,5 +1,5 @@
+import { createMap } from "../functions/createMap.js";
 import { handleCardsByName } from "./cardsUniversities.js";
-import { createMap } from "./createMap.js";
 
 export const boxSearch = () => {
 	let dataUniversidades = [];

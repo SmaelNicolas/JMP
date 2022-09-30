@@ -1,5 +1,5 @@
-import { boxSearch } from "./boxSearch.js";
-import { startSwiperDownloads } from "./swiper.js";
+import { boxSearch } from "./domManipulation/boxSearch.js";
+import { startSwiperDownloads } from "./domManipulation/swiper.js";
 
 startSwiperDownloads();
 boxSearch();
