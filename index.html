@@ -4,27 +4,79 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Maquetado</title>
+		<!-- MAPAS -->
 		<link
 			href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css"
 			rel="stylesheet" />
 		<script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
-		<link rel="stylesheet" href="style.css" />
 		<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/build/ol.js"></script>
+		<!-- FIN MAPAS -->
+		<!-- ESTILOS -->
+		<link rel="stylesheet" href="./css/style.css" />
+		<!-- FIN ESTILOS -->
+		<!-- SWIPER -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+		<!-- FIN SWIPER -->
 	</head>
 
 	<body>
-		<div class="boxSearch" id="boxSearchAbroad">
-			<h3 class="boxSearch--name">Study Abroad</h3>
-			<input type="text" id="searchPlaces" placeholder="🔎" />
-			<button id="byPlaces">Top Places</button>
+		<div class="travelSearchContainer">
+			<div class="travelBoxSearchContainer">
+				<div
+					class="travelBoxSearchLabelsContainer"
+					id="travelBoxSearchLabelsContainer">
+					<div
+						class="travelBoxSearchLabels travelBoxSearchLabelsSelected"
+						id="topUniversitiesLabel">
+						Top Universities
+					</div>
+					<div class="travelBoxSearchLabels" id="studyAbroadLabel">
+						Study Abroad
+					</div>
+				</div>
+				<div class="travelBoxSearchInputsContainer">
+					<input
+						class="travelBoxSearchInputs"
+						id="travelBoxSearchInput"
+						type="text"
+						placeholder="🔎" />
+					<select
+						class="travelBoxSearchInputs travelBoxSearchSelector"
+						name="travelSearchSelector"
+						id="travelSearchSelector">
+						<option value="1">Country</option>
+						<option value="2">Top Places</option>
+					</select>
+				</div>
+			</div>
+
+			<div
+				id="containerUniversitySearchResult"
+				class="containerUniversitySearchResult"></div>
 		</div>
-		<div class="boxSearch hideBox" id="boxSearchUni">
-			<h3 class="boxSearch--name">Top Universities</h3>
-			<input type="text" id="searchUniversities" placeholder="🔎" />
-			<button id="byCountry">Country</button>
+
+		<h1 class="h1">TITLE</h1>
+		<div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="./Carousel/1.jpg" /></div>
+				<div class="swiper-slide"><img src="./Carousel/2.jpg" /></div>
+				<div class="swiper-slide"><img src="./Carousel/3.jpg" /></div>
+				<div class="swiper-slide"><img src="./Carousel/1.jpg" /></div>
+				<div class="swiper-slide"><img src="./Carousel/2.jpg" /></div>
+				<div class="swiper-slide"><img src="./Carousel/3.jpg" /></div>
+				<div class="swiper-slide"><img src="./Carousel/1.jpg" /></div>
+				<div class="swiper-slide"><img src="./Carousel/2.jpg" /></div>
+				<div class="swiper-slide"><img src="./Carousel/3.jpg" /></div>
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-pagination"></div>
 		</div>
-		<div id="containerWithCards"></div>
+		-->
 	</body>
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 	<script type="module" src="./Js/script.js"></script>
 </html>
