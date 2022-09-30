@@ -6,6 +6,25 @@ export const handleCardsByName = (item, container) => {
 	if (item.name.length >= 20) return card4(item, container);
 };
 
+export const renderAllCards = (listCards, container) => {
+	listCards.map((item, index) => {
+		index === 0 && card1(item, container);
+		index === 1 && card2(item, container);
+		index === 2 && card3(item, container);
+		index === 3 && card4(item, container);
+		index === 4 && card5(item, container);
+		index === 5 && card6(item, container);
+		index === 6 && card7(item, container);
+		index === 7 && card8(item, container);
+		index === 8 && card9(item, container);
+		index === 9 && card10(item, container);
+		index === 10 && card11(item, container);
+		index === 11 && card12(item, container);
+		index === 12 && card13(item, container);
+		index === 13 && card14(item, container);
+	});
+};
+
 const card1 = (item, container) => {
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${item.id}" class="cardAndMap--container">
@@ -237,8 +256,8 @@ const card11 = (item, container) => {
 							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
 						</div>
 						<div class="cardUniversitySearchResult--center">
+						<div class="cardUniversitySearchResultN11--name">${item.name}</div>
 							<div class="cardUniversitySearchResultN11--description">${item.description}</div>
-							<div class="cardUniversitySearchResultN11--name">${item.name}</div>
 						</div>
 						<a class="cardUniversitySearchResult--link" href="${item.link}">Link</a>
 					</div>
@@ -281,8 +300,8 @@ const card13 = (item, container) => {
 							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
 						</div>
 						<div class="cardUniversitySearchResult--center">
+						<div class="cardUniversitySearchResultN13--name">${item.name}</div>
 							<div class="cardUniversitySearchResultN13--description">${item.description}</div>
-							<div class="cardUniversitySearchResultN13--name">${item.name}</div>
 						</div>
 						<a class="cardUniversitySearchResult--link" href="${item.link}">Link</a>
 					</div>
