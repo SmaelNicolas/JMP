@@ -1,0 +1,20 @@
+.containerUniversitySearchResult {
+	max-width: 1300px;
+	min-height: 500px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.cardAndMap--container {
+	width: max-content;
+	padding: 20px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
