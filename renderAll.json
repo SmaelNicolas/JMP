@@ -5,7 +5,7 @@
 		"description": "Founded 1970 as Staffordshire Polytechnic,acquired present status and title 1992.",
 		"link": "https://google.com.ar",
 		"street": "mitre 158 bahia blanca",
-		"pais": "Jordan"
+		"country": "Jordan"
 	},
 	{
 		"id": 2,
@@ -13,7 +13,7 @@
 		"description": "Founded 1884 as the University College of North Wales. A Constituent Institution of the University of Wales",
 		"link": "https://google.com.ar",
 		"street": "Alem 5 bahia blanca",
-		"pais": "Ireland"
+		"country": "Ireland"
 	},
 	{
 		"id": 3,
@@ -21,7 +21,7 @@
 		"description": "Founded 1970 as Coventry(Lanchester) Polytechnic.Aired present status and title 1992",
 		"link": "https://google.com.ar",
 		"street": "brasil 841 bahia blanca",
-		"pais": "Italy"
+		"country": "Italy"
 	},
 	{
 		"id": 4,
@@ -29,7 +29,7 @@
 		"description": "Founded 1970 as Coventry(Lanchester) Polytechnic.Aired present status and title 1992",
 		"link": "https://google.com.ar",
 		"street": "colon 500 mar del plata",
-		"pais": "United Kingdom"
+		"country": "United Kingdom"
 	},
 	{
 		"id": 5,
@@ -37,78 +37,78 @@
 		"description": "Founded 1895 as Technical School, became College of Technology 1951 and first in the country to be designated as College of Advanced Technology 1956. Acquired present status and title 1966.",
 		"link": "https://google.com.ar",
 		"street": "Rambla de Montevideo",
-		"pais": "Germany"
+		"country": "Germany"
 	},
 	{
 		"id": 6,
 		"name": "Aston University",
 		"description": "Founded 1895 as Technical School,became College of Technology 1951 and first in the country to be designated as College of Advanced Technology 1956. Acquired present status and title 1966.",
 		"link": "https://google.com.ar",
-		"street": "mitre 158 bahia blanca",
-		"pais": "Canada"
+		"street": " OX1 2JD, UK",
+		"country": "Canada"
 	},
 	{
 		"id": 7,
 		"name": "University of York ",
 		"description": "Founded 1970 as Coventry (Lanchester) Polytechnic. Acquired present status and title 1992",
 		"link": "https://google.com.ar",
-		"street": "mitre 158 bahia blanca",
-		"pais": "United States"
+		"street": "Av. Vélez Sarsfield 1611 cordoba",
+		"country": "United States"
 	},
 	{
 		"id": 8,
 		"name": "College London",
 		"description": "Founded 1970 as Coventry (Lanchester) Polytechnic. Acquired present status and title 1992",
 		"link": "https://google.com.ar",
-		"street": "mitre 158 bahia blanca",
-		"pais": "United Kingdom"
+		"street": "Rambla del Poblenou 156 barcelona",
+		"country": "United Kingdom"
 	},
 	{
 		"id": 9,
 		"name": "Film Academy",
 		"description": "The New York Film Academy Bachelor of Fine Arts in 3D",
 		"link": "https://google.com.ar",
-		"street": "mitre 158 bahia blanca",
-		"pais": "United States"
+		"street": "Bunkyo City, Tokyo, Japan",
+		"country": "United States"
 	},
 	{
 		"id": 10,
 		"name": " Design Academy",
 		"description": "The Design Academy ABachelor of Fine Arts in 3D",
 		"link": "https://google.com.ar",
-		"street": "mitre 158 bahia blanca",
-		"pais": "United States"
+		"street": "Vancouver, BC Canada V6T 1Z4",
+		"country": "United States"
 	},
 	{
 		"id": 11,
 		"name": "Yerevan State Medical University after Mkhitar Heratsi",
 		"description": "Founded 1895 as Technical School, became College of Technology 1951 and first in the country",
 		"link": "https://google.com.ar",
-		"street": "mitre 158 bahia blanca",
-		"pais": "United States"
+		"street": "Av. Libertador Bernardo O'Higgins 1058, Santiago de Chile,",
+		"country": "United States"
 	},
 	{
 		"id": 12,
 		"name": "Royal College",
 		"description": "Founded 1895 as Technical School,became College of Technology 1951 and first in the country to be designated as College of Advanced Technology 1956. Acquired present status and title 1966.",
 		"link": "https://google.com.ar",
-		"street": "mitre 158 bahia blanca",
-		"pais": "France"
+		"street": "Via Zamboni, 33 - 40126 Bologna",
+		"country": "France"
 	},
 	{
 		"id": 13,
 		"name": "BALOCHISTAN UNIVERSITY OF INFORMATION TECHNOLOGY, ENGINEERING AND MANAGEMENT SCIENCES",
 		"description": "Founded 1884 as the University College of North Wales. A Constituent Institution of the University of Wales",
 		"link": "https://google.com.ar",
-		"street": "mitre 158 bahia blanca",
-		"pais": "Australia"
+		"street": "Via Verdi, 8 - 10124 Turin",
+		"country": "Australia"
 	},
 	{
 		"id": 14,
 		"name": "Royal College",
 		"description": "Founded 1970 as Leeds Polytechnic, formed from the amalgamation of Leeds College of Technology, Leeds College of Commerce , part of Leeds College of Art, and Yorkshire College of Education and Home Economics. Acquired University status as Leeds Metropolitan University 1992 and present title 2014.",
 		"link": "https://google.com.ar",
-		"street": "mitre 158 bahia blanca",
-		"pais": "France"
+		"street": "Via dell'Artigliere, 837129, Verona",
+		"country": "France"
 	}
 ]

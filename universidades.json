@@ -9,7 +9,7 @@
 			"latitud": -34.6037,
 			"longitud": -58.3816
 		},
-		"pais": "Australia"
+		"country": "Australia"
 	},
 	{
 		"id": 2,
@@ -21,7 +21,7 @@
 			"latitud": -34.6037,
 			"longitud": -58.3816
 		},
-		"pais": "New York"
+		"country": "New York"
 	},
 	{
 		"id": 3,
@@ -33,7 +33,7 @@
 			"latitud": -34.6037,
 			"longitud": -58.3816
 		},
-		"pais": "Australia"
+		"country": "Australia"
 	},
 	{
 		"id": 4,
@@ -45,7 +45,7 @@
 			"latitud": -34.6037,
 			"longitud": -58.3816
 		},
-		"pais": "Colombia"
+		"country": "Colombia"
 	},
 	{
 		"id": 5,
@@ -57,7 +57,7 @@
 			"latitud": -34.6037,
 			"longitud": -58.3816
 		},
-		"pais": "Italia"
+		"country": "Italia"
 	},
 	{
 		"id": 6,
@@ -69,7 +69,7 @@
 			"latitud": -34.6037,
 			"longitud": -58.3816
 		},
-		"pais": "New York"
+		"country": "New York"
 	},
 	{
 		"id": 7,
@@ -81,7 +81,7 @@
 			"latitud": -34.6037,
 			"longitud": -58.3816
 		},
-		"pais": "Francia"
+		"country": "Francia"
 	},
 	{
 		"id": 8,
@@ -93,7 +93,7 @@
 			"latitud": -34.6037,
 			"longitud": -58.3816
 		},
-		"pais": "Francia"
+		"country": "Francia"
 	},
 	{
 		"id": 9,
@@ -105,7 +105,7 @@
 			"latitud": -34.6037,
 			"longitud": -58.3816
 		},
-		"pais": "Chile"
+		"country": "Chile"
 	},
 	{
 		"id": 10,
@@ -117,7 +117,7 @@
 			"latitud": -34.6037,
 			"longitud": -58.3816
 		},
-		"pais": "Paris"
+		"country": "Paris"
 	},
 	{
 		"id": 11,
@@ -129,7 +129,7 @@
 			"latitud": -34.6037,
 			"longitud": -58.3816
 		},
-		"pais": "Paris"
+		"country": "Paris"
 	},
 	{
 		"id": 12,
@@ -141,7 +141,7 @@
 			"latitud": -34.6037,
 			"longitud": -58.3816
 		},
-		"pais": "Paris"
+		"country": "Paris"
 	},
 	{
 		"id": 13,
@@ -153,7 +153,7 @@
 			"latitud": -34.6037,
 			"longitud": -58.3816
 		},
-		"pais": "Paris"
+		"country": "Paris"
 	},
 	{
 		"id": 14,
@@ -165,7 +165,7 @@
 			"latitud": -34.6037,
 			"longitud": -58.3816
 		},
-		"pais": "New York"
+		"country": "New York"
 	},
 	{
 		"id": 15,
@@ -177,7 +177,7 @@
 			"latitud": -34.6037,
 			"longitud": -58.3816
 		},
-		"pais": "New York"
+		"country": "New York"
 	},
 	{
 		"id": 16,
@@ -189,6 +189,6 @@
 			"latitud": -34.6037,
 			"longitud": -58.3816
 		},
-		"pais": "Argentina"
+		"country": "Argentina"
 	}
 ]
