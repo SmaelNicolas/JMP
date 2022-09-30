@@ -1,21 +1,26 @@
+/* BORDE EXTERIOR */
 .cardUniversitySearchResult--border {
 	border: 2px solid rgba(150, 156, 67, 0.466);
-	width: 350px;
-	height: 250px;
-	padding: 20px 10px;
+	width: 380px;
+	min-height: 280px;
 	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
+/* CARD CONTAINER */
 .cardUniversitySearchResult--container {
-	width: 350px;
-	height: 250px;
+	width: 360px;
+	min-height: 260px;
 	border: 2px solid rgba(150, 156, 67, 0.466);
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
+	justify-content: space-between;
 	align-items: center;
 	border-radius: 20px;
 }
+/* LUGAR Y FAVORITO */
 .cardUniversitySearchResult--top {
 	width: 100%;
 	height: 40px;
@@ -35,10 +40,21 @@
 	cursor: pointer;
 	padding: 5px 20px 0px 00px;
 }
+/* SECCION DE LINK */
+.cardUniversitySearchResult--link {
+	width: 100%;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	padding: 10px 0px;
+	justify-self: flex-end;
+}
+
+/* MAIN DE LAS CARDS */
 
 .cardUniversitySearchResult--center {
 	width: 100%;
-	height: 150px;
+	min-height: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -47,63 +63,208 @@
 }
 
 .cardUniversitySearchResultN1--name {
-	width: 100%;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: xx-large;
+	width: 70%;
+	padding-left: 10px;
+	margin-right: auto;
+	text-align: start;
+	font-weight: bold;
+	font-size: 35px;
+	letter-spacing: 3px;
 }
 
 .cardUniversitySearchResultN1--description {
 	width: 100%;
 	text-align: center;
-	padding: 40px 0px;
+	padding-top: 20px;
 }
 
 .cardUniversitySearchResultN2--name {
-	width: 50%;
+	width: 100%;
+	padding-top: 35px;
+	text-transform: uppercase;
 	text-align: center;
-	text-transform: capitalize;
 	font-size: xx-large;
 }
 
 .cardUniversitySearchResultN2--description {
-	width: 49%;
-	text-align: start;
+	width: 100%;
+	text-align: center;
+	padding: 40px 0px;
 }
-
 .cardUniversitySearchResultN3--name {
 	width: 100%;
-	text-transform: capitalize;
-	font-size: xx-large;
-	text-align: start;
-	padding-left: 20px;
-}
-.cardUniversitySearchResultN3--description {
-	padding-left: 10px;
-	width: 90%;
-	text-align: start;
-	font-size: 15px;
-}
-
-.cardUniversitySearchResultN4--name {
-	width: 250px;
 	font-size: x-large;
 	text-transform: uppercase;
 	text-align: center;
 }
 
-.cardUniversitySearchResultN4--description {
+.cardUniversitySearchResultN3--description {
 	width: 100%;
 	padding: 10px;
 	font-size: 15px;
 	text-transform: uppercase;
 }
 
-.cardUniversitySearchResult--link {
-	width: 100%;
+.cardUniversitySearchResultN4--name {
+	width: 50%;
 	text-align: center;
-	color: black;
-	text-decoration: none;
-	padding: 10px 0px;
-	justify-self: flex-end;
+	text-transform: capitalize;
+	font-size: xx-large;
+}
+
+.cardUniversitySearchResultN4--description {
+	width: 49%;
+	text-align: start;
+}
+
+.cardUniversitySearchResultN5--name {
+	width: 100%;
+	text-transform: capitalize;
+	font-size: xx-large;
+	text-align: start;
+	padding-left: 20px;
+}
+.cardUniversitySearchResultN5--description {
+	padding-left: 10px;
+	width: 90%;
+	text-align: start;
+	font-size: 15px;
+}
+.cardUniversitySearchResultN6--name {
+	width: 100%;
+	padding-left: 5px;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 3px;
+}
+
+.cardUniversitySearchResultN6--description {
+	width: 65%;
+	padding-top: 10px;
+	padding-left: 20px;
+
+	text-align: justify;
+	font-size: 15px;
+}
+
+.cardUniversitySearchResultN7--name {
+	width: 60%;
+	font-size: 55px;
+	text-align: start;
+	line-height: 50px;
+	margin-right: auto;
+	padding-left: 40px;
+}
+
+.cardUniversitySearchResultN7--description {
+	width: 80%;
+	text-align: start;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+.cardUniversitySearchResultN8--name {
+	width: 40%;
+	font-size: 35px;
+	text-align: end;
+	padding-bottom: 5px;
+}
+
+.cardUniversitySearchResultN8--description {
+	width: 42%;
+	padding-left: 5px;
+	padding-top: 20px;
+}
+
+.cardUniversitySearchResultN9--name {
+	width: 50%;
+	margin-right: auto;
+	font-size: 35px;
+	text-align: start;
+	padding-left: 25px;
+}
+
+.cardUniversitySearchResultN9--description {
+	margin-left: auto;
+
+	width: 55%;
+	padding-left: 5px;
+	padding-top: 20px;
+}
+
+.cardUniversitySearchResultN10--name {
+	width: 50%;
+	margin-left: auto;
+	font-size: 45px;
+	text-align: end;
+	padding-right: 15px;
+	padding-bottom: 30px;
+}
+
+.cardUniversitySearchResultN10--description {
+	margin-right: auto;
+	width: 45%;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 25px;
+}
+
+.cardUniversitySearchResultN11--name {
+	width: 80%;
+	padding: 0px 5px;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	text-align: start;
+}
+
+.cardUniversitySearchResultN11--description {
+	width: 85%;
+	font-size: 18px;
+	text-align: justify;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+.cardUniversitySearchResultN12--name {
+	transform: rotate(-90deg) translate(0%, -150px);
+	width: 100%;
+	font-size: 30px;
+	margin-right: auto;
+}
+
+.cardUniversitySearchResultN12--description {
+	width: 80%;
+	font-size: 18px;
+	text-align: justify;
+	margin-left: auto;
+}
+
+.cardUniversitySearchResultN13--name {
+	width: 80%;
+	text-align: center;
+}
+
+.cardUniversitySearchResultN13--description {
+	width: 88%;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.cardUniversitySearchResultN14--name {
+	transform: rotate(-90deg) translate(-20%, 150px);
+	width: 100%;
+	font-size: 30px;
+	margin-right: auto;
+	text-align: start;
+	padding-left: 15px;
+}
+
+.cardUniversitySearchResultN14--description {
+	width: 73%;
+	font-size: 18px;
+	text-align: justify;
+	margin-right: auto;
+	padding-left: 20px;
 }
