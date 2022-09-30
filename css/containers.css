@@ -9,7 +9,17 @@
 	align-items: center;
 }
 
-.cardAndMap--container {
+.cardAndMap--containerPar {
+	width: max-content;
+	padding: 20px;
+	height: auto;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+.cardAndMap--containerImpar {
 	width: max-content;
 	padding: 20px;
 	height: auto;
