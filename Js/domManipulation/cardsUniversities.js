@@ -1,32 +1,41 @@
-export const handleCardsByName = (item, container) => {
-	if (item.name.length <= 16) return card3(item, container);
-	if (item.name.length === 17) return card2(item, container);
-	if (item.name.length === 18) return card5(item, container);
-	if (item.name.length === 19) return card5(item, container);
-	if (item.name.length >= 20) return card4(item, container);
+import { reduceString } from "../functions/reduceString.js";
+
+export const handleCardsByName = (item, index, container) => {
+	if (item.University.length <= 16) return card3(item, index, container);
+	if (item.University.length === 17) return card2(item, index, container);
+	if (item.University.length === 18) return card5(item, index, container);
+	if (item.University.length === 19) return card5(item, index, container);
+	if (item.University.length >= 20) return card11(item, index, container);
 };
 
-const card1 = (item, container) => {
+const card1 = (item, index, container) => {
+	let descriptionReduced = reduceString(item.Description);
 	let node = document.createElement("div");
-	node.innerHTML = `<div id="cardAndMap${
-		item.id
-	}" class="cardAndMap--container${item.id % 2 === 0 ? "Par" : "Impar"}">
-				<div id="map${item.id}" class="map"></div>
+	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	}">
+				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
-							<div class="cardUniversitySearchResult--country">${item.country}</div>
+							<div class="cardUniversitySearchResult--country">${item.Country}</div>
 							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
 						</div>
-						<div class="cardUniversitySearchResult--center">
-							<div class="cardUniversitySearchResultN1--name">${item.name}</div>
-							<div class="cardUniversitySearchResultN1--description">${item.description}
-							<div id="cardUniversitySearchResultArrowMore" class="cardUniversitySearchResultArrowMore">🔽</div>
-
-							
+						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
+							<div class="cardUniversitySearchResultN1--name">${item.University}</div>
+								<div class="cardUniversitySearchResultN1--description " >${descriptionReduced}
+								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
 							</div>
 						</div>
-						<a class="cardUniversitySearchResult--link" href="${item.link}">Link</a>
+						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
+							<div class="cardUniversitySearchResultN1--name">${item.University}</div>
+							<div class="cardUniversitySearchResultN1--description" >${item.Description}
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+							</div>
+						</div>
+						<a class="cardUniversitySearchResult--link" href="${
+							item.LinkUniversity
+						}">Link</a>
 					</div>
 				</div>
 			</div>
@@ -34,27 +43,34 @@ const card1 = (item, container) => {
 	container.appendChild(node);
 };
 
-const card2 = (item, container) => {
+const card2 = (item, index, container) => {
+	let descriptionReduced = reduceString(item.Description);
 	let node = document.createElement("div");
-	node.innerHTML = `<div id="cardAndMap${
-		item.id
-	}" class="cardAndMap--container${item.id % 2 === 0 ? "Par" : "Impar"}">
-				<div id="map${item.id}" class="map"></div>
+	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	}">
+				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
-							<div class="cardUniversitySearchResult--country">${item.country}</div>
+							<div class="cardUniversitySearchResult--country">${item.Country}</div>
 							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
 						</div>
-						<div class="cardUniversitySearchResult--center">
-							<div class="cardUniversitySearchResultN2--name">${item.name}</div>
-							<div class="cardUniversitySearchResultN2--description">${item.description}
-							<div id="cardUniversitySearchResultArrowMore" class="cardUniversitySearchResultArrowMore">🔽</div>
-
-							
+						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
+							<div class="cardUniversitySearchResultN2--name">${item.University}</div>
+							<div class="cardUniversitySearchResultN2--description " >${descriptionReduced}
+							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
 							</div>
 						</div>
-						<a class="cardUniversitySearchResult--link" href="${item.link}">Link</a>
+						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
+							<div class="cardUniversitySearchResultN2--name">${item.University}</div>
+							<div class="cardUniversitySearchResultN2--description" >${item.Description}
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+							</div>
+						</div>
+						<a class="cardUniversitySearchResult--link" href="${
+							item.LinkUniversity
+						}">Link</a>
 					</div>
 				</div>
 			</div>
@@ -62,27 +78,34 @@ const card2 = (item, container) => {
 	container.appendChild(node);
 };
 
-const card3 = (item, container) => {
+const card3 = (item, index, container) => {
+	let descriptionReduced = reduceString(item.Description);
 	let node = document.createElement("div");
-	node.innerHTML = `<div id="cardAndMap${
-		item.id
-	}" class="cardAndMap--container${item.id % 2 === 0 ? "Par" : "Impar"}">
-				<div id="map${item.id}" class="map"></div>
+	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	}">
+				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResult--border">
 				<div class="cardUniversitySearchResult--container">
 					<div class="cardUniversitySearchResult--top">
-						<div class="cardUniversitySearchResult--country">${item.country}</div>
+						<div class="cardUniversitySearchResult--country">${item.Country}</div>
 						<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
 					</div>
-					<div class="cardUniversitySearchResult--center">
-						<div class="cardUniversitySearchResultN3--description">${item.description}
-						<div id="cardUniversitySearchResultArrowMore" class="cardUniversitySearchResultArrowMore">🔽</div>
-
-						
+					<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
+						<div class="cardUniversitySearchResultN3--description " >${descriptionReduced}
+							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
 						</div>
-						<div class="cardUniversitySearchResultN3--name">${item.name}</div>
+						<div class="cardUniversitySearchResultN3--name">${item.University}</div>
 					</div>
-					<a class="cardUniversitySearchResult--link" href="${item.link}">Link</a>
+						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
+							<div class="cardUniversitySearchResultN3--description" >${item.Description}
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+							</div>
+							<div class="cardUniversitySearchResultN3--name">${item.University}</div>
+						</div>
+					<a class="cardUniversitySearchResult--link" href="${
+						item.LinkUniversity
+					}">Link</a>
 				</div>
 			</div> 
 		</div> 
@@ -90,27 +113,34 @@ const card3 = (item, container) => {
 	container.appendChild(node);
 };
 
-const card4 = (item, container) => {
+const card4 = (item, index, container) => {
+	let descriptionReduced = reduceString(item.Description);
 	let node = document.createElement("div");
-	node.innerHTML = `<div id="cardAndMap${
-		item.id
-	}" class="cardAndMap--container${item.id % 2 === 0 ? "Par" : "Impar"}">
-				<div id="map${item.id}" class="map"></div>
+	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	}">
+				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
-							<div class="cardUniversitySearchResult--country">${item.country}</div>
+							<div class="cardUniversitySearchResult--country">${item.Country}</div>
 							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
 						</div>
-						<div class="cardUniversitySearchResult--center">
-							<div class="cardUniversitySearchResultN4--name">${item.name}</div>
-							<div class="cardUniversitySearchResultN4--description">${item.description}
-								<div id="cardUniversitySearchResultArrowMore" class="cardUniversitySearchResultArrowMore">🔽</div>
-
-							
+						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
+							<div class="cardUniversitySearchResultN4--name">${item.University}</div>
+							<div class="cardUniversitySearchResultN4--description " >${descriptionReduced}
+								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
 							</div>
 						</div>
-						<a class="cardUniversitySearchResult--link" href="${item.link}">Link</a>
+						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
+							<div class="cardUniversitySearchResultN4--name">${item.University}</div>
+							<div class="cardUniversitySearchResultN4--description" >${item.Description}
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+							</div>
+						</div>
+						<a class="cardUniversitySearchResult--link" href="${
+							item.LinkUniversity
+						}">Link</a>
 					</div>
 				</div>
 			</div>
@@ -118,27 +148,34 @@ const card4 = (item, container) => {
 	container.appendChild(node);
 };
 
-const card5 = (item, container) => {
+const card5 = (item, index, container) => {
+	let descriptionReduced = reduceString(item.Description);
 	let node = document.createElement("div");
-	node.innerHTML = `<div id="cardAndMap${
-		item.id
-	}" class="cardAndMap--container${item.id % 2 === 0 ? "Par" : "Impar"}">
-				<div id="map${item.id}" class="map"></div>
+	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	}">
+				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResult--border">
 				<div class="cardUniversitySearchResult--container">
 					<div class="cardUniversitySearchResult--top">
-						<div class="cardUniversitySearchResult--country">${item.country}</div>
+						<div class="cardUniversitySearchResult--country">${item.Country}</div>
 						<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
 					</div>
-					<div class="cardUniversitySearchResult--center">
-						<div class="cardUniversitySearchResultN5--name">${item.name}</div>
-						<div class="cardUniversitySearchResultN5--description">${item.description}
-							<div id="cardUniversitySearchResultArrowMore" class="cardUniversitySearchResultArrowMore">🔽</div>
-
-						
+					<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
+						<div class="cardUniversitySearchResultN5--name">${item.University}</div>
+						<div class="cardUniversitySearchResultN5--description " >${descriptionReduced}
+							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
 						</div>
 					</div>
-					<a class="cardUniversitySearchResult--link" href="${item.link}">Link</a>
+					<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
+						<div class="cardUniversitySearchResultN5--name">${item.University}</div>
+						<div class="cardUniversitySearchResultN5--description" >${item.Description}
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+						</div>
+					</div>
+					<a class="cardUniversitySearchResult--link" href="${
+						item.LinkUniversity
+					}">Link</a>
 				</div>
 			</div>
 		</div>
@@ -146,53 +183,34 @@ const card5 = (item, container) => {
 	container.appendChild(node);
 };
 
-const card6 = (item, container) => {
+const card6 = (item, index, container) => {
+	let descriptionReduced = reduceString(item.Description);
 	let node = document.createElement("div");
-	node.innerHTML = `<div id="cardAndMap${
-		item.id
-	}" class="cardAndMap--container${item.id % 2 === 0 ? "Par" : "Impar"}">
-				<div id="map${item.id}" class="map"></div>
+	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	}">
+				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
-							<div class="cardUniversitySearchResult--country">${item.country}</div>
+							<div class="cardUniversitySearchResult--country">${item.Country}</div>
 							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
 						</div>
-						<div class="cardUniversitySearchResult--center">
-							<div class="cardUniversitySearchResultN6--name">${item.name}</div>
-							<div class="cardUniversitySearchResultN6--description">${item.description}
-								<div id="cardUniversitySearchResultArrowMore" class="cardUniversitySearchResultArrowMore">🔽</div>
-							
+						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
+							<div class="cardUniversitySearchResultN6--name">${item.University}</div>
+							<div class="cardUniversitySearchResultN6--description " >${descriptionReduced}
+								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
 							</div>
 						</div>
-						<a class="cardUniversitySearchResult--link" href="${item.link}">Link</a>
-					</div>
-				</div>
-			</div>
-            `;
-	container.appendChild(node);
-};
-
-const card7 = (item, container) => {
-	let node = document.createElement("div");
-	node.innerHTML = `<div id="cardAndMap${
-		item.id
-	}" class="cardAndMap--container${item.id % 2 === 0 ? "Par" : "Impar"}">
-				<div id="map${item.id}" class="map"></div>
-				<div class="cardUniversitySearchResult--border">
-					<div class="cardUniversitySearchResult--container">
-						<div class="cardUniversitySearchResult--top">
-							<div class="cardUniversitySearchResult--country">${item.country}</div>
-							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
-						</div>
-						<div class="cardUniversitySearchResult--center">
-							<div class="cardUniversitySearchResultN7--name">${item.name}</div>
-							<div class="cardUniversitySearchResultN7--description">${item.description}
-								<div id="cardUniversitySearchResultArrowMore" class="cardUniversitySearchResultArrowMore">🔽</div>
-							
+						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
+							<div class="cardUniversitySearchResultN6--name">${item.University}</div>
+							<div class="cardUniversitySearchResultN6--description" >${item.Description}
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
 							</div>
 						</div>
-						<a class="cardUniversitySearchResult--link" href="${item.link}">Link</a>
+						<a class="cardUniversitySearchResult--link" href="${
+							item.LinkUniversity
+						}">Link</a>
 					</div>
 				</div>
 			</div>
@@ -200,131 +218,34 @@ const card7 = (item, container) => {
 	container.appendChild(node);
 };
 
-const card8 = (item, container) => {
+const card7 = (item, index, container) => {
+	let descriptionReduced = reduceString(item.Description);
 	let node = document.createElement("div");
-	node.innerHTML = `<div id="cardAndMap${
-		item.id
-	}" class="cardAndMap--container${item.id % 2 === 0 ? "Par" : "Impar"}">
-				<div id="map${item.id}" class="map"></div>
+	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	}">
+				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
-							<div class="cardUniversitySearchResult--country">${item.country}</div>
+							<div class="cardUniversitySearchResult--country">${item.Country}</div>
 							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
 						</div>
-						<div class="cardUniversitySearchResult--center">
-							<div class="cardUniversitySearchResultN8--description">${item.description}
-								<div id="cardUniversitySearchResultArrowMore" class="cardUniversitySearchResultArrowMore">🔽</div>
-							
-							</div>
-							<div class="cardUniversitySearchResultN8--name">${item.name}</div>
-						</div>
-						<a class="cardUniversitySearchResult--link" href="${item.link}">Link</a>
-					</div>
-				</div>
-			</div>
-            `;
-	container.appendChild(node);
-};
-
-const card9 = (item, container) => {
-	let node = document.createElement("div");
-	node.innerHTML = `<div id="cardAndMap${
-		item.id
-	}" class="cardAndMap--container${item.id % 2 === 0 ? "Par" : "Impar"}">
-				<div id="map${item.id}" class="map"></div>
-				<div class="cardUniversitySearchResult--border">
-					<div class="cardUniversitySearchResult--container">
-						<div class="cardUniversitySearchResult--top">
-							<div class="cardUniversitySearchResult--country">${item.country}</div>
-							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
-						</div>
-						<div class="cardUniversitySearchResult--center">
-							<div class="cardUniversitySearchResultN9--description">${item.description}
-								<div id="cardUniversitySearchResultArrowMore" class="cardUniversitySearchResultArrowMore">🔽</div>
-							
-							</div>
-							<div class="cardUniversitySearchResultN9--name">${item.name}</div>
-						</div>
-						<a class="cardUniversitySearchResult--link" href="${item.link}">Link</a>
-					</div>
-				</div>
-			</div>
-            `;
-	container.appendChild(node);
-};
-
-const card10 = (item, container) => {
-	let node = document.createElement("div");
-	node.innerHTML = `<div id="cardAndMap${
-		item.id
-	}" class="cardAndMap--container${item.id % 2 === 0 ? "Par" : "Impar"}">
-				<div id="map${item.id}" class="map"></div>
-				<div class="cardUniversitySearchResult--border">
-					<div class="cardUniversitySearchResult--container">
-						<div class="cardUniversitySearchResult--top">
-							<div class="cardUniversitySearchResult--country">${item.country}</div>
-							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
-						</div>
-						<div class="cardUniversitySearchResult--center">
-							<div class="cardUniversitySearchResultN10--description">${item.description}
-							<div id="cardUniversitySearchResultArrowMore" class="cardUniversitySearchResultArrowMore">🔽</div>
-							</div>
-							<div class="cardUniversitySearchResultN10--name">${item.name}</div>
-						</div>
-						<a class="cardUniversitySearchResult--link" href="${item.link}">Link</a>
-					</div>
-				</div>
-			</div>
-            `;
-	container.appendChild(node);
-};
-
-const card11 = (item, container) => {
-	let node = document.createElement("div");
-	node.innerHTML = `<div id="cardAndMap${
-		item.id
-	}" class="cardAndMap--container${item.id % 2 === 0 ? "Par" : "Impar"}">
-				<div id="map${item.id}" class="map"></div>
-				<div class="cardUniversitySearchResult--border">
-					<div class="cardUniversitySearchResult--container">
-						<div class="cardUniversitySearchResult--top">
-							<div class="cardUniversitySearchResult--country">${item.country}</div>
-							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
-						</div>
-						<div class="cardUniversitySearchResult--center">
-						<div class="cardUniversitySearchResultN11--name">${item.name}</div>
-							<div class="cardUniversitySearchResultN11--description">${item.description}
-							<div id="cardUniversitySearchResultArrowMore" class="cardUniversitySearchResultArrowMore">🔽</div>
+						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
+							<div class="cardUniversitySearchResultN7--name">${item.University}</div>
+							<div class="cardUniversitySearchResultN7--description " >${descriptionReduced}
+								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
 							</div>
 						</div>
-						<a class="cardUniversitySearchResult--link" href="${item.link}">Link</a>
-					</div>
-				</div>
-			</div>
-            `;
-	container.appendChild(node);
-};
-
-const card12 = (item, container) => {
-	let node = document.createElement("div");
-	node.innerHTML = `<div id="cardAndMap${
-		item.id
-	}" class="cardAndMap--container${item.id % 2 === 0 ? "Par" : "Impar"}">
-				<div id="map${item.id}" class="map"></div>
-				<div class="cardUniversitySearchResult--border">
-					<div class="cardUniversitySearchResult--container">
-						<div class="cardUniversitySearchResult--top">
-							<div class="cardUniversitySearchResult--country">${item.country}</div>
-							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
-						</div>
-						<div class="cardUniversitySearchResult--center">
-							<div class="cardUniversitySearchResultN12--description">${item.description}
-							<div id="cardUniversitySearchResultArrowMore" class="cardUniversitySearchResultArrowMore">🔽</div>
+						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
+							<div class="cardUniversitySearchResultN7--name">${item.University}</div>
+							<div class="cardUniversitySearchResultN7--description" >${item.Description}
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
 							</div>
-							<div class="cardUniversitySearchResultN12--name">${item.name}</div>
 						</div>
-						<a class="cardUniversitySearchResult--link" href="${item.link}">Link</a>
+						<a class="cardUniversitySearchResult--link" href="${
+							item.LinkUniversity
+						}">Link</a>
 					</div>
 				</div>
 			</div>
@@ -332,24 +253,34 @@ const card12 = (item, container) => {
 	container.appendChild(node);
 };
 
-const card13 = (item, container) => {
+const card8 = (item, index, container) => {
+	let descriptionReduced = reduceString(item.Description);
 	let node = document.createElement("div");
-	node.innerHTML = `<div id="cardAndMap${
-		item.id
-	}" class="cardAndMap--container${item.id % 2 === 0 ? "Par" : "Impar"}">
-				<div id="map${item.id}" class="map"></div>
+	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	}">
+				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
-							<div class="cardUniversitySearchResult--country">${item.country}</div>
+							<div class="cardUniversitySearchResult--country">${item.Country}</div>
 							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
 						</div>
-						<div class="cardUniversitySearchResult--center">
-						<div class="cardUniversitySearchResultN13--name">${item.name}</div>
-							<div class="cardUniversitySearchResultN13--description">${item.description}
-							<div id="cardUniversitySearchResultArrowMore" class="cardUniversitySearchResultArrowMore">🔽</div></div>
+						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
+							<div class="cardUniversitySearchResultN8--description " >${descriptionReduced}
+								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
+							</div>
+							<div class="cardUniversitySearchResultN8--name">${item.University}</div>
 						</div>
-						<a class="cardUniversitySearchResult--link" href="${item.link}">Link</a>
+						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
+							<div class="cardUniversitySearchResultN8--description" >${item.Description}
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+							</div>
+							<div class="cardUniversitySearchResultN8--name">${item.University}</div>
+						</div>
+						<a class="cardUniversitySearchResult--link" href="${
+							item.LinkUniversity
+						}">Link</a>
 					</div>
 				</div>
 			</div>
@@ -357,24 +288,207 @@ const card13 = (item, container) => {
 	container.appendChild(node);
 };
 
-const card14 = (item, container) => {
+const card9 = (item, index, container) => {
+	let descriptionReduced = reduceString(item.Description);
 	let node = document.createElement("div");
-	node.innerHTML = `<div id="cardAndMap${
-		item.id
-	}" class="cardAndMap--container${item.id % 2 === 0 ? "Par" : "Impar"}">
-				<div id="map${item.id}" class="map"></div>
+	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	}">
+				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
-							<div class="cardUniversitySearchResult--country">${item.country}</div>
+							<div class="cardUniversitySearchResult--country">${item.Country}</div>
 							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
 						</div>
-						<div class="cardUniversitySearchResult--center">
-							<div class="cardUniversitySearchResultN14--description">${item.description}
-							<div id="cardUniversitySearchResultArrowMore" class="cardUniversitySearchResultArrowMore">🔽</div></div>
-							<div class="cardUniversitySearchResultN14--name">${item.name}</div>
+						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
+							<div class="cardUniversitySearchResultN9--description " >${descriptionReduced}
+								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
+							</div>
+							<div class="cardUniversitySearchResultN9--name">${item.University}</div>
 						</div>
-						<a class="cardUniversitySearchResult--link" href="${item.link}">Link</a>
+						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
+							<div class="cardUniversitySearchResultN9--description" >${item.Description}
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+							</div>
+							<div class="cardUniversitySearchResultN9--name">${item.University}</div>
+						</div>
+						<a class="cardUniversitySearchResult--link" href="${
+							item.LinkUniversity
+						}">Link</a>
+					</div>
+				</div>
+			</div>
+            `;
+	container.appendChild(node);
+};
+
+const card10 = (item, index, container) => {
+	let descriptionReduced = reduceString(item.Description);
+	let node = document.createElement("div");
+	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	}">
+				<div id="map${index}" class="map"></div>
+				<div class="cardUniversitySearchResult--border">
+					<div class="cardUniversitySearchResult--container">
+						<div class="cardUniversitySearchResult--top">
+							<div class="cardUniversitySearchResult--country">${item.Country}</div>
+							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+						</div>
+						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
+							<div class="cardUniversitySearchResultN10--description " >${descriptionReduced}
+							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
+							</div>
+							<div class="cardUniversitySearchResultN10--name">${item.University}</div>
+						</div>
+						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
+							<div class="cardUniversitySearchResultN10--description" >${item.Description}
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+							</div>
+							<div class="cardUniversitySearchResultN10--name">${item.University}</div>
+						</div>
+						<a class="cardUniversitySearchResult--link" href="${
+							item.LinkUniversity
+						}">Link</a>
+					</div>
+				</div>
+			</div>
+            `;
+	container.appendChild(node);
+};
+
+const card11 = (item, index, container) => {
+	let descriptionReduced = reduceString(item.Description);
+	let node = document.createElement("div");
+	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	}">
+				<div id="map${index}" class="map"></div>
+				<div class="cardUniversitySearchResult--border">
+					<div class="cardUniversitySearchResult--container">
+						<div class="cardUniversitySearchResult--top">
+							<div class="cardUniversitySearchResult--country">${item.Country}</div>
+							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+						</div>
+						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
+						<div class="cardUniversitySearchResultN11--name">${item.University}</div>
+							<div class="cardUniversitySearchResultN11--description " >${descriptionReduced}
+							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
+							</div>
+						</div>
+						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
+							<div class="cardUniversitySearchResultN11--name">${item.University}</div>
+							<div class="cardUniversitySearchResultN11--description " >${item.Description}
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+							</div>
+						</div>
+						<a class="cardUniversitySearchResult--link" href="${
+							item.LinkUniversity
+						}">Link</a>
+					</div>
+				</div>
+			</div>
+            `;
+	container.appendChild(node);
+};
+
+const card12 = (item, index, container) => {
+	let descriptionReduced = reduceString(item.Description);
+	let node = document.createElement("div");
+	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	}">
+				<div id="map${index}" class="map"></div>
+				<div class="cardUniversitySearchResult--border">
+					<div class="cardUniversitySearchResult--container">
+						<div class="cardUniversitySearchResult--top">
+							<div class="cardUniversitySearchResult--country">${item.Country}</div>
+							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+						</div>
+						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
+							<div class="cardUniversitySearchResultN12--description " >${descriptionReduced}
+							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
+							</div>
+							<div class="cardUniversitySearchResultN12--name">${item.University}</div>
+						</div>
+						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
+							<div class="cardUniversitySearchResultN12--description " >${item.Description}
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+							</div>
+							<div class="cardUniversitySearchResultN12--name">${item.University}</div>
+						</div>
+						<a class="cardUniversitySearchResult--link" href="${
+							item.LinkUniversity
+						}">Link</a>
+					</div>
+				</div>
+			</div>
+            `;
+	container.appendChild(node);
+};
+
+const card13 = (item, index, container) => {
+	let descriptionReduced = reduceString(item.Description);
+	let node = document.createElement("div");
+	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	}">
+				<div id="map${index}" class="map"></div>
+				<div class="cardUniversitySearchResult--border">
+					<div class="cardUniversitySearchResult--container">
+						<div class="cardUniversitySearchResult--top">
+							<div class="cardUniversitySearchResult--country">${item.Country}</div>
+							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+						</div>
+						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
+							<div class="cardUniversitySearchResultN13--name">${item.University}</div>
+							<div class="cardUniversitySearchResultN13--description " >${descriptionReduced}
+							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div></div>
+						</div>
+						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
+							<div class="cardUniversitySearchResultN13--name">${item.University}</div>
+							<div class="cardUniversitySearchResultN13--description " >${item.Description}
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+							</div>
+						</div>
+						<a class="cardUniversitySearchResult--link" href="${
+							item.LinkUniversity
+						}">Link</a>
+					</div>
+				</div>
+			</div>
+            `;
+	container.appendChild(node);
+};
+
+const card14 = (item, index, container) => {
+	let descriptionReduced = reduceString(item.Description);
+	let node = document.createElement("div");
+	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	}">
+				<div id="map${index}" class="map"></div>
+				<div class="cardUniversitySearchResult--border">
+					<div class="cardUniversitySearchResult--container">
+						<div class="cardUniversitySearchResult--top">
+							<div class="cardUniversitySearchResult--country">${item.Country}</div>
+							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+						</div>
+						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
+							<div class="cardUniversitySearchResultN14--description " >${descriptionReduced}
+							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div></div>
+							<div class="cardUniversitySearchResultN14--name">${item.University}</div>
+						</div>
+						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
+							<div class="cardUniversitySearchResultN14--description " >${item.Description}
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+							</div>
+							<div class="cardUniversitySearchResultN14--name">${item.University}</div>
+						</div>
+						<a class="cardUniversitySearchResult--link" href="${
+							item.LinkUniversity
+						}">Link</a>
 					</div>
 				</div>
 			</div>
