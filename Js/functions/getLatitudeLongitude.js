@@ -1,9 +1,9 @@
-export const getLatitudeLongitude = async (string) => {
+export const getLatitudeLongitude = async (query) => {
 	let coordinates = {};
 	let errorInApi = false;
 
 	await fetch(
-		`https://api.geoapify.com/v1/geocode/search?text=${string}&apiKey=ed205a9953a047aeb1b861457ecf9c6a`,
+		`https://api.geoapify.com/v1/geocode/search?text=${query}&apiKey=ed205a9953a047aeb1b861457ecf9c6a`,
 		{
 			method: "GET",
 		}
