@@ -1,7 +1,7 @@
 import { getLatitudeLongitude } from "./getLatitudeLongitude.js";
 
-export const createMap = async (query, index) => {
-	let { latitud, longitud } = await getLatitudeLongitude(query);
+export const createMap = async (fullAdress, index) => {
+	let { latitud, longitud } = await getLatitudeLongitude(fullAdress);
 
 	mapboxgl.accessToken =
 		"pk.eyJ1Ijoibmljb3NtYWVsIiwiYSI6ImNreWQzYWNwOTB2ODYydW1mcjFvcDY1ZjYifQ.AXIIQORuME-mafLfuH9vBg";
