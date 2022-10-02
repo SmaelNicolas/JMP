@@ -63,6 +63,15 @@
 	cursor: pointer;
 	margin: 0 auto;
 }
+.cardUniversitySearchResultArrowLess {
+	width: 40px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	margin: 0 auto;
+}
 
 .cardUniversitySearchResultArrowMoreRotate {
 	transform: rotate(180deg);
@@ -78,6 +87,10 @@
 	align-items: center;
 	flex-direction: row;
 	flex-wrap: wrap;
+}
+
+.cardUniversitySearchResult--center--hide {
+	display: none;
 }
 
 .cardUniversitySearchResultN1--name {
