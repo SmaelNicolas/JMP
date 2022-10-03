@@ -4,11 +4,20 @@
 @import url("boxSearch.css");
 @import url("containers.css");
 
+@font-face {
+	font-family: "Mont-Book";
+	src: url("../Assets/Fonts/Mont-Book.woff") format("opentype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
 :root {
 	--clr--xlight--grey: #d9d9d9c2;
 	--clr--light--grey: #d9d9d9;
 	--clr--medium--grey: #a7a7a7;
 	--clr--black-: #000000;
+	--ff--Mont: "Mont-Book";
 }
 
 *:focus {
