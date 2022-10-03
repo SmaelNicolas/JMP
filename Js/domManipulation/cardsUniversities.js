@@ -1,11 +1,12 @@
 import { reduceString } from "../functions/reduceString.js";
 
 export const handleCardsByName = (item, index, container) => {
-	if (item.University.length <= 16) return card3(item, index, container);
-	if (item.University.length === 17) return card2(item, index, container);
+	if (item.University.length <= 14) return card12(item, index, container);
+	if (item.University.length === 16) return card2(item, index, container);
 	if (item.University.length === 18) return card5(item, index, container);
-	if (item.University.length === 19) return card5(item, index, container);
-	if (item.University.length >= 20) return card11(item, index, container);
+	if (item.University.length < 30) return card6(item, index, container);
+	if (item.University.length < 36) return card13(item, index, container);
+	if (item.University.length >= 36) return card11(item, index, container);
 };
 
 const card1 = (item, index, container) => {
@@ -19,18 +20,22 @@ const card1 = (item, index, container) => {
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
 							<div class="cardUniversitySearchResult--country">${item.Country}</div>
-							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+							<img class="cardUniversitySearchResult--fav" src="../../Assets/Icons/heart.svg" alt="fav" />
 						</div>
 						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 							<div class="cardUniversitySearchResultN1--name">${item.University}</div>
 								<div class="cardUniversitySearchResultN1--description " >${descriptionReduced}
-								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
+								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN1--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN1--description" >${item.Description}
-								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
@@ -53,18 +58,22 @@ const card2 = (item, index, container) => {
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
 							<div class="cardUniversitySearchResult--country">${item.Country}</div>
-							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+							<img class="cardUniversitySearchResult--fav" src="../../Assets/Icons/heart.svg" alt="fav" />
 						</div>
 						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 							<div class="cardUniversitySearchResultN2--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN2--description " >${descriptionReduced}
-							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
+							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
+							<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+							</div>
 							</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN2--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN2--description" >${item.Description}
-								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
@@ -87,17 +96,21 @@ const card3 = (item, index, container) => {
 				<div class="cardUniversitySearchResult--container">
 					<div class="cardUniversitySearchResult--top">
 						<div class="cardUniversitySearchResult--country">${item.Country}</div>
-						<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+						<img class="cardUniversitySearchResult--fav" src="../../Assets/Icons/heart.svg" alt="fav" />
 					</div>
 					<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 						<div class="cardUniversitySearchResultN3--description " >${descriptionReduced}
-							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
+							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
+							<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+							</div>
 						</div>
 						<div class="cardUniversitySearchResultN3--name">${item.University}</div>
 					</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN3--description" >${item.Description}
-								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 							<div class="cardUniversitySearchResultN3--name">${item.University}</div>
 						</div>
@@ -122,18 +135,22 @@ const card4 = (item, index, container) => {
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
 							<div class="cardUniversitySearchResult--country">${item.Country}</div>
-							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+							<img class="cardUniversitySearchResult--fav" src="../../Assets/Icons/heart.svg" alt="fav" />
 						</div>
 						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 							<div class="cardUniversitySearchResultN4--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN4--description " >${descriptionReduced}
-								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
+								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN4--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN4--description" >${item.Description}
-								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
@@ -156,18 +173,22 @@ const card5 = (item, index, container) => {
 				<div class="cardUniversitySearchResult--container">
 					<div class="cardUniversitySearchResult--top">
 						<div class="cardUniversitySearchResult--country">${item.Country}</div>
-						<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+						<img class="cardUniversitySearchResult--fav" src="../../Assets/Icons/heart.svg" alt="fav" />
 					</div>
 					<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 						<div class="cardUniversitySearchResultN5--name">${item.University}</div>
 						<div class="cardUniversitySearchResultN5--description " >${descriptionReduced}
-							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
+							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
+							<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+							</div>
 						</div>
 					</div>
 					<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 						<div class="cardUniversitySearchResultN5--name">${item.University}</div>
 						<div class="cardUniversitySearchResultN5--description" >${item.Description}
-								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 						</div>
 					</div>
 					<a class="cardUniversitySearchResult--link" href="${
@@ -191,18 +212,22 @@ const card6 = (item, index, container) => {
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
 							<div class="cardUniversitySearchResult--country">${item.Country}</div>
-							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+							<img class="cardUniversitySearchResult--fav" src="../../Assets/Icons/heart.svg" alt="fav" />
 						</div>
 						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 							<div class="cardUniversitySearchResultN6--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN6--description " >${descriptionReduced}
-								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
+								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN6--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN6--description" >${item.Description}
-								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
@@ -225,18 +250,22 @@ const card7 = (item, index, container) => {
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
 							<div class="cardUniversitySearchResult--country">${item.Country}</div>
-							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+							<img class="cardUniversitySearchResult--fav" src="../../Assets/Icons/heart.svg" alt="fav" />
 						</div>
 						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 							<div class="cardUniversitySearchResultN7--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN7--description " >${descriptionReduced}
-								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
+								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN7--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN7--description" >${item.Description}
-								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
@@ -259,17 +288,21 @@ const card8 = (item, index, container) => {
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
 							<div class="cardUniversitySearchResult--country">${item.Country}</div>
-							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+							<img class="cardUniversitySearchResult--fav" src="../../Assets/Icons/heart.svg" alt="fav" />
 						</div>
 						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 							<div class="cardUniversitySearchResultN8--description " >${descriptionReduced}
-								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
+								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 							<div class="cardUniversitySearchResultN8--name">${item.University}</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN8--description" >${item.Description}
-								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 							<div class="cardUniversitySearchResultN8--name">${item.University}</div>
 						</div>
@@ -293,17 +326,21 @@ const card9 = (item, index, container) => {
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
 							<div class="cardUniversitySearchResult--country">${item.Country}</div>
-							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+							<img class="cardUniversitySearchResult--fav" src="../../Assets/Icons/heart.svg" alt="fav" />
 						</div>
 						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 							<div class="cardUniversitySearchResultN9--description " >${descriptionReduced}
-								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
+								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 							<div class="cardUniversitySearchResultN9--name">${item.University}</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN9--description" >${item.Description}
-								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 							<div class="cardUniversitySearchResultN9--name">${item.University}</div>
 						</div>
@@ -327,17 +364,21 @@ const card10 = (item, index, container) => {
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
 							<div class="cardUniversitySearchResult--country">${item.Country}</div>
-							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+							<img class="cardUniversitySearchResult--fav" src="../../Assets/Icons/heart.svg" alt="fav" />
 						</div>
 						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 							<div class="cardUniversitySearchResultN10--description " >${descriptionReduced}
-							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
+							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
+							<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+							</div>
 							</div>
 							<div class="cardUniversitySearchResultN10--name">${item.University}</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN10--description" >${item.Description}
-								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 							<div class="cardUniversitySearchResultN10--name">${item.University}</div>
 						</div>
@@ -361,18 +402,22 @@ const card11 = (item, index, container) => {
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
 							<div class="cardUniversitySearchResult--country">${item.Country}</div>
-							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+							<img class="cardUniversitySearchResult--fav" src="../../Assets/Icons/heart.svg" alt="fav" />
 						</div>
 						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 						<div class="cardUniversitySearchResultN11--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN11--description " >${descriptionReduced}
-							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
+							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
+							<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+							</div>
 							</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN11--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN11--description " >${item.Description}
-								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
@@ -395,17 +440,21 @@ const card12 = (item, index, container) => {
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
 							<div class="cardUniversitySearchResult--country">${item.Country}</div>
-							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+							<img class="cardUniversitySearchResult--fav" src="../../Assets/Icons/heart.svg" alt="fav" />
 						</div>
 						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 							<div class="cardUniversitySearchResultN12--description " >${descriptionReduced}
-							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div>
+							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
+							<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+							</div>
 							</div>
 							<div class="cardUniversitySearchResultN12--name">${item.University}</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN12--description " >${item.Description}
-								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 							<div class="cardUniversitySearchResultN12--name">${item.University}</div>
 						</div>
@@ -429,17 +478,21 @@ const card13 = (item, index, container) => {
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
 							<div class="cardUniversitySearchResult--country">${item.Country}</div>
-							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+							<img class="cardUniversitySearchResult--fav" src="../../Assets/Icons/heart.svg" alt="fav" />
 						</div>
 						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 							<div class="cardUniversitySearchResultN13--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN13--description " >${descriptionReduced}
-							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div></div>
+							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
+							<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+							</div></div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN13--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN13--description " >${item.Description}
-								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
@@ -462,16 +515,20 @@ const card14 = (item, index, container) => {
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
 							<div class="cardUniversitySearchResult--country">${item.Country}</div>
-							<img class="cardUniversitySearchResult--fav" src="./fav.png" alt="fav" />
+							<img class="cardUniversitySearchResult--fav" src="../../Assets/Icons/heart.svg" alt="fav" />
 						</div>
 						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 							<div class="cardUniversitySearchResultN14--description " >${descriptionReduced}
-							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">🔽</div></div>
+							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
+							<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+							</div></div>
 							<div class="cardUniversitySearchResultN14--name">${item.University}</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN14--description " >${item.Description}
-								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">🔼</div>
+								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
+								<img src="../../Assets/Icons/Chevron-down-solid.svg" />
+								</div>
 							</div>
 							<div class="cardUniversitySearchResultN14--name">${item.University}</div>
 						</div>
