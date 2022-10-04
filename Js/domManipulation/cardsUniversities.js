@@ -449,9 +449,9 @@ const card7 = (item, index, container) => {
 	}">
 				<div id="map${index}" class="map"></div>
 		<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="/institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="/streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 				</div>
 				<div class="cardUniversitySearchResult--border">
