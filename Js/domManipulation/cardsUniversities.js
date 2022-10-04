@@ -113,7 +113,7 @@ const card1 = (item, index, container) => {
 							</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
-						 href="${item.LinkUniversity}" target='_blank'>Link</a>
+						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
 				</div>
 			</div>
@@ -254,7 +254,7 @@ const card2 = (item, index, container) => {
 							</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
-						 href="${item.LinkUniversity}" target='_blank'>Link</a>
+						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
 				</div>
 			</div>
@@ -298,9 +298,7 @@ const card3 = (item, index, container) => {
 							</div>
 							<div class="cardUniversitySearchResultN3--name">${item.University}</div>
 						</div>
-					<a class="cardUniversitySearchResult--link" href="${
-						item.LinkUniversity
-					}">Link</a>
+					<a class="cardUniversitySearchResult--link" href="${item.Link}">Link</a>
 				</div>
 			</div> 
 		</div> 
@@ -345,7 +343,7 @@ const card4 = (item, index, container) => {
 							</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
-						 href="${item.LinkUniversity}" target='_blank'>Link</a>
+						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
 				</div>
 			</div>
@@ -389,9 +387,7 @@ const card5 = (item, index, container) => {
 								</div>
 						</div>
 					</div>
-					<a class="cardUniversitySearchResult--link" href="${
-						item.LinkUniversity
-					}">Link</a>
+					<a class="cardUniversitySearchResult--link" href="${item.Link}">Link</a>
 				</div>
 			</div>
 		</div>
@@ -400,6 +396,7 @@ const card5 = (item, index, container) => {
 };
 
 const card6 = (item, index, container) => {
+	console.log("ITEM", item);
 	let descriptionReduced = reduceString(item.AboutUniversity);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
@@ -436,7 +433,7 @@ const card6 = (item, index, container) => {
 							</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
-						 href="${item.LinkUniversity}" target='_blank'>Link</a>
+						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
 				</div>
 			</div>
@@ -481,7 +478,7 @@ const card7 = (item, index, container) => {
 							</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
-						 href="${item.LinkUniversity}" target='_blank'>Link</a>
+						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
 				</div>
 			</div>
@@ -526,7 +523,7 @@ const card8 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN8--name">${item.University}</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
-						 href="${item.LinkUniversity}" target='_blank'>Link</a>
+						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
 				</div>
 			</div>
@@ -571,7 +568,7 @@ const card9 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN9--name">${item.University}</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
-						 href="${item.LinkUniversity}" target='_blank'>Link</a>
+						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
 				</div>
 			</div>
@@ -616,7 +613,7 @@ const card10 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN10--name">${item.University}</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
-						 href="${item.LinkUniversity}" target='_blank'>Link</a>
+						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
 				</div>
 			</div>
@@ -663,7 +660,7 @@ const card11 = (item, index, container) => {
 							</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
-						 href="${item.LinkUniversity}" target='_blank'>Link</a>
+						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
 				</div>
 			</div>
@@ -710,7 +707,7 @@ const card12 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN12--name">${item.University}</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
-						 href="${item.LinkUniversity}" target='_blank'>Link</a>
+						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
 				</div>
 			</div>
@@ -756,7 +753,7 @@ const card13 = (item, index, container) => {
 							</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
-						 href="${item.LinkUniversity}" target='_blank'>Link</a>
+						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
 				</div>
 			</div>
@@ -802,7 +799,7 @@ const card14 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN14--name">${item.University}</div>
 						</div>
 							<a class="cardUniversitySearchResult--link"
-						 href="${item.LinkUniversity}" target='_blank'>Link</a>
+						 href="${item.Link}" target='_blank'>Link</a>
 					
 					</div>
 				</div>
