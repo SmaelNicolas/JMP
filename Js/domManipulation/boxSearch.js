@@ -12,7 +12,10 @@ export const boxSearch = () => {
 	let topUniversitiesLabel = document.getElementById("topUniversitiesLabel");
 	let studyAbroadLabel = document.getElementById("studyAbroadLabel");
 
-	fetch("./fromExcel.json")
+	// fetch("./fromExcel.json")
+	// 	.then((res) => res.json())
+	// 	.then((res) => (dataUniversities = res));
+	fetch("./exampleKeywords.json")
 		.then((res) => res.json())
 		.then((res) => (dataUniversities = res));
 
