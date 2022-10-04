@@ -16,6 +16,29 @@ export const eventListenerByCards = (index) => {
 			document.getElementById(`map${index}`).style.transition =
 				" all 0.3s";
 		});
+	//hover in sobre el card para la info
+	document
+		.getElementById(`cardAndMap${index}`)
+		.addEventListener("mouseover", () => {
+			document.getElementById(
+				`cardUniversitySearchResultInfoHover${index}`
+			).style.visibility = "visible";
+
+			document.getElementById(
+				`cardUniversitySearchResultInfoHover${index}`
+			).style.transition = " all 0.3s";
+		});
+	//hover out sobre el card para ocultar la info
+	document
+		.getElementById(`cardAndMap${index}`)
+		.addEventListener("mouseout", () => {
+			document.getElementById(
+				`cardUniversitySearchResultInfoHover${index}`
+			).style.visibility = "hidden";
+			document.getElementById(
+				`cardUniversitySearchResultInfoHover${index}`
+			).style.transition = " all 0.3s";
+		});
 
 	//click en arrow  agregar descripcion completa
 	document
