@@ -48,4 +48,28 @@ export const eventListenerByCards = (index) => {
 				)
 				.classList.toggle("cardUniversitySearchResult--center--hide");
 		});
+
+	//click en heart gris cambia a rojo. ¿Agrega a favoritos?
+	document
+		.getElementById(`cardUniversitySearchResult--fav--grey${index}`)
+		.addEventListener("click", () => {
+			document
+				.getElementById(`cardUniversitySearchResult--fav--grey${index}`)
+				.classList.toggle("hideBox");
+			document
+				.getElementById(`cardUniversitySearchResult--fav--red${index}`)
+				.classList.toggle("hideBox");
+		});
+
+	//click en heart rojo cambia a gris. ¿Agrega a favoritos?
+	document
+		.getElementById(`cardUniversitySearchResult--fav--red${index}`)
+		.addEventListener("click", () => {
+			document
+				.getElementById(`cardUniversitySearchResult--fav--red${index}`)
+				.classList.toggle("hideBox");
+			document
+				.getElementById(`cardUniversitySearchResult--fav--grey${index}`)
+				.classList.toggle("hideBox");
+		});
 };
