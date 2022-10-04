@@ -7,7 +7,6 @@ export const renderUniversities = (universitiesSearch) => {
 
 	//reset del container de cards
 	container.innerHTML = "";
-
 	//Crea las cards , maps y agrega el evento hover
 	universitiesSearch.map((university, index) => {
 		//crea las cards de los lugares filtrados
