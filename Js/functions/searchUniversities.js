@@ -57,48 +57,16 @@ export const getUniversitiesSearched = async (query, arrayUniversities) => {
 	//elimina todos los que tiene almenos un campo vacio
 	let finalUniversitiesSearch = uniqueUniversitiesArray.filter(
 		(uni) =>
-			uni.Description !== "" &&
+			uni.AboutUniversity !== "" &&
 			uni.University !== "" &&
+			uni.KeyWords !== "" &&
 			uni.LinkUniversity !== "" &&
 			uni.Streets !== ""
 	);
 
+	console.log("SIN VACIOS", finalUniversitiesSearch);
 	// devuelve la busqueda sin repetidos , sin indefinidos, sin vacios
 	finalUniversitiesSearch.length > 0
 		? renderUniversities(finalUniversitiesSearch)
 		: renderErrorMessage();
 };
-
-// [
-
-//     “Property ID”: "00000001_UNIVERSITIES”,
-
-//     “Continent”: "Europe”,
-
-//     “Country”: “Spain”,
-
-//     "City”: "Kabul",
-
-//     “Streets: "Parwan-2",
-
-//     "Institution”: "Private",
-
-//     "University”: "Kardan University",
-
-//     “About University”: "Founded 2002",
-
-//     “KeyWords”: [
-
-//       “Social”,
-
-//       “Creative”,
-
-//       “Digital”,
-
-//       "Marketing"
-
-//     ],
-
-//       "Link": "http://www.kardan.edu.af"
-
-//   ]
