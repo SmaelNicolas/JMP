@@ -59,8 +59,7 @@ export const getUniversitiesSearched = async (query, arrayUniversities) => {
 		(uni) =>
 			uni.AboutUniversity !== "" &&
 			uni.University !== "" &&
-			uni.KeyWords !== "" &&
-			uni.LinkUniversity !== "" &&
+			uni.Link !== "" &&
 			uni.Streets !== ""
 	);
 
