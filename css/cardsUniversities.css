@@ -65,6 +65,7 @@
 
 .cardUniversitySearchResult--fav {
 	width: 55px;
+	height: 55px;
 	cursor: pointer;
 	padding: 5px 20px 0px 00px;
 }
