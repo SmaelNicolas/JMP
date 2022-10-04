@@ -1,0 +1,38 @@
+[
+	{
+		"PropertyID": "00000001_UNIVERSITIES",
+		"Continent": "America",
+		"Country": "Argentina",
+		"City": "Buenos Aires",
+		"Streets": "9 de julio 100",
+		"Institution": "Private",
+		"University": "Universidad de Buenos Aires",
+		"AboutUniversity": "Founded 2002",
+		"KeyWords": ["Social", "Creative", "Digital", "Marketing"],
+		"Link": "http://www.kardan.edu.af"
+	},
+	{
+		"PropertyID": "00000002_UNIVERSITIES",
+		"Continent": "Europe",
+		"Country": "Spain",
+		"City": "Kabul",
+		"Streets": "Parwan-2",
+		"Institution": "Private",
+		"University": "Kardan University",
+		"AboutUniversity": "Founded 2002",
+		"KeyWords": ["Visual", "Marketing"],
+		"Link": "http://www.kardan.edu.af"
+	},
+	{
+		"PropertyID": "00000003_UNIVERSITIES",
+		"Continent": "Asia",
+		"Country": "Japon",
+		"City": "Tokyo",
+		"Streets": "2 Chome-15-45 Mita",
+		"Institution": "Private",
+		"University": "Keio University",
+		"AboutUniversity": "Founded 2002",
+		"KeyWords": ["Comercial", "Develop", "Sports", "Marketing"],
+		"Link": "http://www.kardan.edu.af"
+	}
+]
