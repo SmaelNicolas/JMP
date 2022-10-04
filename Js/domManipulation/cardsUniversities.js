@@ -1,7 +1,6 @@
 import { reduceString } from "../functions/reduceString.js";
 
 export const handleCardsByName = (item, index, container) => {
-	console.log("HANDLECARDS", item);
 	if (item.University.length <= 14) return card12(item, index, container);
 	if (item.University.length === 16) return card2(item, index, container);
 	if (item.University.length === 18) return card5(item, index, container);
@@ -396,7 +395,6 @@ const card5 = (item, index, container) => {
 };
 
 const card6 = (item, index, container) => {
-	console.log("ITEM", item);
 	let descriptionReduced = reduceString(item.AboutUniversity);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
