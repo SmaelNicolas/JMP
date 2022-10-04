@@ -1,6 +1,7 @@
 import { reduceString } from "../functions/reduceString.js";
 
 export const handleCardsByName = (item, index, container) => {
+	console.log("HANDLECARDS", item);
 	if (item.University.length <= 14) return card12(item, index, container);
 	if (item.University.length === 16) return card2(item, index, container);
 	if (item.University.length === 18) return card5(item, index, container);
@@ -10,12 +11,84 @@ export const handleCardsByName = (item, index, container) => {
 };
 
 const card1 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.Description);
+	let descriptionReduced = reduceString(item.AboutUniversity);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
 		(index + 1) % 2 === 0 ? "Par" : "Impar"
 	}">
 				<div id="map${index}" class="map"></div>
+				<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+			<svg
+				class="cardUniversitySearchResultInfoHover--iconUni"
+				xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink"
+				width="500"
+				zoomAndPan="magnify"
+				viewBox="0 0 375 374.999991"
+				height="500"
+				preserveAspectRatio="xMidYMid meet"
+				version="1.0">
+				<defs>
+					<clipPath id="40ef8e7c05">
+						<path
+							d="M 38 44.027344 L 336 44.027344 L 336 150 L 38 150 Z M 38 44.027344 "
+							clip-rule="nonzero" />
+					</clipPath>
+					<clipPath id="c151897ef9">
+						<path
+							d="M 26.070312 308 L 348.570312 308 L 348.570312 331.277344 L 26.070312 331.277344 Z M 26.070312 308 "
+							clip-rule="nonzero" />
+					</clipPath>
+				</defs>
+				<rect
+					x="-37.5"
+					width="450"
+					fill="#ffffff"
+					y="-37.499999"
+					height="449.999989"
+					fill-opacity="1" />
+				<rect
+					x="-37.5"
+					width="450"
+					fill="#ffffff"
+					y="-37.499999"
+					height="449.999989"
+					fill-opacity="1" />
+				<rect
+					x="-37.5"
+					width="450"
+					fill="#ffffff"
+					y="-37.499999"
+					height="449.999989"
+					fill-opacity="1" />
+				<g clip-path="url(#40ef8e7c05)">
+					<path
+						fill="#a7a7a7"
+						d="M 335.671875 124.976562 C 336.191406 119.1875 333.8125 116.082031 327.613281 113.054688 C 282.511719 90.792969 237.625 68.253906 192.820312 45.589844 C 190.660156 44.507812 188.882812 43.949219 187.0625 43.949219 C 185.242188 43.949219 183.464844 44.507812 181.34375 45.589844 C 136.5 68.253906 91.65625 90.792969 46.53125 113.054688 C 40.355469 116.082031 37.972656 119.1875 38.453125 124.976562 C 39.175781 133.011719 38.675781 141.128906 38.675781 149.421875 L 56.628906 149.421875 L 100.132812 149.683594 L 274.03125 149.683594 L 317.539062 149.421875 L 335.492188 149.421875 C 335.492188 141.128906 334.972656 133.011719 335.671875 124.976562 "
+						
+						fill-opacity="1"
+						fill-rule="nonzero" />
+				</g>
+				<path
+					fill="#a7a7a7"
+					d="M 317.519531 278.21875 L 312.800781 278.21875 L 312.738281 273.992188 L 312.738281 196.148438 C 312.738281 194.964844 312.738281 193.785156 312.71875 192.621094 C 312.679688 188.894531 312.660156 185.527344 312.859375 182.003906 C 313.058594 178.214844 316 173.527344 320.558594 172.285156 C 323.394531 171.484375 325.214844 169.660156 325.054688 167.714844 C 324.835938 164.992188 323.136719 163.347656 320.476562 163.308594 C 313.019531 163.1875 305.382812 163.148438 297.785156 163.148438 C 290.828125 163.148438 283.25 163.1875 273.953125 163.289062 C 271.695312 163.328125 269.675781 164.871094 269.472656 166.734375 C 269.433594 167.175781 269.132812 171.042969 271.992188 171.644531 C 278.332031 172.964844 281.53125 177.054688 281.53125 183.804688 C 281.46875 203.261719 281.46875 223.078125 281.46875 242.234375 L 281.46875 269.34375 C 281.46875 271.546875 281.46875 273.152344 281.332031 274.613281 L 280.96875 278.21875 L 239.34375 278.21875 L 239.285156 273.992188 L 239.285156 196.148438 C 239.285156 194.964844 239.265625 193.785156 239.265625 192.621094 C 239.226562 188.894531 239.203125 185.527344 239.40625 182.003906 C 239.605469 178.214844 242.542969 173.527344 247.082031 172.285156 C 249.941406 171.484375 251.742188 169.660156 251.601562 167.714844 C 251.378906 164.992188 249.660156 163.347656 247.023438 163.308594 C 239.542969 163.1875 231.90625 163.148438 224.308594 163.148438 C 217.351562 163.148438 209.796875 163.1875 200.476562 163.289062 C 198.21875 163.328125 196.199219 164.871094 196.019531 166.734375 C 195.980469 167.175781 195.679688 171.042969 198.539062 171.644531 C 204.855469 172.964844 208.054688 177.054688 208.054688 183.804688 C 207.996094 203.261719 207.996094 223.078125 207.996094 242.234375 L 207.996094 269.34375 C 207.996094 271.546875 207.996094 273.152344 207.855469 274.613281 L 207.496094 278.21875 L 165.871094 278.21875 L 165.808594 273.992188 L 165.808594 196.148438 C 165.808594 194.964844 165.789062 193.785156 165.789062 192.621094 C 165.75 188.894531 165.730469 185.527344 165.929688 182.003906 C 166.128906 178.214844 169.070312 173.527344 173.609375 172.285156 C 176.464844 171.484375 178.285156 169.660156 178.125 167.714844 C 177.90625 164.992188 176.207031 163.347656 173.546875 163.308594 C 166.089844 163.1875 158.453125 163.148438 150.855469 163.148438 C 143.898438 163.148438 136.320312 163.1875 127.023438 163.289062 C 124.765625 163.328125 122.746094 164.871094 122.546875 166.734375 C 122.503906 167.175781 122.207031 171.042969 125.0625 171.644531 C 131.382812 172.964844 134.582031 177.054688 134.582031 183.804688 C 134.519531 203.261719 134.519531 223.078125 134.542969 242.234375 L 134.542969 269.34375 C 134.542969 271.546875 134.542969 273.152344 134.402344 274.613281 L 134.042969 278.21875 L 92.394531 278.21875 L 92.335938 273.992188 L 92.335938 196.148438 C 92.335938 194.964844 92.335938 193.785156 92.316406 192.621094 C 92.277344 188.894531 92.277344 185.527344 92.476562 182.003906 C 92.675781 178.214844 95.59375 173.527344 100.152344 172.285156 C 103.011719 171.484375 104.8125 169.660156 104.671875 167.714844 C 104.429688 164.992188 102.730469 163.347656 100.09375 163.308594 C 92.617188 163.1875 84.976562 163.148438 77.378906 163.148438 C 70.421875 163.148438 62.847656 163.1875 53.550781 163.289062 C 51.289062 163.328125 49.269531 164.871094 49.089844 166.734375 C 49.03125 167.175781 48.75 171.042969 51.589844 171.644531 C 57.925781 172.964844 61.125 177.054688 61.125 183.804688 C 61.066406 203.261719 61.066406 223.078125 61.066406 242.234375 L 61.066406 269.34375 C 61.066406 271.546875 61.066406 273.152344 60.925781 274.613281 L 60.566406 278.21875 L 56.609375 278.21875 C 50.011719 278.21875 44.671875 283.589844 44.671875 290.183594 L 44.671875 298.71875 L 329.453125 298.71875 L 329.453125 290.183594 C 329.453125 283.589844 324.117188 278.21875 317.519531 278.21875"
+					fill-opacity="1"
+					fill-rule="nonzero" />
+				
+				<g clip-path="url(#c151897ef9)">
+					<path
+						fill="#a7a7a7"
+						d="M 348.007812 331.359375 L 26.117188 331.359375 C 26.117188 318.796875 36.296875 308.597656 48.832031 308.597656 L 325.296875 308.597656 C 337.832031 308.597656 348.007812 318.796875 348.007812 331.359375 "
+						fill-opacity="1"
+						fill-rule="nonzero" />
+				</g>
+			</svg>
+			<div class="cardUniversitySearchResultInfoHover--type">Public</div>
+			<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+			<div class="cardUniversitySearchResultInfoHover--street">
+				Avenue, Roi Muhammed VI du Maroc
+			</div>
+		</div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
@@ -33,7 +106,7 @@ const card1 = (item, index, container) => {
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN1--name">${item.University}</div>
-							<div class="cardUniversitySearchResultN1--description" >${item.Description}
+							<div class="cardUniversitySearchResultN1--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#d9d9d9" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -49,12 +122,114 @@ const card1 = (item, index, container) => {
 };
 
 const card2 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.Description);
+	let descriptionReduced = reduceString(item.AboutUniversity);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
 		(index + 1) % 2 === 0 ? "Par" : "Impar"
 	}">
 				<div id="map${index}" class="map"></div>
+				<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+				<svg
+					class="cardUniversitySearchResultInfoHover--iconUni"
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					width="500"
+					zoomAndPan="magnify"
+					viewBox="0 0 375 374.999991"
+					height="500"
+					preserveAspectRatio="xMidYMid meet"
+					version="1.0">
+					<defs>
+						<clipPath id="40ef8e7c05">
+							<path
+								d="M 38 44.027344 L 336 44.027344 L 336 150 L 38 150 Z M 38 44.027344 "
+								clip-rule="nonzero" />
+						</clipPath>
+						<clipPath id="c151897ef9">
+							<path
+								d="M 26.070312 308 L 348.570312 308 L 348.570312 331.277344 L 26.070312 331.277344 Z M 26.070312 308 "
+								clip-rule="nonzero" />
+						</clipPath>
+					</defs>
+					<rect
+						x="-37.5"
+						width="450"
+						fill="#ffffff"
+						y="-37.499999"
+						height="449.999989"
+						fill-opacity="1" />
+					<rect
+						x="-37.5"
+						width="450"
+						fill="#ffffff"
+						y="-37.499999"
+						height="449.999989"
+						fill-opacity="1" />
+					<rect
+						x="-37.5"
+						width="450"
+						fill="#ffffff"
+						y="-37.499999"
+						height="449.999989"
+						fill-opacity="1" />
+					<g clip-path="url(#40ef8e7c05)">
+						<path
+							fill="#a7a7a7"
+							d="M 335.671875 124.976562 C 336.191406 119.1875 333.8125 116.082031 327.613281 113.054688 C 282.511719 90.792969 237.625 68.253906 192.820312 45.589844 C 190.660156 44.507812 188.882812 43.949219 187.0625 43.949219 C 185.242188 43.949219 183.464844 44.507812 181.34375 45.589844 C 136.5 68.253906 91.65625 90.792969 46.53125 113.054688 C 40.355469 116.082031 37.972656 119.1875 38.453125 124.976562 C 39.175781 133.011719 38.675781 141.128906 38.675781 149.421875 L 56.628906 149.421875 L 100.132812 149.683594 L 274.03125 149.683594 L 317.539062 149.421875 L 335.492188 149.421875 C 335.492188 141.128906 334.972656 133.011719 335.671875 124.976562 "
+							fill-opacity="1"
+							fill-rule="nonzero" />
+					</g>
+					<path
+						fill="#a7a7a7"
+						d="M 317.519531 278.21875 L 312.800781 278.21875 L 312.738281 273.992188 L 312.738281 196.148438 
+						C 312.738281 194.964844 312.738281 193.785156 312.71875 192.621094 C 312.679688 188.894531 
+						312.660156 185.527344 312.859375 182.003906 C 313.058594 178.214844 316 173.527344 320.558594 
+						172.285156 C 323.394531 171.484375 325.214844 169.660156 325.054688 167.714844 C 324.835938 
+						164.992188 323.136719 163.347656 320.476562 163.308594 C 313.019531 163.1875 305.382812 163.148438 
+						297.785156 163.148438 C 290.828125 163.148438 283.25 163.1875 273.953125 163.289062 C 271.695312 163.328125 
+						269.675781 164.871094 269.472656 166.734375 C 269.433594 167.175781 269.132812 171.042969 271.992188 171.644531 C 
+						278.332031 172.964844 281.53125 177.054688 281.53125 183.804688 C 281.46875 203.261719 281.46875 223.078125 281.46875 
+						242.234375 L 281.46875 269.34375 C 281.46875 271.546875 281.46875 273.152344 281.332031 274.613281 L 280.96875 278.21875 
+						L 239.34375 278.21875 L 239.285156 273.992188 L 239.285156 196.148438 C 239.285156 194.964844 239.265625 193.785156 
+						239.265625 192.621094 C 239.226562 188.894531 239.203125 185.527344 239.40625 182.003906 C 239.605469 178.214844 242.542969 
+						173.527344 247.082031 172.285156 C 249.941406 171.484375 251.742188 169.660156 251.601562 167.714844 C 251.378906 164.992188 
+						249.660156 163.347656 247.023438 163.308594 C 239.542969 163.1875 231.90625 163.148438 224.308594 163.148438 C 217.351562 
+						163.148438 209.796875 163.1875 200.476562 163.289062 C 198.21875 163.328125 196.199219 164.871094 196.019531 166.734375 C 
+						195.980469 167.175781 195.679688 171.042969 198.539062 171.644531 C 204.855469 172.964844 208.054688 177.054688 208.054688 
+						183.804688 C 207.996094 203.261719 207.996094 223.078125 207.996094 242.234375 L 207.996094 269.34375 C 207.996094 271.546875 
+						207.996094 273.152344 207.855469 274.613281 L 207.496094 278.21875 L 165.871094 278.21875 L 165.808594 273.992188 L 165.808594 
+						196.148438 C 165.808594 194.964844 165.789062 193.785156 165.789062 192.621094 C 165.75 188.894531 165.730469 185.527344 165.929688 
+						182.003906 C 166.128906 178.214844 169.070312 173.527344 173.609375 172.285156 C 176.464844 171.484375 178.285156 169.660156 178.125 
+						167.714844 C 177.90625 164.992188 176.207031 163.347656 173.546875 163.308594 C 166.089844 163.1875 158.453125 163.148438 150.855469 
+						163.148438 C 143.898438 163.148438 136.320312 163.1875 127.023438 163.289062 C 124.765625 163.328125 122.746094 164.871094 122.546875 
+						166.734375 C 122.503906 167.175781 122.207031 171.042969 125.0625 171.644531 C 131.382812 172.964844 134.582031 177.054688 134.582031 
+						183.804688 C 134.519531 203.261719 134.519531 223.078125 134.542969 242.234375 L 134.542969 269.34375 C 134.542969 271.546875 134.542969 
+						273.152344 134.402344 274.613281 L 134.042969 278.21875 L 92.394531 278.21875 L 92.335938 273.992188 L 92.335938 196.148438 C 92.335938 
+						194.964844 92.335938 193.785156 92.316406 192.621094 C 92.277344 188.894531 92.277344 185.527344 92.476562 182.003906 C 92.675781 
+						178.214844 95.59375 173.527344 100.152344 172.285156 C 103.011719 171.484375 104.8125 169.660156 104.671875 167.714844 C 104.429688 
+						164.992188 102.730469 163.347656 100.09375 163.308594 C 92.617188 163.1875 84.976562 163.148438 77.378906 163.148438 C 70.421875 
+						163.148438 62.847656 163.1875 53.550781 163.289062 C 51.289062 163.328125 49.269531 164.871094 49.089844 166.734375 C 49.03125
+						 167.175781 48.75 171.042969 51.589844 171.644531 C 57.925781 172.964844 61.125 177.054688 61.125 183.804688 C 
+						 61.066406 203.261719 61.066406 223.078125 61.066406 242.234375 L 61.066406 269.34375 C 61.066406 271.546875 61.066406 
+						 273.152344 60.925781 274.613281 L 60.566406 278.21875 L 56.609375 278.21875 C 50.011719 278.21875 44.671875 283.589844 
+						 44.671875 290.183594 L 44.671875 298.71875 L 329.453125 298.71875 L 329.453125 290.183594 C 329.453125 283.589844
+						  324.117188 278.21875 317.519531 278.21875 "
+						fill-opacity="1"
+						fill-rule="nonzero" />
+					<g clip-path="url(#c151897ef9)">
+						<path
+							fill="#a7a7a7"
+							d="M 348.007812 331.359375 L 26.117188 331.359375 C 26.117188 318.796875 36.296875 308.597656 48.832031 308.597656 L 325.296875 308.597656 C 337.832031 308.597656 348.007812 318.796875 348.007812 331.359375 "
+							fill-opacity="1"
+							fill-rule="nonzero" />
+					</g>
+				</svg>
+			<div class="cardUniversitySearchResultInfoHover--type">Public</div>
+			<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+			<div class="cardUniversitySearchResultInfoHover--street">
+				Avenue, Roi Muhammed VI du Maroc
+			</div>
+		</div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
@@ -72,7 +247,7 @@ const card2 = (item, index, container) => {
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN2--name">${item.University}</div>
-							<div class="cardUniversitySearchResultN2--description" >${item.Description}
+							<div class="cardUniversitySearchResultN2--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#d9d9d9" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -88,12 +263,18 @@ const card2 = (item, index, container) => {
 };
 
 const card3 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.Description);
+	let descriptionReduced = reduceString(item.AboutUniversity);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
 		(index + 1) % 2 === 0 ? "Par" : "Impar"
 	}">
 				<div id="map${index}" class="map"></div>
+		<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+				</div>
 				<div class="cardUniversitySearchResult--border">
 				<div class="cardUniversitySearchResult--container">
 					<div class="cardUniversitySearchResult--top">
@@ -110,7 +291,7 @@ const card3 = (item, index, container) => {
 						<div class="cardUniversitySearchResultN3--name">${item.University}</div>
 					</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
-							<div class="cardUniversitySearchResultN3--description" >${item.Description}
+							<div class="cardUniversitySearchResultN3--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#d9d9d9" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -128,12 +309,18 @@ const card3 = (item, index, container) => {
 };
 
 const card4 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.Description);
+	let descriptionReduced = reduceString(item.AboutUniversity);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
 		(index + 1) % 2 === 0 ? "Par" : "Impar"
 	}">
 				<div id="map${index}" class="map"></div>
+		<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+				</div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
@@ -151,7 +338,7 @@ const card4 = (item, index, container) => {
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN4--name">${item.University}</div>
-							<div class="cardUniversitySearchResultN4--description" >${item.Description}
+							<div class="cardUniversitySearchResultN4--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#d9d9d9" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -167,12 +354,18 @@ const card4 = (item, index, container) => {
 };
 
 const card5 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.Description);
+	let descriptionReduced = reduceString(item.AboutUniversity);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
 		(index + 1) % 2 === 0 ? "Par" : "Impar"
 	}">
 				<div id="map${index}" class="map"></div>
+		<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+				</div>
 				<div class="cardUniversitySearchResult--border">
 				<div class="cardUniversitySearchResult--container">
 					<div class="cardUniversitySearchResult--top">
@@ -190,7 +383,7 @@ const card5 = (item, index, container) => {
 					</div>
 					<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 						<div class="cardUniversitySearchResultN5--name">${item.University}</div>
-						<div class="cardUniversitySearchResultN5--description" >${item.Description}
+						<div class="cardUniversitySearchResultN5--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#d9d9d9" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -207,12 +400,18 @@ const card5 = (item, index, container) => {
 };
 
 const card6 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.Description);
+	let descriptionReduced = reduceString(item.AboutUniversity);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
 		(index + 1) % 2 === 0 ? "Par" : "Impar"
 	}">
 				<div id="map${index}" class="map"></div>
+		<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+				</div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
@@ -230,7 +429,7 @@ const card6 = (item, index, container) => {
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN6--name">${item.University}</div>
-							<div class="cardUniversitySearchResultN6--description" >${item.Description}
+							<div class="cardUniversitySearchResultN6--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#d9d9d9" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -246,12 +445,18 @@ const card6 = (item, index, container) => {
 };
 
 const card7 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.Description);
+	let descriptionReduced = reduceString(item.AboutUniversity);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
 		(index + 1) % 2 === 0 ? "Par" : "Impar"
 	}">
 				<div id="map${index}" class="map"></div>
+		<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+				</div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
@@ -269,7 +474,7 @@ const card7 = (item, index, container) => {
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN7--name">${item.University}</div>
-							<div class="cardUniversitySearchResultN7--description" >${item.Description}
+							<div class="cardUniversitySearchResultN7--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#d9d9d9" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -285,12 +490,18 @@ const card7 = (item, index, container) => {
 };
 
 const card8 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.Description);
+	let descriptionReduced = reduceString(item.AboutUniversity);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
 		(index + 1) % 2 === 0 ? "Par" : "Impar"
 	}">
 				<div id="map${index}" class="map"></div>
+		<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+				</div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
@@ -307,7 +518,7 @@ const card8 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN8--name">${item.University}</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
-							<div class="cardUniversitySearchResultN8--description" >${item.Description}
+							<div class="cardUniversitySearchResultN8--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#d9d9d9" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -324,12 +535,18 @@ const card8 = (item, index, container) => {
 };
 
 const card9 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.Description);
+	let descriptionReduced = reduceString(item.AboutUniversity);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
 		(index + 1) % 2 === 0 ? "Par" : "Impar"
 	}">
 				<div id="map${index}" class="map"></div>
+		<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+				</div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
@@ -346,7 +563,7 @@ const card9 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN9--name">${item.University}</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
-							<div class="cardUniversitySearchResultN9--description" >${item.Description}
+							<div class="cardUniversitySearchResultN9--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#d9d9d9" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -363,12 +580,18 @@ const card9 = (item, index, container) => {
 };
 
 const card10 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.Description);
+	let descriptionReduced = reduceString(item.AboutUniversity);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
 		(index + 1) % 2 === 0 ? "Par" : "Impar"
 	}">
 				<div id="map${index}" class="map"></div>
+		<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+				</div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
@@ -385,7 +608,7 @@ const card10 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN10--name">${item.University}</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
-							<div class="cardUniversitySearchResultN10--description" >${item.Description}
+							<div class="cardUniversitySearchResultN10--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#d9d9d9" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -402,12 +625,18 @@ const card10 = (item, index, container) => {
 };
 
 const card11 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.Description);
+	let descriptionReduced = reduceString(item.AboutUniversity);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
 		(index + 1) % 2 === 0 ? "Par" : "Impar"
 	}">
 				<div id="map${index}" class="map"></div>
+				<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+				</div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
@@ -425,7 +654,9 @@ const card11 = (item, index, container) => {
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN11--name">${item.University}</div>
-							<div class="cardUniversitySearchResultN11--description " >${item.Description}
+							<div class="cardUniversitySearchResultN11--description " >${
+								item.AboutUniversity
+							}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#d9d9d9" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -441,12 +672,18 @@ const card11 = (item, index, container) => {
 };
 
 const card12 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.Description);
+	let descriptionReduced = reduceString(item.AboutUniversity);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
 		(index + 1) % 2 === 0 ? "Par" : "Impar"
 	}">
 				<div id="map${index}" class="map"></div>
+				<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+				</div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
@@ -463,7 +700,9 @@ const card12 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN12--name">${item.University}</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
-							<div class="cardUniversitySearchResultN12--description " >${item.Description}
+							<div class="cardUniversitySearchResultN12--description " >${
+								item.AboutUniversity
+							}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#d9d9d9" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -480,12 +719,18 @@ const card12 = (item, index, container) => {
 };
 
 const card13 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.Description);
+	let descriptionReduced = reduceString(item.AboutUniversity);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
 		(index + 1) % 2 === 0 ? "Par" : "Impar"
 	}">
-				<div id="map${index}" class="map"></div>
+			<div id="map${index}" class="map"></div>
+			<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+				<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+				<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
+				<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+				<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+			</div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
@@ -502,7 +747,9 @@ const card13 = (item, index, container) => {
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN13--name">${item.University}</div>
-							<div class="cardUniversitySearchResultN13--description " >${item.Description}
+							<div class="cardUniversitySearchResultN13--description " >${
+								item.AboutUniversity
+							}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#d9d9d9" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -518,12 +765,18 @@ const card13 = (item, index, container) => {
 };
 
 const card14 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.Description);
+	let descriptionReduced = reduceString(item.AboutUniversity);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${index}" class="cardAndMap--container${
 		(index + 1) % 2 === 0 ? "Par" : "Impar"
 	}">
 				<div id="map${index}" class="map"></div>
+					<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+				<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+				<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
+				<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+				<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+			</div>
 				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container">
 						<div class="cardUniversitySearchResult--top">
@@ -539,7 +792,9 @@ const card14 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN14--name">${item.University}</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
-							<div class="cardUniversitySearchResultN14--description " >${item.Description}
+							<div class="cardUniversitySearchResultN14--description " >${
+								item.AboutUniversity
+							}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#d9d9d9" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
