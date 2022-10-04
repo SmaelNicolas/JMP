@@ -2,28 +2,34 @@ import { renderErrorMessage } from "./renderErrorMessage.js";
 import { renderUniversities } from "./renderUniversities.js";
 
 export const getUniversitiesSearched = async (query, arrayUniversities) => {
+	let container = document.getElementById("containerUniversitySearchResult");
+
+	//reset del container de cards
+	container.innerHTML = "";
 	console.log("QUERY", query);
 	console.log("ARRAY UNIVERSITIES", arrayUniversities);
 
-	const queryWordsArray = query.split(" ");
+	const queryWordsArray = query.toLowerCase().split(" ");
 	console.log("QUERY SPLIT", queryWordsArray);
 
+	let universitiesWithKeyword = [];
 	//filtro el arreglo con los que coincidan con alguna de las keywords
-	const universitiesSearchedArrayByKeyword = await queryWordsArray.map(
-		(word) => {
-			return arrayUniversities.map((uni) => {
-				return uni.Description.includes(word.toLowerCase())
-					? uni
-					: undefined;
-			});
-		}
-	);
-	console.log("ARRAY BUSCADAS", universitiesSearchedArrayByKeyword);
+	await queryWordsArray.map((word) => {
+		arrayUniversities.map((uni) => {
+			uni.KeyWords.map(
+				(keyword) =>
+					keyword.toLowerCase() === word &&
+					universitiesWithKeyword.push(uni)
+			);
+		});
+	});
+	console.log("ARRAY BUSCADAS", universitiesWithKeyword);
 
 	//filtro el arreglo con los que coincidan con el lugar
 	const universitiesSearchedArrayByLocation = arrayUniversities.filter(
 		(item) =>
-			(query.toLowerCase() === item.Country.toLowerCase() ||
+			(query.toLowerCase() === item.Continent.toLowerCase() ||
+				query.toLowerCase() === item.Country.toLowerCase() ||
 				query.toLowerCase() === item.City.toLowerCase() ||
 				query.toLowerCase() === item.Streets.toLowerCase() ||
 				query.toLowerCase() === item.University.toLowerCase() ||
@@ -31,18 +37,20 @@ export const getUniversitiesSearched = async (query, arrayUniversities) => {
 			item
 	);
 
-	let arrayComplete = [];
-	//recorre todos los arreglos de todas las palabras y guarda los que son distintos de undefined en un nuevo arreglo
-	await universitiesSearchedArrayByKeyword.map((array) =>
-		array.map((prod) => prod !== undefined && arrayComplete.push(prod))
+	// let arrayComplete = [];
+	// //recorre todos los arreglos de todas las palabras y guarda los que son distintos de undefined en un nuevo arreglo
+	// await universitiesWithKeyword.map((array) =>
+	// 	array.map((prod) => prod !== undefined && arrayComplete.push(prod))
+	// );
+
+	universitiesWithKeyword = universitiesWithKeyword.concat(
+		universitiesSearchedArrayByLocation
 	);
 
-	arrayComplete = arrayComplete.concat(universitiesSearchedArrayByLocation);
-
-	console.log("SIN UNDEFINED", arrayComplete);
+	console.log("SIN UNDEFINED", universitiesWithKeyword);
 
 	//elimina todos los duplicados del nuevo arreglo para devolver valores unicos y existentes
-	let uniqueUniversitiesArray = [...new Set(arrayComplete)];
+	let uniqueUniversitiesArray = [...new Set(universitiesWithKeyword)];
 
 	console.log("SIN DUPPLICADOS", uniqueUniversitiesArray);
 
