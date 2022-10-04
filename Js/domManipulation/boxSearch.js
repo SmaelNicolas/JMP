@@ -1,4 +1,4 @@
-import { searchUniversitiesByCountry } from "../functions/searchUniversitiesByCountry.js";
+import { getUniversitiesSearched } from "../functions/searchUniversities.js";
 
 export const boxSearch = () => {
 	let dataUniversities = [];
@@ -29,45 +29,9 @@ export const boxSearch = () => {
 	travelBoxSearchInput.addEventListener("change", (e) => {
 		let value = e.target.value;
 		if (travelSearchSelector.value === "1") {
-			searchUniversitiesByCountry(value, dataUniversities);
+			getUniversitiesSearched(value, dataUniversities);
 		}
 		if (travelSearchSelector.value === "2") {
-			// searchUniversitiesByCountry(value, dataUniversities);
 		}
 	});
 };
-
-// 	const searchCity = (value) => {
-// 		//reset del container de cards
-// 		container.innerHTML = "";
-
-// 		//crea las cards de los lugares filtrados
-// 		dataUniversities.map((item) => handleCardsByName(item, container));
-
-// 		//agrega el evento hover sobre el contenedor de las cards y maps
-// 		dataUniversities.map((item) => {
-// 			document
-// 				.getElementById(`cardAndMap${item.id}`)
-// 				.addEventListener("mouseover", () => {
-// 					document.getElementById(`map${item.id}`).style.visibility =
-// 						"visible";
-
-// 					document.getElementById(`map${item.id}`).style.transition =
-// 						" all 0.3s";
-// 				});
-// 			document
-// 				.getElementById(`cardAndMap${item.id}`)
-// 				.addEventListener("mouseout", () => {
-// 					document.getElementById(`map${item.id}`).style.visibility =
-// 						"hidden";
-// 					document.getElementById(`map${item.id}`).style.transition =
-// 						" all 0.3s";
-// 				});
-// 		});
-
-// 		//agrega el mapa para cada card
-// 		dataUniversidades.map((item) => {
-// 			createMap(item.street, item.id);
-// 		});
-// 	};
-// };
