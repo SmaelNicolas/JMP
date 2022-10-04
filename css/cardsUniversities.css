@@ -81,7 +81,8 @@
 }
 
 .cardUniversitySearchResultArrowMore {
-	width: 40px;
+	width: 18px;
+	height: 18px;
 	text-align: center;
 	display: flex;
 	justify-content: center;
@@ -94,7 +95,8 @@
 	width: 25px !important;
 }
 .cardUniversitySearchResultArrowLess {
-	width: 40px;
+	width: 18px;
+	height: 18px;
 	text-align: center;
 	display: flex;
 	justify-content: center;
