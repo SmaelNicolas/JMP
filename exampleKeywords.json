@@ -7,7 +7,7 @@
 		"Streets": "9 de julio 100",
 		"Institution": "Private",
 		"University": "Universidad de Buenos Aires",
-		"AboutUniversity": "",
+		"AboutUniversity": "Universidad fundad en Universidad fundad en Universidad fundad en Universidad fundad en Universidad fundad en Universidad fundad en Universidad fundad en Universidad fundad enUniversidad fundad enUniversidad fundad enUniversidad fundad enUniversidad fundad en",
 		"KeyWords": ["Social", "Creative", "Digital", "Marketing"],
 		"Link": "http://www.kardan.edu.af"
 	},
@@ -31,8 +31,80 @@
 		"Streets": "2 Chome-15-45 Mita",
 		"Institution": "Private",
 		"University": "Keio University",
-		"AboutUniversity": "Founded 2002",
+		"AboutUniversity": "Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002",
 		"KeyWords": ["Comercial", "Develop", "Sports", "Marketing"],
 		"Link": "http://www.kardan.edu.af"
+	},
+	{
+		"PropertyID": "00000004_UNIVERSITIES",
+		"Continent": "Asia",
+		"Country": "Japon",
+		"City": "Tokyo",
+		"Streets": "2 Chome-15-45 Mita",
+		"Institution": "Private",
+		"University": "JAPON TOKYO University",
+		"AboutUniversity": "Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002",
+		"KeyWords": ["Comercial", "Develop", "Sports", "Marketing"],
+		"Link": "http://www.kardan.edu.af"
+	},
+	{
+		"PropertyID": "00000005_UNIVERSITIES",
+		"Continent": "Asia",
+		"Country": "Japon",
+		"City": "Tokyo",
+		"Streets": "2 Chome-15-45 Mita",
+		"Institution": "Public",
+		"University": "Tokyo Complete",
+		"AboutUniversity": "Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002",
+		"KeyWords": ["Music", "Sports"],
+		"Link": "http://www.kardan.edu.af"
+	},
+	{
+		"PropertyID": "00000006_UNIVERSITIES",
+		"Continent": "Asia",
+		"Country": "Japon",
+		"City": "Tokyo",
+		"Streets": "2 Chome-15-45 Mita",
+		"Institution": "Public",
+		"University": "Tokyo University",
+		"AboutUniversity": "",
+		"KeyWords": ["Music", "Sports"],
+		"Link": "http://www.kardan.edu.af"
+	},
+	{
+		"PropertyID": "00000007_UNIVERSITIES",
+		"Continent": "Asia",
+		"Country": "Japon",
+		"City": "Tokyo",
+		"Streets": "2 Chome-15-45 Mita",
+		"Institution": "Public",
+		"University": "",
+		"AboutUniversity": "Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002",
+		"KeyWords": ["Music", "Sports"],
+		"Link": "http://www.kardan.edu.af"
+	},
+	{
+		"PropertyID": "00000008_UNIVERSITIES",
+		"Continent": "Asia",
+		"Country": "Japon",
+		"City": "Tokyo",
+		"Streets": "",
+		"University": "Tokyo University",
+		"Institution": "Public",
+		"AboutUniversity": "Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002",
+		"KeyWords": ["Music", "Sports"],
+		"Link": "http://www.kardan.edu.af"
+	},
+	{
+		"PropertyID": "00000009_UNIVERSITIES",
+		"Continent": "Asia",
+		"Country": "Japon",
+		"City": "Tokyo",
+		"Streets": "2 Chome-15-45 Mita",
+		"Institution": "Public",
+		"University": "Tokyo University",
+		"AboutUniversity": "Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002",
+		"KeyWords": ["Music", "Sports"],
+		"Link": ""
 	}
 ]
