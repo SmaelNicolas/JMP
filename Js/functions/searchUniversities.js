@@ -6,13 +6,9 @@ export const getUniversitiesSearched = async (query, arrayUniversities) => {
 
 	//reset del container de cards
 	container.innerHTML = "";
-	console.log("QUERY", query);
-	console.log("ARRAY UNIVERSITIES", arrayUniversities);
-
 	const queryWordsArray = query.toLowerCase().split(" ");
-	console.log("QUERY SPLIT", queryWordsArray);
-
 	let universitiesWithKeyword = [];
+
 	//filtro el arreglo con los que coincidan con alguna de las keywords
 	await queryWordsArray.map((word) => {
 		arrayUniversities.map((uni) => {
@@ -23,7 +19,6 @@ export const getUniversitiesSearched = async (query, arrayUniversities) => {
 			);
 		});
 	});
-	console.log("ARRAY BUSCADAS", universitiesWithKeyword);
 
 	//filtro el arreglo con los que coincidan con el lugar
 	const universitiesSearchedArrayByLocation = arrayUniversities.filter(
@@ -47,12 +42,8 @@ export const getUniversitiesSearched = async (query, arrayUniversities) => {
 		universitiesSearchedArrayByLocation
 	);
 
-	console.log("SIN UNDEFINED", universitiesWithKeyword);
-
 	//elimina todos los duplicados del nuevo arreglo para devolver valores unicos y existentes
 	let uniqueUniversitiesArray = [...new Set(universitiesWithKeyword)];
-
-	console.log("SIN DUPPLICADOS", uniqueUniversitiesArray);
 
 	//elimina todos los que tiene almenos un campo vacio
 	let finalUniversitiesSearch = uniqueUniversitiesArray.filter(
@@ -63,7 +54,6 @@ export const getUniversitiesSearched = async (query, arrayUniversities) => {
 			uni.Streets !== ""
 	);
 
-	console.log("SIN VACIOS", finalUniversitiesSearch);
 	// devuelve la busqueda sin repetidos , sin indefinidos, sin vacios
 	finalUniversitiesSearch.length > 0
 		? renderUniversities(finalUniversitiesSearch)
