@@ -1,40 +1,34 @@
 import { getUniversitiesSearched } from "../functions/searchUniversities.js";
 
 export const boxSearch = () => {
-	let dataUniversities = [];
 	let container = document.getElementById("containerUniversitySearchResult");
 
+	let dataUniversities = [];
 	let travelSearchSelector = document.getElementById("travelSearchSelector");
 	let travelBoxSearchInput = document.getElementById("travelBoxSearchInput");
-	let travelBoxSearchLabelsContainer = document.getElementById(
-		"travelBoxSearchLabelsContainer"
-	);
-	let topUniversitiesLabel = document.getElementById("topUniversitiesLabel");
-	let studyAbroadLabel = document.getElementById("studyAbroadLabel");
 
-	// fetch("./fromExcel.json")
-	// 	.then((res) => res.json())
-	// 	.then((res) => (dataUniversities = res));
 	fetch("./exampleKeywords.json")
 		.then((res) => res.json())
 		.then((res) => (dataUniversities = res));
 
-	travelSearchSelector.addEventListener("change", () => {
-		container.innerHTML = "";
-		travelBoxSearchInput.value = "";
-		topUniversitiesLabel.classList.toggle("travelBoxSearchLabelsSelected");
-		studyAbroadLabel.classList.toggle("travelBoxSearchLabelsSelected");
-		travelBoxSearchLabelsContainer.classList.toggle(
-			"travelBoxSearchLabelsContainerReverse"
-		);
+	travelSearchSelector.addEventListener("change", (e) => {
+		let value = e.target.value;
+		if (travelSearchSelector.value === "noSearch") {
+			container.innerHTML = "";
+		} else {
+			console.log("LLAMA SELECTOR");
+			getUniversitiesSearched(value, dataUniversities);
+			travelBoxSearchInput.value = "";
+		}
 	});
 
 	travelBoxSearchInput.addEventListener("change", (e) => {
+		console.log("LLAMA INPUT");
 		let value = e.target.value;
-		if (travelSearchSelector.value === "1") {
+		if (value === "") {
+			container.innerHTML = "";
+		} else {
 			getUniversitiesSearched(value, dataUniversities);
-		}
-		if (travelSearchSelector.value === "2") {
 		}
 	});
 };
