@@ -34,16 +34,12 @@
 .travelBoxSearchLabels {
 	width: 100%;
 	text-align: end;
-	letter-spacing: 1px;
-
-	color: var(--clr--medium--grey);
-}
-.travelBoxSearchLabelsSelected {
 	font-weight: thin;
 	letter-spacing: 1px;
 	font-size: 25px;
 	color: var(--clr--black);
 }
+
 .travelBoxSearchInputsContainer {
 	width: 35%;
 	display: flex;
@@ -67,6 +63,17 @@
 	text-transform: uppercase;
 }
 
-h1 {
-	color: var(--clr--light--grey);
+@media only screen and (max-width: 550px) {
+	.travelBoxSearchContainer {
+		width: 100%;
+		flex-direction: column;
+	}
+	.travelBoxSearchLabelsContainer {
+		width: 100%;
+	}
+	.travelBoxSearchLabels {
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
 }

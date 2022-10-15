@@ -155,6 +155,7 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	font-family: var(--ff--Mont);
+	position: relative;
 }
 
 .cardUniversitySearchResult--center--hide {
@@ -359,10 +360,13 @@
 .cardUniversitySearchResultN12--name {
 	color: #000000;
 	transform: rotate(-90deg) translate(15%, -130px);
-	width: 300px;
-	font-size: 28px;
-	margin-right: auto;
+	width: 280px;
+	font-size: 24px;
 	text-transform: capitalize;
+	text-align: center;
+	position: absolute;
+	bottom: -15px;
+	left: 25px;
 }
 
 .cardUniversitySearchResultN12--description {
@@ -410,4 +414,29 @@
 	text-align: justify;
 	margin-right: auto;
 	padding-left: 20px;
+}
+
+@media only screen and (max-width: 765px) {
+	.cardAndMap--containerImpar {
+		width: 100% !important;
+		padding: 5px !important;
+		flex-wrap: wrap !important;
+		flex-direction: column-reverse !important;
+		justify-content: center !important;
+		align-items: center !important;
+	}
+	.cardAndMap--containerPar {
+		width: 100% !important;
+		padding: 5px !important;
+		flex-wrap: wrap !important;
+		flex-direction: column-reverse !important;
+		justify-content: center !important;
+		align-items: center !important;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.cardUniversitySearchResult--container {
+		width: 300px;
+	}
 }
