@@ -17,6 +17,6 @@ export const renderUniversities = (universitiesSearch) => {
 		createMap(fullAdress, index);
 
 		//agrega los event listener arrow, hover
-		eventListenerByCards(index);
+		eventListenerByCards(university.PropertyID, index);
 	});
 };
