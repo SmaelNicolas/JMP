@@ -1,3 +1,5 @@
 export const renderErrorMessage = () => {
-	alert("No hay resultados");
+	let container = document.getElementById("containerUniversitySearchResult");
+
+	container.innerHTML = "NO HAY RESULTADOS";
 };
