@@ -59,7 +59,7 @@
 	display: none;
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 440px) {
 	:root {
 		/* cards NAMES */
 		--fs--name--cards--xxxbig: 50px;
