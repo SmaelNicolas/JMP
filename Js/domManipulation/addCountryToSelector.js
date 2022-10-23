@@ -16,7 +16,9 @@ export const addCountryToSelector = () => {
 	const renderSelectors = (arrayCountrys) => {
 		arrayCountrys.map((country) => {
 			let node = document.createElement("option");
-			node.innerHTML = `<option class="travelSearchSelectorOption" value="${country}">${country}</option>`;
+			node.value = country;
+			node.innerHTML = country;
+			node.classList.add("travelSearchSelectorOption");
 			travelSearchSelector.appendChild(node);
 		});
 	};

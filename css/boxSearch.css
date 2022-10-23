@@ -62,16 +62,21 @@
 	font-family: var(--ff--Mont);
 	text-transform: capitalize;
 	border: 1px solid var(--clr--hard--grey);
+	box-shadow: var(--shadow--3d--small--left);
 }
 .travelBoxSearchSelector {
 	width: 262px;
 	padding: 10px;
-	margin-top: 10px;
+	margin-top: 15px;
 	color: var(--clr--hard--grey);
 	border-radius: 5px;
 	font-family: var(--ff--Mont);
 	text-transform: uppercase;
 	border: 1px solid var(--clr--hard--grey);
+	box-shadow: var(--shadow--3d--small--left);
+	text-align: center;
+	color: #000;
+	font-weight: 700;
 }
 
 .travelBoxSearchInputsIcon {
