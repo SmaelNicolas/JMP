@@ -1,7 +1,8 @@
 import { reduceString } from "../functions/reduceString.js";
 
 export const handleCardsByName = (item, index, container) => {
-	if (item.University.length <= 14) return card12(item, index, container);
+	if (item.University.length < 14) return card12(item, index, container);
+	if (item.University.length === 14) return card14(item, index, container);
 	if (item.University.length === 16) return card2(item, index, container);
 	if (item.University.length === 18) return card5(item, index, container);
 	if (item.University.length < 30) return card6(item, index, container);
@@ -11,7 +12,7 @@ export const handleCardsByName = (item, index, container) => {
 
 const card1 = (item, index, container) => {
 	let descriptionReduced = reduceString(item.AboutUniversity);
-	let node = document.createElement("div");
+	let node = document.createElement("");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
@@ -28,7 +29,6 @@ const card1 = (item, index, container) => {
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
 				</div>
-				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
 					}">
@@ -56,10 +56,10 @@ const card1 = (item, index, container) => {
 							<a class="cardUniversitySearchResult--link"
 						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
-				</div>
 			</div>
             `;
 	container.appendChild(node);
+	node.classList.add("containerGeneratedMapAndCard");
 };
 
 const card2 = (item, index, container) => {
@@ -81,7 +81,6 @@ const card2 = (item, index, container) => {
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
 				</div>
-				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
 					}">
@@ -109,10 +108,10 @@ const card2 = (item, index, container) => {
 							<a class="cardUniversitySearchResult--link"
 						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
-				</div>
 			</div>
             `;
 	container.appendChild(node);
+	node.classList.add("containerGeneratedMapAndCard");
 };
 
 const card3 = (item, index, container) => {
@@ -134,7 +133,6 @@ const card3 = (item, index, container) => {
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
 				</div>
-				<div class="cardUniversitySearchResult--border">
 				<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
 				}">
@@ -165,6 +163,7 @@ const card3 = (item, index, container) => {
 		</div> 
             `;
 	container.appendChild(node);
+	node.classList.add("containerGeneratedMapAndCard");
 };
 
 const card4 = (item, index, container) => {
@@ -186,7 +185,6 @@ const card4 = (item, index, container) => {
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
 				</div>
-				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
 					}">
@@ -214,10 +212,10 @@ const card4 = (item, index, container) => {
 							<a class="cardUniversitySearchResult--link"
 						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
-				</div>
 			</div>
             `;
 	container.appendChild(node);
+	node.classList.add("containerGeneratedMapAndCard");
 };
 
 const card5 = (item, index, container) => {
@@ -239,7 +237,6 @@ const card5 = (item, index, container) => {
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
 				</div>
-				<div class="cardUniversitySearchResult--border">
 				<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
 				}">
@@ -266,10 +263,10 @@ const card5 = (item, index, container) => {
 					</div>
 					<a class="cardUniversitySearchResult--link" href="${item.Link}">Link</a>
 				</div>
-			</div>
 		</div>
             `;
 	container.appendChild(node);
+	node.classList.add("containerGeneratedMapAndCard");
 };
 
 const card6 = (item, index, container) => {
@@ -291,7 +288,6 @@ const card6 = (item, index, container) => {
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
 				</div>
-				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
 					}">
@@ -319,10 +315,10 @@ const card6 = (item, index, container) => {
 							<a class="cardUniversitySearchResult--link"
 						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
-				</div>
 			</div>
             `;
 	container.appendChild(node);
+	node.classList.add("containerGeneratedMapAndCard");
 };
 
 const card7 = (item, index, container) => {
@@ -344,7 +340,6 @@ const card7 = (item, index, container) => {
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
 				</div>
-				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
 					}">
@@ -372,10 +367,10 @@ const card7 = (item, index, container) => {
 							<a class="cardUniversitySearchResult--link"
 						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
-				</div>
 			</div>
             `;
 	container.appendChild(node);
+	node.classList.add("containerGeneratedMapAndCard");
 };
 
 const card8 = (item, index, container) => {
@@ -397,7 +392,6 @@ const card8 = (item, index, container) => {
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
 				</div>
-				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
 					}">
@@ -425,10 +419,10 @@ const card8 = (item, index, container) => {
 							<a class="cardUniversitySearchResult--link"
 						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
-				</div>
 			</div>
             `;
 	container.appendChild(node);
+	node.classList.add("containerGeneratedMapAndCard");
 };
 
 const card9 = (item, index, container) => {
@@ -450,7 +444,6 @@ const card9 = (item, index, container) => {
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
 				</div>
-				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
 					}">
@@ -478,10 +471,10 @@ const card9 = (item, index, container) => {
 							<a class="cardUniversitySearchResult--link"
 						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
-				</div>
 			</div>
             `;
 	container.appendChild(node);
+	node.classList.add("containerGeneratedMapAndCard");
 };
 
 const card10 = (item, index, container) => {
@@ -503,7 +496,6 @@ const card10 = (item, index, container) => {
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
 				</div>
-				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
 					}">
@@ -531,10 +523,10 @@ const card10 = (item, index, container) => {
 							<a class="cardUniversitySearchResult--link"
 						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
-				</div>
 			</div>
             `;
 	container.appendChild(node);
+	node.classList.add("containerGeneratedMapAndCard");
 };
 
 const card11 = (item, index, container) => {
@@ -556,7 +548,6 @@ const card11 = (item, index, container) => {
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
 				</div>
-				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
 					}">
@@ -586,10 +577,10 @@ const card11 = (item, index, container) => {
 							<a class="cardUniversitySearchResult--link"
 						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
-				</div>
 			</div>
             `;
 	container.appendChild(node);
+	node.classList.add("containerGeneratedMapAndCard");
 };
 
 const card12 = (item, index, container) => {
@@ -611,7 +602,6 @@ const card12 = (item, index, container) => {
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
 				</div>
-				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
 					}">
@@ -641,10 +631,10 @@ const card12 = (item, index, container) => {
 							<a class="cardUniversitySearchResult--link"
 						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
-				</div>
 			</div>
             `;
 	container.appendChild(node);
+	node.classList.add("containerGeneratedMapAndCard");
 };
 
 const card13 = (item, index, container) => {
@@ -666,7 +656,6 @@ const card13 = (item, index, container) => {
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
 				</div>
-				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
 					}">
@@ -695,10 +684,10 @@ const card13 = (item, index, container) => {
 							<a class="cardUniversitySearchResult--link"
 						 href="${item.Link}" target='_blank'>Link</a>
 					</div>
-				</div>
 			</div>
             `;
 	container.appendChild(node);
+	node.classList.add("containerGeneratedMapAndCard");
 };
 
 const card14 = (item, index, container) => {
@@ -720,7 +709,6 @@ const card14 = (item, index, container) => {
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
 				</div>
-				<div class="cardUniversitySearchResult--border">
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
 					}">
@@ -750,8 +738,8 @@ const card14 = (item, index, container) => {
 						 href="${item.Link}" target='_blank'>Link</a>
 					
 					</div>
-				</div>
 			</div>
             `;
 	container.appendChild(node);
+	node.classList.add("containerGeneratedMapAndCard");
 };
