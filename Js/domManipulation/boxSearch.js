@@ -16,14 +16,12 @@ export const boxSearch = () => {
 		if (travelSearchSelector.value === "noSearch") {
 			container.innerHTML = "";
 		} else {
-			console.log("LLAMA SELECTOR");
 			getUniversitiesSearched(value, dataUniversities);
 			travelBoxSearchInput.value = "";
 		}
 	});
 
 	travelBoxSearchInput.addEventListener("change", (e) => {
-		console.log("LLAMA INPUT");
 		let value = e.target.value;
 		if (value === "") {
 			container.innerHTML = "";
