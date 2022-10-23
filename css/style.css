@@ -15,8 +15,26 @@
 	--clr--xlight--grey: #d9d9d9c2;
 	--clr--light--grey: #d9d9d9;
 	--clr--medium--grey: #a7a7a7;
+	--clr--hard--grey: #999;
 	--clr--black-: #000000;
 	--ff--Mont: "Mont-Book";
+
+	--shadow--3d--big: 1px 1px 0px var(--clr--hard--grey),
+		2px 2px 0px var(--clr--hard--grey), 3px 3px 0px var(--clr--hard--grey),
+		4px 4px 0px var(--clr--hard--grey), 5px 5px 0px var(--clr--hard--grey),
+		6px 6px 20px 5px var(--clr--hard--grey);
+
+	--shadow--3d--small--right: -0.5px 0.5px 0px var(--clr--hard--grey),
+		-1px 1px 0px var(--clr--hard--grey), -2px 2px 0px var(--clr--hard--grey),
+		-3px 3px 0px var(--clr--hard--grey), -4px 4px 0px var(--clr--hard--grey),
+		-5px 5px 20px 10px var(--clr--hard--grey);
+	--shadow--3d--small--left: 0.5px 0.5px 0px var(--clr--hard--grey),
+		1px 1px 0px var(--clr--hard--grey), 2px 2px 0px var(--clr--hard--grey),
+		3px 3px 0px var(--clr--hard--grey), 4px 4px 0px var(--clr--hard--grey),
+		5px 5px 20px 10px var(--clr--hard--grey);
+
+	--shadow--3d--light--left: 0.5px 0.5px 10px var(--clr--hard--grey);
+	--shadow--3d--light--right: -0.5px 0.5px 10px var(--clr--hard--grey);
 }
 
 *:focus {
