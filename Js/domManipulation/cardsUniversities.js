@@ -16,7 +16,9 @@ const card1 = (item, index, container) => {
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
 				<div id="map${index}" class="map"></div>
-				<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+				<div class="cardUniversitySearchResultInfoHover${
+					(index + 1) % 2 === 0 ? "Par" : "Impar"
+				}" id="cardUniversitySearchResultInfoHover${index}">
 				<div class="cardUniversitySearchResultInfoContainerOne">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
@@ -67,7 +69,9 @@ const card2 = (item, index, container) => {
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
 				<div id="map${index}" class="map"></div>
-				<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+				<div class="cardUniversitySearchResultInfoHover${
+					(index + 1) % 2 === 0 ? "Par" : "Impar"
+				}" id="cardUniversitySearchResultInfoHover${index}">
 				<div class="cardUniversitySearchResultInfoContainerOne">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
@@ -118,7 +122,9 @@ const card3 = (item, index, container) => {
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
 				<div id="map${index}" class="map"></div>
-		<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+		<div class="cardUniversitySearchResultInfoHover${
+			(index + 1) % 2 === 0 ? "Par" : "Impar"
+		}" id="cardUniversitySearchResultInfoHover${index}">
 		<div class="cardUniversitySearchResultInfoContainerOne">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
@@ -168,7 +174,9 @@ const card4 = (item, index, container) => {
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
 				<div id="map${index}" class="map"></div>
-		<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+		<div class="cardUniversitySearchResultInfoHover${
+			(index + 1) % 2 === 0 ? "Par" : "Impar"
+		}" id="cardUniversitySearchResultInfoHover${index}">
 		<div class="cardUniversitySearchResultInfoContainerOne">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
@@ -219,7 +227,9 @@ const card5 = (item, index, container) => {
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
 				<div id="map${index}" class="map"></div>
-		<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+		<div class="cardUniversitySearchResultInfoHover${
+			(index + 1) % 2 === 0 ? "Par" : "Impar"
+		}" id="cardUniversitySearchResultInfoHover${index}">
 		<div class="cardUniversitySearchResultInfoContainerOne">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
@@ -269,7 +279,9 @@ const card6 = (item, index, container) => {
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
 				<div id="map${index}" class="map"></div>
-		<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+		<div class="cardUniversitySearchResultInfoHover${
+			(index + 1) % 2 === 0 ? "Par" : "Impar"
+		}" id="cardUniversitySearchResultInfoHover${index}">
 		<div class="cardUniversitySearchResultInfoContainerOne">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
@@ -320,7 +332,9 @@ const card7 = (item, index, container) => {
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
 				<div id="map${index}" class="map"></div>
-				<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+				<div class="cardUniversitySearchResultInfoHover${
+					(index + 1) % 2 === 0 ? "Par" : "Impar"
+				}" id="cardUniversitySearchResultInfoHover${index}">
 				<div class="cardUniversitySearchResultInfoContainerOne">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
@@ -371,7 +385,9 @@ const card8 = (item, index, container) => {
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
 				<div id="map${index}" class="map"></div>
-		<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+		<div class="cardUniversitySearchResultInfoHover${
+			(index + 1) % 2 === 0 ? "Par" : "Impar"
+		}" id="cardUniversitySearchResultInfoHover${index}">
 		<div class="cardUniversitySearchResultInfoContainerOne">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
@@ -422,7 +438,9 @@ const card9 = (item, index, container) => {
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
 				<div id="map${index}" class="map"></div>
-		<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+		<div class="cardUniversitySearchResultInfoHover${
+			(index + 1) % 2 === 0 ? "Par" : "Impar"
+		}" id="cardUniversitySearchResultInfoHover${index}">
 		<div class="cardUniversitySearchResultInfoContainerOne">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
@@ -473,7 +491,9 @@ const card10 = (item, index, container) => {
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
 				<div id="map${index}" class="map"></div>
-		<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+		<div class="cardUniversitySearchResultInfoHover${
+			(index + 1) % 2 === 0 ? "Par" : "Impar"
+		}" id="cardUniversitySearchResultInfoHover${index}">
 		<div class="cardUniversitySearchResultInfoContainerOne">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
@@ -524,7 +544,9 @@ const card11 = (item, index, container) => {
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
 				<div id="map${index}" class="map"></div>
-				<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+				<div class="cardUniversitySearchResultInfoHover${
+					(index + 1) % 2 === 0 ? "Par" : "Impar"
+				}" id="cardUniversitySearchResultInfoHover${index}">
 				<div class="cardUniversitySearchResultInfoContainerOne">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
@@ -577,7 +599,9 @@ const card12 = (item, index, container) => {
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
 				<div id="map${index}" class="map"></div>
-				<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+				<div class="cardUniversitySearchResultInfoHover${
+					(index + 1) % 2 === 0 ? "Par" : "Impar"
+				}" id="cardUniversitySearchResultInfoHover${index}">
 				<div class="cardUniversitySearchResultInfoContainerOne">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
@@ -630,7 +654,9 @@ const card13 = (item, index, container) => {
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
 			<div id="map${index}" class="map"></div>
-				<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+				<div class="cardUniversitySearchResultInfoHover${
+					(index + 1) % 2 === 0 ? "Par" : "Impar"
+				}" id="cardUniversitySearchResultInfoHover${index}">
 				<div class="cardUniversitySearchResultInfoContainerOne">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
@@ -682,7 +708,9 @@ const card14 = (item, index, container) => {
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
 				<div id="map${index}" class="map"></div>
-				<div class="cardUniversitySearchResultInfoHover" id="cardUniversitySearchResultInfoHover${index}">
+				<div class="cardUniversitySearchResultInfoHover${
+					(index + 1) % 2 === 0 ? "Par" : "Impar"
+				}" id="cardUniversitySearchResultInfoHover${index}">
 				<div class="cardUniversitySearchResultInfoContainerOne">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
