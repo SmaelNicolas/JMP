@@ -1,3 +1,6 @@
+.containerGeneratedMapAndCard {
+	width: 100% !important;
+}
 /* CARD CONTAINER */
 .cardUniversitySearchResult--container {
 	width: 360px;
@@ -445,12 +448,15 @@
 	color: #000000;
 
 	transform: rotate(-90deg) translate(40%, 150px);
-	width: 100%;
-	font-size: 30px;
+	width: max-content;
+	font-size: 25px;
 	margin-right: auto;
 	text-align: start;
 	padding-left: 15px;
 	font-weight: 800;
+	position: absolute;
+	top: 260px;
+	right: 110px;
 }
 
 .cardUniversitySearchResultN14--description {
@@ -464,7 +470,6 @@
 @media only screen and (max-width: 765px) {
 	.cardAndMap--containerImpar {
 		width: 100% !important;
-		padding: 5px !important;
 		flex-wrap: wrap !important;
 		flex-direction: column-reverse !important;
 		justify-content: center !important;
@@ -472,16 +477,170 @@
 	}
 	.cardAndMap--containerPar {
 		width: 100% !important;
-		padding: 5px !important;
 		flex-wrap: wrap !important;
 		flex-direction: column-reverse !important;
 		justify-content: center !important;
 		align-items: center !important;
 	}
+	.cardUniversitySearchResultInfoHoverPar {
+		width: 300px !important;
+		margin-right: 30px;
+		min-height: 75px;
+		position: inherit;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.cardUniversitySearchResultInfoHoverImpar {
+		width: 300px !important;
+		margin-right: 30px;
+		min-height: 75px;
+		position: inherit;
+		justify-content: space-around;
+		align-items: center;
+	}
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 470px) {
+	.cardAndMap--containerImpar {
+		width: 100% !important;
+		padding: 0px !important;
+		margin: 0 !important;
+		align-self: center !important;
+		align-items: center !important;
+	}
+	.cardAndMap--containerPar {
+		width: 100% !important;
+		padding: 0px !important;
+		margin: 0 !important;
+		align-self: center !important;
+		align-items: center !important;
+	}
+
 	.cardUniversitySearchResult--container {
-		width: 300px;
+		width: 95% !important;
+		border: none;
+		padding: 0;
+		align-self: center;
+	}
+
+	.cardUniversitySearchResultInfoHoverPar {
+		align-self: flex-start !important;
+		left: 0px !important;
+		width: 90% !important;
+	}
+	.cardUniversitySearchResultInfoHoverImpar {
+		align-self: flex-start !important;
+		left: 0px !important;
+		width: 90% !important;
+	}
+
+	.cardUniversitySearchResultN1--name {
+		font-size: 30px;
+		letter-spacing: 2px;
+	}
+
+	.cardUniversitySearchResultN1--description {
+		font-size: 15px;
+	}
+
+	.cardUniversitySearchResultN2--name {
+		font-size: 30px;
+	}
+
+	.cardUniversitySearchResultN2--description {
+		font-size: 10px;
+	}
+	.cardUniversitySearchResultN3--name {
+		font-size: large;
+	}
+
+	.cardUniversitySearchResultN3--description {
+		font-size: 10px;
+	}
+
+	.cardUniversitySearchResultN4--name {
+		font-size: 20px;
+	}
+
+	.cardUniversitySearchResultN4--description {
+		font-size: 10px;
+	}
+
+	.cardUniversitySearchResultN5--name {
+		font-size: x-large;
+	}
+	.cardUniversitySearchResultN5--description {
+		font-size: 10px;
+	}
+	.cardUniversitySearchResultN6--name {
+		font-size: 25px;
+	}
+
+	.cardUniversitySearchResultN6--description {
+		font-size: 10px;
+	}
+
+	.cardUniversitySearchResultN7--name {
+		font-size: 50px;
+	}
+
+	.cardUniversitySearchResultN7--description {
+		font-size: 10px;
+	}
+
+	.cardUniversitySearchResultN8--name {
+		font-size: 30px;
+	}
+
+	.cardUniversitySearchResultN8--description {
+		font-size: 10px;
+	}
+
+	.cardUniversitySearchResultN9--name {
+		font-size: 30px;
+	}
+
+	.cardUniversitySearchResultN9--description {
+		font-size: 10px;
+	}
+
+	.cardUniversitySearchResultN10--name {
+		font-size: 40px;
+	}
+
+	.cardUniversitySearchResultN10--description {
+		font-size: 10px;
+	}
+
+	.cardUniversitySearchResultN11--name {
+		font-size: 15px;
+	}
+
+	.cardUniversitySearchResultN11--description {
+		font-size: 10px;
+	}
+
+	.cardUniversitySearchResultN12--name {
+		font-size: 19px;
+	}
+
+	.cardUniversitySearchResultN12--description {
+		font-size: 10px;
+	}
+
+	.cardUniversitySearchResultN13--name {
+		font-size: 22px;
+	}
+
+	.cardUniversitySearchResultN13--description {
+		font-size: 10px;
+	}
+
+	.cardUniversitySearchResultN14--name {
+		font-size: 20px;
+	}
+
+	.cardUniversitySearchResultN14--description {
+		font-size: 10px;
 	}
 }
