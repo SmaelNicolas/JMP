@@ -35,6 +35,20 @@
 
 	--shadow--3d--light--left: 0.5px 0.5px 10px var(--clr--hard--grey);
 	--shadow--3d--light--right: -0.5px 0.5px 10px var(--clr--hard--grey);
+
+	/* cards NAMES */
+	--fs--name--cards--xxxbig: 55px;
+	--fs--name--cards--xbig: 45px;
+	--fs--name--cards--big: 35px;
+	--fs--name--cards--large: 30px;
+	--fs--name--cards--medium: 28px;
+	--fs--name--cards--small: 25px;
+	--fs--name--cards--xsmall: 20px;
+
+	/* cards DESCRIPTION */
+	--fs--desc--cards--big: 20px;
+	--fs--desc--cards--large: 15px;
+	--fs--desc--cards--medium: 13px;
 }
 
 *:focus {
@@ -45,7 +59,20 @@
 	display: none;
 }
 
-.iqwsda {
-	background-image: url("../Assets/icons/institution.svg");
-	background-image: url("../Assets/icons/streets.svg");
+@media only screen and (max-width: 470px) {
+	:root {
+		/* cards NAMES */
+		--fs--name--cards--xxxbig: 50px;
+		--fs--name--cards--xbig: 40px;
+		--fs--name--cards--big: 30px;
+		--fs--name--cards--large: 25px;
+		--fs--name--cards--medium: 23px;
+		--fs--name--cards--small: 20px;
+		--fs--name--cards--xsmall: 15px;
+
+		/* cards DESCRIPTION */
+		--fs--desc--cards--big: 15px;
+		--fs--desc--cards--large: 12px;
+		--fs--desc--cards--medium: 10px;
+	}
 }
