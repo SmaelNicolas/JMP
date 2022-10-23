@@ -106,5 +106,17 @@
 		"AboutUniversity": "Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002",
 		"KeyWords": ["Music", "Sports"],
 		"Link": ""
+	},
+	{
+		"PropertyID": "000000010_UNIVERSITIES",
+		"Continent": "Asia",
+		"Country": "Japon",
+		"City": "Tokyo",
+		"Streets": "2 Chome-15-45 Mita",
+		"Institution": "Public",
+		"University": "Tokyo NewName",
+		"AboutUniversity": "Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002 Founded 2002",
+		"KeyWords": ["Music", "Sports"],
+		"Link": "http://www.kardan.edu.af"
 	}
 ]
