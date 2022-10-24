@@ -24,6 +24,9 @@
 		4px 4px 0px var(--clr--hard--grey), 5px 5px 0px var(--clr--hard--grey),
 		6px 6px 20px 5px var(--clr--hard--grey);
 
+	--shadow--3d--medium: 0px 0px 5px 2px var(--clr--hard--grey);
+	--shadow--3d--small: 0px 0px 5px 1px var(--clr--hard--grey);
+
 	--shadow--3d--small--right: -0.5px 0.5px 0px var(--clr--hard--grey),
 		-1px 1px 0px var(--clr--hard--grey), -2px 2px 0px var(--clr--hard--grey),
 		-3px 3px 0px var(--clr--hard--grey), -4px 4px 0px var(--clr--hard--grey),

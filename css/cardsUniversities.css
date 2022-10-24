@@ -26,7 +26,7 @@
 	margin: 10px;
 }
 .cardUniversitySearchResultPar {
-	box-shadow: var(--shadow--3d--light--right);
+	box-shadow: var(--shadow--3d--small);
 }
 .cardUniversitySearchResultPar:hover {
 	transform: scale(1.01);
@@ -37,7 +37,7 @@
 	box-shadow: var(--shadow--3d--small--right);
 }
 .cardUniversitySearchResultImpar {
-	box-shadow: var(--shadow--3d--light--left);
+	box-shadow: var(--shadow--3d--small);
 }
 .cardUniversitySearchResultImpar:hover {
 	transform: scale(1.01);
@@ -49,10 +49,6 @@
 	width: 200px;
 	height: 60px;
 	padding: 3px;
-	border: solid 1px var(--clr--light--grey);
-	border-bottom: 2px solid var(--clr--light--grey);
-	border-right: 2px solid var(--clr--light--grey);
-	border-radius: 5px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -67,10 +63,6 @@
 	width: 200px;
 	height: 60px;
 	padding: 3px;
-	border: solid 1px var(--clr--light--grey);
-	border-bottom: 2px solid var(--clr--light--grey);
-	border-right: 2px solid var(--clr--light--grey);
-	border-radius: 5px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
