@@ -3,12 +3,24 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	margin: 0 auto;
+}
+
+.containerResultsHover {
+	display: none;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	align-items: flex-end;
+	align-self: center;
+	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.62);
+	-webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.62);
+	-moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.62);
+	border-radius: 15px;
+	padding: 5px;
 }
 
 /* CARD CONTAINER */
 .cardUniversitySearchResult--container {
-	width: 360px;
+	width: 400px;
 	min-height: 260px;
 	border: 1px solid var(--clr--light--grey);
 	border-bottom: 2px solid var(--clr--light--grey);
@@ -21,7 +33,6 @@
 	color: #6d6d6d;
 	background: white;
 	padding: 20px;
-	transition: all ease-in-out 0.3s;
 	position: relative;
 	margin: 10px;
 }
@@ -31,7 +42,6 @@
 .cardUniversitySearchResultPar:hover {
 	transform: scale(1.01);
 	color: #000000;
-	transition: all ease-in-out 0.3s;
 	transform: scale(1.01);
 
 	box-shadow: var(--shadow--3d--small--right);
@@ -42,7 +52,6 @@
 .cardUniversitySearchResultImpar:hover {
 	transform: scale(1.01);
 	color: #000000;
-	transition: all ease-in-out 0.3s;
 	box-shadow: var(--shadow--3d--small--left);
 }
 .cardUniversitySearchResultInfoHoverPar {
@@ -53,11 +62,10 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	visibility: hidden;
 	z-index: 2;
-	position: absolute;
 	top: 10px;
 	right: 25px;
+	display: none;
 }
 .cardUniversitySearchResultInfoHoverImpar {
 	width: 200px;
@@ -67,11 +75,10 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	visibility: hidden;
 	z-index: 2;
-	position: absolute;
 	top: 10px;
 	left: 25px;
+	display: none;
 }
 .cardUniversitySearchResultInfoContainerOne {
 	width: 100px;
@@ -424,6 +431,20 @@
 	padding-left: 20px;
 }
 
+@media only screen and (max-width: 1065px) {
+	.cardAndMap--containerImpar {
+		margin-bottom: 35px;
+	}
+	.cardAndMap--containerPar {
+		margin-bottom: 35px;
+	}
+	.cardUniversitySearchResultInfoHoverImpar {
+		margin-right: 15px;
+	}
+	.cardUniversitySearchResultInfoHoverPar {
+		margin-right: 15px;
+	}
+}
 @media only screen and (max-width: 765px) {
 	.cardAndMap--containerImpar {
 		width: 100% !important;
@@ -439,73 +460,91 @@
 		justify-content: center !important;
 		align-items: center !important;
 	}
-	.cardUniversitySearchResultInfoHoverPar {
-		width: 300px !important;
-		margin-right: 30px;
-		min-height: 75px;
-		position: inherit;
-		justify-content: space-around;
+
+	.containerResultsHover {
+		width: 85% !important;
+		height: 150px;
+		flex-direction: row-reverse;
+		justify-content: center;
 		align-items: center;
+		padding-top: 50px;
 	}
+
 	.cardUniversitySearchResultInfoHoverImpar {
-		width: 300px !important;
-		margin-right: 30px;
-		min-height: 75px;
-		position: inherit;
-		justify-content: space-around;
-		align-items: center;
+		flex-direction: column;
+		width: 100px;
+		height: 180px;
+		justify-content: space-evenly;
+		margin-bottom: 50px;
+	}
+	.cardUniversitySearchResultInfoHoverPar {
+		flex-direction: column;
+		width: 100px;
+		height: 180px;
+		justify-content: space-evenly;
+		margin-bottom: 50px;
+	}
+}
+@media only screen and (max-width: 539px) {
+	.cardUniversitySearchResult--container {
+		width: 350px;
 	}
 }
 
+@media only screen and (max-width: 490px) {
+	.containerGeneratedMapAndCard {
+		width: 100%;
+	}
+}
 @media only screen and (max-width: 440px) {
 	.containerGeneratedMapAndCard {
 		width: 97%;
 	}
 
 	.cardUniversitySearchResult--container {
-		width: 95%;
+		width: 97%;
 		border: none;
-		padding: 0;
+		padding: 5px;
 		align-self: center;
+		margin: 0px;
+		margin-bottom: 15px;
 	}
 	.cardAndMap--containerImpar {
-		width: 95% !important;
-		padding: 0px !important;
-		margin: 0 !important;
+		width: 97% !important;
 		align-self: center !important;
 		align-items: center !important;
+		padding: 5px;
 	}
 	.cardAndMap--containerPar {
-		width: 95% !important;
-		padding: 0px !important;
-		margin: 0 !important;
+		width: 97% !important;
 		align-self: center !important;
 		align-items: center !important;
+		padding: 5px;
 	}
 
-	.cardUniversitySearchResultInfoHoverPar {
-		align-self: center !important;
-		width: 90% !important;
-		margin: 0;
-		position: initial;
-		border: none;
+	/* .cardUniversitySearchResultInfoHoverPar {
+		width: 50% !important;
 	}
 	.cardUniversitySearchResultInfoHoverImpar {
-		align-self: flex-start !important;
-		width: 90% !important;
-	}
+		width: 50% !important;
+	} */
 
 	.cardUniversitySearchResultN14--name {
 		top: 200px;
-		right: 115px;
+		right: 125px;
 		padding: 0;
 	}
 
 	.cardUniversitySearchResultN12--name {
 		top: 150px;
+		padding-top: 25px;
 	}
 
 	.cardUniversitySearchResult--link {
 		padding: 5px 20px;
+	}
+
+	.containerResultsHover {
+		width: 94% !important;
 	}
 }
