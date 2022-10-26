@@ -1,43 +1,42 @@
 export const eventListenerByCards = (PropertyID, index) => {
+	document.getElementById(`cardAndMap${PropertyID}`).style.width = "400px";
 	//hover in sobre el card para ver mapa
 	document
 		.getElementById(`cardAndMap${PropertyID}`)
 		.addEventListener("mouseover", () => {
+			document.getElementById(`map${index}`).style.display = "flex";
 			document.getElementById(`map${index}`).style.visibility = "visible";
-
-			document.getElementById(`map${index}`).style.transition =
-				" all 0.3s";
+			document.getElementById(`cardAndMap${PropertyID}`).style.width =
+				"650px";
+			document.getElementById(
+				`cardUniversitySearchResultInfoHover${index}`
+			).style.display = "flex";
+			document.getElementById(
+				`cardUniversitySearchResultInfoHover${index}`
+			).style.transition = " all 0.3s linear";
+			document.getElementById(
+				`containerResultHover${PropertyID}`
+			).style.display = "flex";
 		});
+
 	//hover out sobre el card para ocultar mapa
 	document
 		.getElementById(`cardAndMap${PropertyID}`)
 		.addEventListener("mouseout", () => {
+			document.getElementById(`map${index}`).style.display = "none";
 			document.getElementById(`map${index}`).style.visibility = "hidden";
-			document.getElementById(`map${index}`).style.transition =
-				" all 0.3s";
-		});
-	//hover in sobre el card para la info
-	document
-		.getElementById(`cardAndMap${PropertyID}`)
-		.addEventListener("mouseover", () => {
+			document.getElementById(`cardAndMap${PropertyID}`).style.width =
+				"400px";
 			document.getElementById(
 				`cardUniversitySearchResultInfoHover${index}`
-			).style.visibility = "visible";
+			).style.display = "none";
 
 			document.getElementById(
 				`cardUniversitySearchResultInfoHover${index}`
-			).style.transition = " all 0.3s";
-		});
-	//hover out sobre el card para ocultar la info
-	document
-		.getElementById(`cardAndMap${PropertyID}`)
-		.addEventListener("mouseout", () => {
+			).style.transition = " all 0.3s linear";
 			document.getElementById(
-				`cardUniversitySearchResultInfoHover${index}`
-			).style.visibility = "hidden";
-			document.getElementById(
-				`cardUniversitySearchResultInfoHover${index}`
-			).style.transition = " all 0.3s";
+				`containerResultHover${PropertyID}`
+			).style.display = "none";
 		});
 
 	//click en arrow  agregar descripcion completa

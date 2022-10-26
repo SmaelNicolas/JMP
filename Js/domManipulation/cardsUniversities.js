@@ -16,6 +16,7 @@ const card1 = (item, index, container) => {
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResultInfoHover${
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -28,6 +29,7 @@ const card1 = (item, index, container) => {
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
+				</div>
 				</div>
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -68,6 +70,7 @@ const card2 = (item, index, container) => {
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResultInfoHover${
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -80,6 +83,7 @@ const card2 = (item, index, container) => {
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
+				</div>
 				</div>
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -120,6 +124,7 @@ const card3 = (item, index, container) => {
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 		<div class="cardUniversitySearchResultInfoHover${
 			(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -132,6 +137,7 @@ const card3 = (item, index, container) => {
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
+				</div>
 				</div>
 				<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -172,6 +178,7 @@ const card4 = (item, index, container) => {
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 		<div class="cardUniversitySearchResultInfoHover${
 			(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -184,6 +191,7 @@ const card4 = (item, index, container) => {
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
+				</div>
 				</div>
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -224,6 +232,7 @@ const card5 = (item, index, container) => {
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 		<div class="cardUniversitySearchResultInfoHover${
 			(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -236,6 +245,7 @@ const card5 = (item, index, container) => {
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
+				</div>
 				</div>
 				<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -275,6 +285,7 @@ const card6 = (item, index, container) => {
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 		<div class="cardUniversitySearchResultInfoHover${
 			(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -287,6 +298,7 @@ const card6 = (item, index, container) => {
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
+				</div>
 				</div>
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -327,6 +339,7 @@ const card7 = (item, index, container) => {
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResultInfoHover${
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -339,6 +352,7 @@ const card7 = (item, index, container) => {
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
+				</div>
 				</div>
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -379,6 +393,7 @@ const card8 = (item, index, container) => {
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 		<div class="cardUniversitySearchResultInfoHover${
 			(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -391,6 +406,7 @@ const card8 = (item, index, container) => {
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
+				</div>
 				</div>
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -431,6 +447,7 @@ const card9 = (item, index, container) => {
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 		<div class="cardUniversitySearchResultInfoHover${
 			(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -443,6 +460,7 @@ const card9 = (item, index, container) => {
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
+				</div>
 				</div>
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -483,6 +501,7 @@ const card10 = (item, index, container) => {
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 		<div class="cardUniversitySearchResultInfoHover${
 			(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -495,6 +514,7 @@ const card10 = (item, index, container) => {
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
+				</div>
 				</div>
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -535,6 +555,7 @@ const card11 = (item, index, container) => {
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResultInfoHover${
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -547,6 +568,7 @@ const card11 = (item, index, container) => {
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
+				</div>
 				</div>
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -589,6 +611,7 @@ const card12 = (item, index, container) => {
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResultInfoHover${
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -601,6 +624,7 @@ const card12 = (item, index, container) => {
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
+				</div>
 				</div>
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -643,6 +667,7 @@ const card13 = (item, index, container) => {
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 			<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResultInfoHover${
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -655,6 +680,7 @@ const card13 = (item, index, container) => {
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
+				</div>
 				</div>
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -696,6 +722,7 @@ const card14 = (item, index, container) => {
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResultInfoHover${
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
@@ -708,6 +735,7 @@ const card14 = (item, index, container) => {
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
 					</div>
+				</div>
 				</div>
 					<div class="cardUniversitySearchResult--container cardUniversitySearchResult${
 						(index + 1) % 2 === 0 ? "Par" : "Impar"

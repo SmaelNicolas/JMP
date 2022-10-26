@@ -1,35 +1,47 @@
 .containerUniversitySearchResult {
-	width: 95%;
+	width: 1300px;
+	margin: 0 auto;
 	min-height: 500px;
 	padding-top: 20px;
-	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 }
 
 .cardAndMap--containerPar {
-	width: max-content;
+	width: 400px;
 	padding: 5px;
 	height: auto;
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: row-reverse;
 	justify-content: flex-start;
 	align-items: flex-end;
 	position: relative;
+	margin: 10px 15px 25px 15px;
 }
 
 .cardAndMap--containerImpar {
-	width: max-content;
+	width: 400px;
 	padding: 5px;
 	height: auto;
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: flex-end;
 	position: relative;
+	margin: 10px 15px 25px 15px;
+}
+
+@media only screen and (max-width: 1330px) {
+	.containerUniversitySearchResult {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 1165px) {
+	.containerUniversitySearchResult {
+		flex-direction: column;
+	}
 }
