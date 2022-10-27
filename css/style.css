@@ -41,12 +41,14 @@
 
 	/* cards NAMES */
 	--fs--name--cards--xxxbig: 55px;
+	--fs--name--cards--xxbig: 50px;
 	--fs--name--cards--xbig: 45px;
 	--fs--name--cards--big: 35px;
 	--fs--name--cards--large: 30px;
 	--fs--name--cards--medium: 28px;
 	--fs--name--cards--small: 25px;
 	--fs--name--cards--xsmall: 20px;
+	--fs--name--cards--xxsmall: 15px;
 
 	/* cards DESCRIPTION */
 	--fs--desc--cards--big: 20px;
@@ -66,12 +68,14 @@
 	:root {
 		/* cards NAMES */
 		--fs--name--cards--xxxbig: 50px;
+		--fs--name--cards--xxbig: 45px;
 		--fs--name--cards--xbig: 40px;
 		--fs--name--cards--big: 30px;
 		--fs--name--cards--large: 25px;
 		--fs--name--cards--medium: 23px;
 		--fs--name--cards--small: 20px;
 		--fs--name--cards--xsmall: 15px;
+		--fs--name--cards--xxsmall: 13px;
 
 		/* cards DESCRIPTION */
 		--fs--desc--cards--big: 15px;
