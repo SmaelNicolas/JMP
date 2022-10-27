@@ -32,11 +32,12 @@
 }
 .travelBoxSearchLabels {
 	width: 100%;
-	text-align: end;
+	text-align: center;
 	font-weight: 600;
-	font-size: 45px;
+	font-size: 65px;
 	font-family: var(--ff--Mont);
 	color: var(--clr--black);
+	text-transform: capitalize;
 }
 
 .travelBoxSearchInputsContainer {
@@ -97,12 +98,22 @@
 	z-index: 1;
 }
 
+@media only screen and (max-width: 1450px) {
+	.travelBoxSearchLabels {
+		font-size: 55px;
+	}
+}
+@media only screen and (max-width: 1230px) {
+	.travelBoxSearchLabels {
+		font-size: 48px;
+	}
+}
 @media only screen and (max-width: 1100px) {
 	.travelBoxSearchContainer {
 		width: 97%;
 	}
 }
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 1000px) {
 	.travelBoxSearchLabels {
 		font-size: 38px;
 	}
@@ -132,6 +143,6 @@
 		width: 100%;
 		text-align: center;
 		padding: 0;
-		font-size: calc(30px + 1vw);
+		font-size: calc(20px + 4vw);
 	}
 }
