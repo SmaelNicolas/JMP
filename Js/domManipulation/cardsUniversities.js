@@ -3,7 +3,7 @@ import { reduceString } from "../functions/reduceString.js";
 export const handleCardsByName = (item, index, container) => {
 	if (item.University.length <= 12) return card9(item, index, container);
 	if (item.University.length === 13) {
-		return Math.random() < 1
+		return Math.random() < 0.5
 			? card12(item, index, container)
 			: card14(item, index, container);
 	}
@@ -11,7 +11,7 @@ export const handleCardsByName = (item, index, container) => {
 	if (item.University.length === 14) return card8(item, index, container);
 	if (item.University.length === 15) return card10(item, index, container);
 	if (item.University.length === 16) {
-		return Math.random() < 1
+		return Math.random() < 0.5
 			? card5(item, index, container)
 			: card6(item, index, container);
 	}
