@@ -298,7 +298,7 @@
 .cardUniversitySearchResultN7--name {
 	color: #000000;
 	width: 60%;
-	font-size: var(--fs--name--cards--xxxbig);
+	font-size: var(--fs--name--cards--xxbig);
 	font-weight: 800;
 	text-align: start;
 	line-height: 50px;
@@ -348,7 +348,7 @@
 	color: #000000;
 	width: 50%;
 	margin-left: auto;
-	font-size: var(--fs--name--cards--xbig);
+	font-size: var(--fs--name--cards--big);
 	text-align: end;
 	padding-right: 15px;
 	font-weight: 800;
@@ -357,7 +357,7 @@
 	font-size: var(--fs--desc--cards--large);
 	margin-right: auto;
 	width: 45%;
-	text-align: center;
+	text-align: justify;
 	padding-left: 45px;
 }
 .cardUniversitySearchResultN11--name {
@@ -386,7 +386,7 @@
 	text-align: center;
 	position: absolute;
 	top: 190px;
-	left: 70px;
+	left: 80px;
 	font-weight: 800;
 }
 .cardUniversitySearchResultN12--description {
@@ -399,8 +399,8 @@
 }
 .cardUniversitySearchResultN13--name {
 	color: #000000;
-	font-size: var(--fs--name--cards--medium);
-	width: 80%;
+	font-size: var(--fs--name--cards--xxsmall);
+	width: 85%;
 	text-align: center;
 	font-weight: 800;
 }
@@ -420,8 +420,8 @@
 	padding-left: 15px;
 	font-weight: 800;
 	position: absolute;
-	top: 260px;
-	right: 110px;
+	top: 240px;
+	right: 120px;
 }
 .cardUniversitySearchResultN14--description {
 	width: 65%;
