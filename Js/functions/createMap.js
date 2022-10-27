@@ -10,7 +10,7 @@ export const createMap = async (fullAdress, index) => {
 		// Choose from Mapbox's core styles, or make your own style with Mapbox Studio
 		style: "mapbox://styles/mapbox/streets-v11",
 		center: [latitud, longitud],
-		zoom: 15,
+		zoom: 18,
 	});
 
 	const marker1 = new mapboxgl.Marker({ color: "red" })
