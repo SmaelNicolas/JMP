@@ -1,18 +1,34 @@
 import { reduceString } from "../functions/reduceString.js";
 
 export const handleCardsByName = (item, index, container) => {
-	if (item.University.length < 14) return card12(item, index, container);
-	if (item.University.length === 14) return card14(item, index, container);
-	if (item.University.length === 16) return card2(item, index, container);
-	if (item.University.length === 18) return card5(item, index, container);
-	if (item.University.length < 30) return card6(item, index, container);
-	if (item.University.length < 32) return card13(item, index, container);
-	if (item.University.length >= 32) return card11(item, index, container);
+	if (item.University.length <= 12) return card9(item, index, container);
+	if (item.University.length === 13) {
+		return Math.random() < 1
+			? card12(item, index, container)
+			: card14(item, index, container);
+	}
+
+	if (item.University.length === 14) return card8(item, index, container);
+	if (item.University.length === 15) return card10(item, index, container);
+	if (item.University.length === 16) {
+		return Math.random() < 1
+			? card5(item, index, container)
+			: card6(item, index, container);
+	}
+	if (item.University.length === 17) return card2(item, index, container);
+	if (item.University.length === 18) return card7(item, index, container);
+	if (item.University.length === 19) return card3(item, index, container);
+	if (item.University.length === 20) return card4(item, index, container);
+	if (item.University.length > 20 && item.University.length <= 30)
+		return card1(item, index, container);
+	if (item.University.length > 30 && item.University.length <= 60)
+		return card11(item, index, container);
+	if (item.University.length > 60) return card13(item, index, container);
 };
 
 const card1 = (item, index, container) => {
 	let descriptionReduced = reduceString(item.AboutUniversity);
-	let node = document.createElement("");
+	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
 	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
