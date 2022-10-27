@@ -1,5 +1,5 @@
 export const eventListenerByCards = (PropertyID, index) => {
-	document.getElementById(`cardAndMap${PropertyID}`).style.width = "400px";
+	document.getElementById(`cardAndMap${PropertyID}`).style.width = "450px";
 	//hover in sobre el card para ver mapa
 	document
 		.getElementById(`cardAndMap${PropertyID}`)
@@ -26,7 +26,7 @@ export const eventListenerByCards = (PropertyID, index) => {
 			document.getElementById(`map${index}`).style.display = "none";
 			document.getElementById(`map${index}`).style.visibility = "hidden";
 			document.getElementById(`cardAndMap${PropertyID}`).style.width =
-				"400px";
+				"450px";
 			document.getElementById(
 				`cardUniversitySearchResultInfoHover${index}`
 			).style.display = "none";
