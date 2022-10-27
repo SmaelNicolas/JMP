@@ -12,7 +12,7 @@
 }
 
 .cardAndMap--containerPar {
-	width: 400px;
+	width: 450px;
 	padding: 5px;
 	height: auto;
 	display: flex;
@@ -24,7 +24,7 @@
 }
 
 .cardAndMap--containerImpar {
-	width: 400px;
+	width: 450px;
 	padding: 5px;
 	height: auto;
 	display: flex;
@@ -41,7 +41,7 @@
 	}
 }
 
-@media only screen and (max-width: 1165px) {
+@media only screen and (max-width: 1220px) {
 	.containerUniversitySearchResult {
 		flex-direction: column;
 	}
