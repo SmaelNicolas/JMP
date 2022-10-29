@@ -1,6 +1,5 @@
 .containerUniversitySearchResult {
 	width: 1300px;
-	margin: 0 auto;
 	min-height: 500px;
 	padding-top: 20px;
 	display: flex;
@@ -11,28 +10,27 @@
 	margin-bottom: 300px;
 }
 
-.cardAndMap--containerPar {
+.cardAndMapHover {
 	width: 450px;
-	padding: 5px;
+	transition: all 0.2s linear;
 	height: auto;
 	display: flex;
-	flex-direction: row-reverse;
 	justify-content: flex-start;
 	align-items: flex-end;
 	position: relative;
-	margin: 10px 15px 25px 15px;
+}
+
+.cardAndMapHover:hover {
+	width: 650px;
+	transition: all 0.2s linear;
+}
+
+.cardAndMap--containerPar {
+	flex-direction: row-reverse;
 }
 
 .cardAndMap--containerImpar {
-	width: 450px;
-	padding: 5px;
-	height: auto;
-	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
-	align-items: flex-end;
-	position: relative;
-	margin: 10px 15px 25px 15px;
 }
 
 @media only screen and (max-width: 1330px) {
