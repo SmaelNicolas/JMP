@@ -26,7 +26,7 @@ export const getUniversitiesSearched = async (query, arrayUniversities) => {
 			(query.toLowerCase() === item.Continent.toLowerCase() ||
 				query.toLowerCase() === item.Country.toLowerCase() ||
 				query.toLowerCase() === item.City.toLowerCase() ||
-				query.toLowerCase() === item.Streets.toLowerCase() ||
+				item.Streets.toLowerCase().includes(query.toLowerCase()) ||
 				item.University.toLowerCase().includes(query.toLowerCase()) ||
 				query.toLowerCase() === item.Institution.toLowerCase()) &&
 			item
