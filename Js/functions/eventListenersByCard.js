@@ -3,26 +3,42 @@ export const eventListenerByCards = (PropertyID, index) => {
 	document
 		.getElementById(`cardAndMap${PropertyID}`)
 		.addEventListener("mouseover", () => {
-			document.getElementById(`map${index}`).style.visibility = "visible";
-			document.getElementById(
-				`cardUniversitySearchResultInfoHover${index}`
-			).style.display = "flex";
+			let windowWidth = window.innerWidth;
 			document.getElementById(
 				`containerResultHover${PropertyID}`
-			).style.display = "flex";
+			).style.opacity = "1";
+
+			const infoOnHover = document.getElementById(
+				`containerResultHover${PropertyID}`
+			);
+			const infoOnHoverStyles = window.getComputedStyle(infoOnHover);
+
+			infoOnHoverStyles.display === "none" && windowWidth < 766
+				? (document.getElementById(
+						`containerResultHover${PropertyID}`
+				  ).style.display = "flex")
+				: "";
 		});
 
 	//hover out sobre el card para ocultar mapa
 	document
 		.getElementById(`cardAndMap${PropertyID}`)
 		.addEventListener("mouseout", () => {
-			document.getElementById(`map${index}`).style.visibility = "hidden";
-			document.getElementById(
-				`cardUniversitySearchResultInfoHover${index}`
-			).style.display = "none";
+			let windowWidth = window.innerWidth;
+
 			document.getElementById(
 				`containerResultHover${PropertyID}`
-			).style.display = "none";
+			).style.opacity = "0";
+
+			const infoOnHover = document.getElementById(
+				`containerResultHover${PropertyID}`
+			);
+			const infoOnHoverStyles = window.getComputedStyle(infoOnHover);
+			infoOnHoverStyles.display === "flex" && windowWidth < 766
+				? (document.getElementById(
+						`containerResultHover${PropertyID}`
+				  ).style.display = "none")
+				: "";
 		});
 
 	//click en arrow  agregar descripcion completa
