@@ -11,18 +11,13 @@
 }
 
 .cardAndMapHover {
-	width: 450px;
+	width: 650px;
 	transition: all 0.2s linear;
 	height: auto;
 	display: flex;
-	justify-content: flex-start;
-	align-items: flex-end;
+	justify-content: center;
+	align-items: center;
 	position: relative;
-}
-
-.cardAndMapHover:hover {
-	width: 650px;
-	transition: all 0.2s linear;
 }
 
 .cardAndMap--containerPar {
@@ -37,9 +32,12 @@
 	.containerUniversitySearchResult {
 		width: 100%;
 	}
+	.cardAndMap--containerPar {
+		flex-direction: row;
+	}
 }
 
-@media only screen and (max-width: 1220px) {
+@media only screen and (max-width: 1330px) {
 	.containerUniversitySearchResult {
 		flex-direction: column;
 	}
