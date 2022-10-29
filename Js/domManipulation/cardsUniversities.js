@@ -31,7 +31,9 @@ const card1 = (item, index, container) => {
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
-	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+	}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	} cardAndMapHover">
 		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResultInfoHover${
@@ -85,7 +87,9 @@ const card2 = (item, index, container) => {
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
-	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+	}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	} cardAndMapHover">
 		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResultInfoHover${
@@ -139,7 +143,9 @@ const card3 = (item, index, container) => {
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
-	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+	}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	} cardAndMapHover">
 		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 		<div class="cardUniversitySearchResultInfoHover${
@@ -193,7 +199,9 @@ const card4 = (item, index, container) => {
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
-	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+	}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	} cardAndMapHover">
 		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 		<div class="cardUniversitySearchResultInfoHover${
@@ -247,7 +255,9 @@ const card5 = (item, index, container) => {
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
-	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+	}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	} cardAndMapHover">
 		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 		<div class="cardUniversitySearchResultInfoHover${
@@ -300,7 +310,9 @@ const card6 = (item, index, container) => {
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
-	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+	}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	} cardAndMapHover">
 		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 		<div class="cardUniversitySearchResultInfoHover${
@@ -354,7 +366,9 @@ const card7 = (item, index, container) => {
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
-	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+	}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	} cardAndMapHover">
 		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResultInfoHover${
@@ -408,7 +422,9 @@ const card8 = (item, index, container) => {
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
-	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+	}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	} cardAndMapHover">
 		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 		<div class="cardUniversitySearchResultInfoHover${
@@ -462,7 +478,9 @@ const card9 = (item, index, container) => {
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
-	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+	}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	} cardAndMapHover">
 		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 		<div class="cardUniversitySearchResultInfoHover${
@@ -516,7 +534,9 @@ const card10 = (item, index, container) => {
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
-	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+	}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	} cardAndMapHover">
 		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 		<div class="cardUniversitySearchResultInfoHover${
@@ -570,7 +590,9 @@ const card11 = (item, index, container) => {
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
-	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+	}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	} cardAndMapHover">
 		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResultInfoHover${
@@ -626,7 +648,9 @@ const card12 = (item, index, container) => {
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
-	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+	}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	} cardAndMapHover">
 		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResultInfoHover${
@@ -682,7 +706,9 @@ const card13 = (item, index, container) => {
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
-	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+	}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	} cardAndMapHover">
 		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 			<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResultInfoHover${
@@ -737,7 +763,9 @@ const card14 = (item, index, container) => {
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
-	}" class="cardAndMap--container${(index + 1) % 2 === 0 ? "Par" : "Impar"}">
+	}" class="cardAndMap--container${
+		(index + 1) % 2 === 0 ? "Par" : "Impar"
+	} cardAndMapHover">
 		<div id="containerResultHover${item.PropertyID}" class="containerResultsHover">
 				<div id="map${index}" class="map"></div>
 				<div class="cardUniversitySearchResultInfoHover${
