@@ -1,19 +1,12 @@
 export const eventListenerByCards = (PropertyID, index) => {
-	document.getElementById(`cardAndMap${PropertyID}`).style.width = "450px";
 	//hover in sobre el card para ver mapa
 	document
 		.getElementById(`cardAndMap${PropertyID}`)
 		.addEventListener("mouseover", () => {
-			document.getElementById(`map${index}`).style.display = "flex";
 			document.getElementById(`map${index}`).style.visibility = "visible";
-			document.getElementById(`cardAndMap${PropertyID}`).style.width =
-				"650px";
 			document.getElementById(
 				`cardUniversitySearchResultInfoHover${index}`
 			).style.display = "flex";
-			document.getElementById(
-				`cardUniversitySearchResultInfoHover${index}`
-			).style.transition = " all 0.3s linear";
 			document.getElementById(
 				`containerResultHover${PropertyID}`
 			).style.display = "flex";
@@ -23,17 +16,10 @@ export const eventListenerByCards = (PropertyID, index) => {
 	document
 		.getElementById(`cardAndMap${PropertyID}`)
 		.addEventListener("mouseout", () => {
-			document.getElementById(`map${index}`).style.display = "none";
 			document.getElementById(`map${index}`).style.visibility = "hidden";
-			document.getElementById(`cardAndMap${PropertyID}`).style.width =
-				"450px";
 			document.getElementById(
 				`cardUniversitySearchResultInfoHover${index}`
 			).style.display = "none";
-
-			document.getElementById(
-				`cardUniversitySearchResultInfoHover${index}`
-			).style.transition = " all 0.3s linear";
 			document.getElementById(
 				`containerResultHover${PropertyID}`
 			).style.display = "none";
