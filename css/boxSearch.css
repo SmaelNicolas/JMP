@@ -23,7 +23,7 @@
 }
 
 .travelBoxSearchLabelsContainer {
-	width: 40%;
+	width: 60%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -42,16 +42,24 @@
 	text-transform: capitalize;
 }
 
+.travelBoxSearchLabelsSpan {
+	color: var(--clr--purple);
+}
+
 .travelBoxSearchInputsContainer {
+	width: 40%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
+}
+
+.travelBoxSearchInputWithIcon {
 	position: relative;
 }
 
 .travelBoxSearchInputs {
-	width: 200px;
+	width: 300px;
 	padding: 10px;
 	padding-left: 50px;
 	margin-top: 10px;
@@ -62,19 +70,17 @@
 	border-bottom: 2px solid var(--clr--light--grey);
 	font-family: var(--ff--Mont);
 	text-transform: capitalize;
-	/* border: 1px solid var(--clr--hard--grey); */
 	border: none;
 	box-shadow: var(--shadow--3d--medium);
 }
 .travelBoxSearchSelector {
-	width: 262px;
+	width: 360px;
 	padding: 10px;
 	margin-top: 15px;
 	color: var(--clr--hard--grey);
 	border-radius: 5px;
 	font-family: var(--ff--Mont);
 	text-transform: uppercase;
-	/* border: 1px solid var(--clr--hard--grey); */
 	border: none;
 	box-shadow: var(--shadow--3d--medium);
 	text-align: center;
@@ -86,8 +92,8 @@
 	width: 30px;
 	height: 30px;
 	position: absolute;
-	top: 15px;
-	left: 7px;
+	top: 13px;
+	left: 12px;
 }
 
 .travelBoxSearchInputsArrow {
@@ -114,10 +120,22 @@
 	.travelBoxSearchContainer {
 		width: 97%;
 	}
+	.travelBoxSearchInputs {
+		width: 280px;
+	}
+	.travelBoxSearchSelector {
+		width: 340px;
+	}
 }
 @media only screen and (max-width: 1000px) {
 	.travelBoxSearchLabels {
 		font-size: 38px;
+	}
+	.travelBoxSearchInputs {
+		width: 230px;
+	}
+	.travelBoxSearchSelector {
+		width: 290px;
 	}
 }
 
@@ -127,13 +145,7 @@
 	}
 }
 
-@media only screen and (max-width: 640px) {
-	.travelBoxSearchLabels {
-		font-size: 25px;
-	}
-}
-
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 850px) {
 	.travelBoxSearchContainer {
 		width: 100%;
 		flex-direction: column;
@@ -146,5 +158,20 @@
 		text-align: center;
 		padding: 0;
 		font-size: calc(20px + 4vw);
+	}
+	.travelBoxSearchInputs {
+		width: 300px;
+	}
+	.travelBoxSearchSelector {
+		width: 360px;
+	}
+}
+
+@media only screen and (max-width: 410px) {
+	.travelBoxSearchInputs {
+		width: 220px;
+	}
+	.travelBoxSearchSelector {
+		width: 280px;
 	}
 }
