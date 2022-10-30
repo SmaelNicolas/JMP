@@ -1,5 +1,9 @@
+import { searchByCountries } from "../functions/searchByCountries.js";
+
 export const addCountryToSelector = () => {
-	let travelSearchSelector = document.getElementById("travelSearchSelector");
+	let travelSearchSelector = document.getElementById(
+		"travelBoxSearchListCountriesContainer"
+	);
 
 	fetch("./exampleKeywords.json")
 		.then((res) => res.json())
@@ -10,16 +14,18 @@ export const addCountryToSelector = () => {
 			return uni.Country;
 		});
 		let uniqueArrayCountrys = [...new Set(arrayCountrys)];
+		uniqueArrayCountrys = uniqueArrayCountrys.sort();
 		renderSelectors(uniqueArrayCountrys);
 	};
 
 	const renderSelectors = (arrayCountrys) => {
 		arrayCountrys.map((country) => {
-			let node = document.createElement("option");
-			node.value = country;
+			let node = document.createElement("div");
+			node.id = country;
 			node.innerHTML = country;
-			node.classList.add("travelSearchSelectorOption");
+			node.classList.add("travelBoxSearchListCountriesItem");
 			travelSearchSelector.appendChild(node);
 		});
+		searchByCountries();
 	};
 };
