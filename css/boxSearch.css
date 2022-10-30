@@ -23,20 +23,17 @@
 }
 
 .travelBoxSearchLabelsContainer {
-	width: 60%;
+	width: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
-.travelBoxSearchLabelsContainerReverse {
-	flex-direction: column-reverse;
-}
 .travelBoxSearchLabels {
 	width: 100%;
-	text-align: center;
-	font-weight: 600;
-	font-size: 65px;
+	text-align: end;
+	font-weight: 900;
+	font-size: 75px;
 	font-family: var(--ff--Mont);
 	color: var(--clr--black);
 	text-transform: capitalize;
