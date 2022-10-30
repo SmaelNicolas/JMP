@@ -106,6 +106,67 @@
 	z-index: 1;
 }
 
+.travelBoxSearchCountrysContainer {
+	position: relative;
+}
+
+.travelBoxSearchListCountriesContainer {
+	width: 360px;
+	height: 200px;
+	box-shadow: var(--shadow--3d--medium);
+	border-radius: 5px;
+	background-color: whitesmoke;
+	-ms-overflow-style: none; /* for Internet Explorer, Edge */
+	scrollbar-width: none; /* for Firefox */
+	overflow-y: scroll;
+	position: absolute;
+	z-index: 100;
+	display: none;
+}
+.travelBoxSearchListCountriesContainer::-webkit-scrollbar {
+	display: none; /* Safari and Chrome */
+}
+
+.ListCountriesContainerHideShow {
+	display: unset;
+}
+
+.travelBoxSearchListCountriesClose {
+	position: sticky;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	text-align: end;
+	padding: 15px;
+	font-size: 15px;
+	height: 15px;
+	background-color: white;
+	color: var(--clr--purple);
+	font-weight: 900;
+	font-family: var(--ff--Mont);
+	cursor: pointer;
+}
+
+.travelBoxSearchListCountriesItem {
+	padding: 5px;
+	margin: 5px;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+	font-family: var(--ff--Mont);
+	font-weight: 700;
+}
+
+.travelBoxSearchListCountriesItem:hover {
+	background-color: var(--clr--purple);
+	color: white;
+}
+
+.travelBoxSearchListCountriesItemSelected {
+	background-color: var(--clr--purple);
+	color: white;
+}
+
 @media only screen and (max-width: 1450px) {
 	.travelBoxSearchLabels {
 		font-size: 55px;
