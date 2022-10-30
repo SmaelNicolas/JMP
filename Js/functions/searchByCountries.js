@@ -8,6 +8,9 @@ export const searchByCountries = () => {
 		.then((res) => (dataUniversities = res));
 
 	const selectorCountries = document.getElementById("travelSearchSelector");
+	const separatorContainer = document.getElementById(
+		"separatorContainerForCards"
+	);
 	const selectorCountriesList = document.getElementById(
 		"travelBoxSearchListCountriesContainer"
 	);
@@ -21,6 +24,7 @@ export const searchByCountries = () => {
 	let arrayCountries = [];
 
 	selectorCountries.addEventListener("click", () => {
+		separatorContainer.classList.toggle("getBigSmall");
 		selectorCountriesList.classList.toggle(
 			"ListCountriesContainerHideShow"
 		);
