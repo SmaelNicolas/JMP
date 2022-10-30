@@ -1,5 +1,5 @@
 .containerUniversitySearchResult {
-	width: 1300px;
+	width: 100%;
 	min-height: 500px;
 	padding-top: 20px;
 	display: flex;
@@ -11,7 +11,7 @@
 }
 
 .cardAndMapHover {
-	width: 650px;
+	width: 550px;
 	transition: all 0.2s linear;
 	height: auto;
 	display: flex;
@@ -28,7 +28,21 @@
 	flex-direction: row;
 }
 
-@media only screen and (max-width: 1330px) {
+@media only screen and (min-width: 1300px) {
+	.containerUniversitySearchResult {
+		width: 1300px;
+	}
+	.cardAndMapHover {
+		width: 600px;
+		transition: all 0.2s linear;
+		height: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+	}
+}
+@media only screen and (max-width: 1133px) {
 	.containerUniversitySearchResult {
 		width: 100%;
 	}
@@ -37,7 +51,7 @@
 	}
 }
 
-@media only screen and (max-width: 1330px) {
+@media only screen and (max-width: 1133px) {
 	.containerUniversitySearchResult {
 		flex-direction: column;
 	}
