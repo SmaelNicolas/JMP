@@ -17,6 +17,8 @@ export const getUniversitiesSearched = async (query, arrayUniversities) => {
 					keyword.toLowerCase() === word &&
 					universitiesWithKeyword.push(uni)
 			);
+			uni.Country.toLowerCase().includes(word) &&
+				universitiesWithKeyword.push(uni);
 		});
 	});
 
