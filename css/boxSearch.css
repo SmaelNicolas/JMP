@@ -74,8 +74,9 @@
 	box-shadow: var(--shadow--3d--medium);
 }
 .travelBoxSearchSelector {
-	width: 360px;
+	width: 335px;
 	padding: 10px;
+	padding-left: 15px;
 	margin-top: 15px;
 	color: var(--clr--hard--grey);
 	border-radius: 5px;
@@ -83,8 +84,7 @@
 	text-transform: uppercase;
 	border: none;
 	box-shadow: var(--shadow--3d--medium);
-	text-align: center;
-	color: #000;
+	text-align: left;
 	font-weight: 700;
 }
 
@@ -111,7 +111,8 @@
 }
 
 .travelBoxSearchListCountriesContainer {
-	width: 360px;
+	width: 340px;
+	padding: 0px 10px;
 	height: 200px;
 	box-shadow: var(--shadow--3d--medium);
 	border-radius: 5px;
@@ -133,13 +134,14 @@
 
 .travelBoxSearchListCountriesClose {
 	position: sticky;
+	height: 0;
+	line-height: 5px;
 	top: 0px;
 	right: 0px;
-	left: 0px;
 	text-align: end;
-	padding: 15px;
+	padding: 10px;
+	margin: 0px;
 	font-size: 15px;
-	height: 15px;
 	background-color: white;
 	color: var(--clr--purple);
 	font-weight: 900;
@@ -149,12 +151,12 @@
 
 .travelBoxSearchListCountriesItem {
 	padding: 5px;
-	margin: 5px;
 	border-radius: 5px;
-	text-align: center;
 	cursor: pointer;
 	font-family: var(--ff--Mont);
 	font-weight: 700;
+	text-align: left;
+	margin: 5px 0px;
 }
 
 .travelBoxSearchListCountriesItem:hover {
@@ -185,7 +187,10 @@
 		width: 280px;
 	}
 	.travelBoxSearchSelector {
-		width: 340px;
+		width: 315px;
+	}
+	.travelBoxSearchListCountriesContainer {
+		width: 320px;
 	}
 }
 @media only screen and (max-width: 1000px) {
@@ -196,7 +201,10 @@
 		width: 230px;
 	}
 	.travelBoxSearchSelector {
-		width: 290px;
+		width: 265px;
+	}
+	.travelBoxSearchListCountriesContainer {
+		width: 270px;
 	}
 }
 
@@ -224,7 +232,10 @@
 		width: 300px;
 	}
 	.travelBoxSearchSelector {
-		width: 360px;
+		width: 330px;
+	}
+	.travelBoxSearchListCountriesContainer {
+		width: 335px;
 	}
 }
 
@@ -233,6 +244,9 @@
 		width: 220px;
 	}
 	.travelBoxSearchSelector {
-		width: 280px;
+		width: 250px;
+	}
+	.travelBoxSearchListCountriesContainer {
+		width: 255px;
 	}
 }
