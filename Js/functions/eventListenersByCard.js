@@ -1,8 +1,10 @@
-export const eventListenerByCards = (PropertyID, index) => {
+import { createMap } from "./createMap.js";
+
+export const eventListenerByCards = (PropertyID, index, fullAdress) => {
 	//hover in sobre el card para ver mapa
 	document
 		.getElementById(`cardAndMap${PropertyID}`)
-		.addEventListener("mouseover", () => {
+		.addEventListener("mouseenter", () => {
 			let windowWidth = window.innerWidth;
 			document.getElementById(
 				`containerResultHover${PropertyID}`
@@ -18,12 +20,13 @@ export const eventListenerByCards = (PropertyID, index) => {
 						`containerResultHover${PropertyID}`
 				  ).style.display = "flex")
 				: "";
+			createMap(fullAdress, index);
 		});
 
 	//hover out sobre el card para ocultar mapa
 	document
 		.getElementById(`cardAndMap${PropertyID}`)
-		.addEventListener("mouseout", () => {
+		.addEventListener("mouseleave", () => {
 			let windowWidth = window.innerWidth;
 
 			document.getElementById(

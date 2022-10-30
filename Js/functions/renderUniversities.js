@@ -14,9 +14,9 @@ export const renderUniversities = (universitiesSearch) => {
 
 		//agrega el mapa para cada card
 		let fullAdress = `${university.Streets} ${university.City} ${university.Country}`;
-		createMap(fullAdress, index);
+		// createMap(fullAdress, index);
 
 		//agrega los event listener arrow, hover
-		eventListenerByCards(university.PropertyID, index);
+		eventListenerByCards(university.PropertyID, index, fullAdress);
 	});
 };
