@@ -34,6 +34,7 @@ export const searchByCountries = () => {
 		selectorCountriesList.classList.toggle(
 			"ListCountriesContainerHideShow"
 		);
+		separatorContainer.classList.toggle("getBigSmall");
 	});
 
 	arrayCountryItems.map((item) => {
