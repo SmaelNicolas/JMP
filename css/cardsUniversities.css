@@ -117,6 +117,8 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	padding-bottom: 15px;
+	margin-bottom: 3px;
 }
 
 .cardUniversitySearchResult--country {
@@ -195,6 +197,7 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	font-family: var(--ff--Mont);
+	position: relative;
 }
 
 .cardUniversitySearchResult--center--hide {
@@ -379,13 +382,13 @@
 .cardUniversitySearchResultN12--name {
 	color: #000000;
 	transform: rotate(-90deg) translate(15%, -130px);
-	width: max-content;
+	width: 250px;
 	font-size: var(--fs--name--cards--small);
 	text-transform: capitalize;
-	text-align: center;
+	text-align: left;
 	position: absolute;
-	top: 190px;
-	left: 80px;
+	top: 70px;
+	left: 20px;
 	font-weight: 900;
 }
 .cardUniversitySearchResultN12--description {
@@ -412,15 +415,15 @@
 .cardUniversitySearchResultN14--name {
 	color: #000000;
 	transform: rotate(-90deg) translate(40%, 150px);
-	width: max-content;
+	width: 250px;
 	font-size: var(--fs--name--cards--small);
 	margin-right: auto;
 	text-align: start;
 	padding-left: 15px;
 	font-weight: 900;
 	position: absolute;
-	top: 240px;
-	right: 120px;
+	top: 140px;
+	right: 55px;
 }
 .cardUniversitySearchResultN14--description {
 	width: 65%;
@@ -436,6 +439,12 @@
 	}
 	.cardUniversitySearchResultInfoHoverImpar {
 		width: max-content;
+	}
+	.cardUniversitySearchResultInfoContainerOne {
+		width: 100%;
+	}
+	.cardUniversitySearchResultInfoContainerTwo {
+		width: 100%;
 	}
 }
 @media only screen and (max-width: 1065px) {
@@ -469,7 +478,7 @@
 	}
 
 	.containerResultsHover {
-		width: 85% !important;
+		width: 95%;
 		height: 150px;
 		flex-direction: row-reverse;
 		justify-content: center;
@@ -484,6 +493,7 @@
 		width: 100px;
 		height: 180px;
 		justify-content: space-evenly;
+		align-items: center;
 		margin-bottom: 50px;
 	}
 	.cardUniversitySearchResultInfoHoverPar {
@@ -491,6 +501,7 @@
 		width: 100px;
 		height: 180px;
 		justify-content: space-evenly;
+		align-items: center;
 		margin-bottom: 50px;
 	}
 }
@@ -503,6 +514,9 @@
 @media only screen and (max-width: 490px) {
 	.containerGeneratedMapAndCard {
 		width: 100%;
+	}
+	.containerResultsHover {
+		width: 90% !important;
 	}
 }
 @media only screen and (max-width: 440px) {
