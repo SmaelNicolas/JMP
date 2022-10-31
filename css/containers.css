@@ -28,6 +28,16 @@
 	flex-direction: row;
 }
 
+.containerMessagesTravelSection {
+	width: 100%;
+	text-align: center;
+	font-family: var(--ff--Mont);
+	font-weight: 700;
+	font-size: 30px;
+	color: var(--clr--purple);
+	text-transform: capitalize;
+}
+
 @media only screen and (min-width: 1300px) {
 	.containerUniversitySearchResult {
 		width: 1300px;
