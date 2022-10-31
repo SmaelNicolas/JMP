@@ -27,7 +27,7 @@ export const searchByCountries = () => {
 	let arrayCountries = [];
 
 	selectorCountries.addEventListener("click", () => {
-		separatorContainer.classList.toggle("getBigSmall");
+		// separatorContainer.classList.toggle("getBigSmall");
 		containerSearch.classList.toggle("getBiggerHeight");
 		selectorCountriesList.classList.toggle(
 			"ListCountriesContainerHideShow"
