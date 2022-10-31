@@ -21,6 +21,16 @@ export const getUniversitiesSearched = async (query, arrayUniversities) => {
 			);
 			uni.Country.toLowerCase().includes(word) &&
 				universitiesWithKeyword.push(uni);
+			uni.University.toLowerCase().includes(word) &&
+				universitiesWithKeyword.push(uni);
+			uni.Institution.toLowerCase().includes(word) &&
+				universitiesWithKeyword.push(uni);
+			uni.City.toLowerCase().includes(word) &&
+				universitiesWithKeyword.push(uni);
+			uni.Continent.toLowerCase().includes(word) &&
+				universitiesWithKeyword.push(uni);
+			uni.Streets.toLowerCase().includes(word) &&
+				universitiesWithKeyword.push(uni);
 		});
 	});
 
