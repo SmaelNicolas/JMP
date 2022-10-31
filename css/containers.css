@@ -30,6 +30,7 @@
 
 .containerMessagesTravelSection {
 	width: 100%;
+	padding: 50px 0px;
 	text-align: center;
 	font-family: var(--ff--Mont);
 	font-weight: 700;
