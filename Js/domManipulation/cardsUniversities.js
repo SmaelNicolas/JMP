@@ -61,7 +61,7 @@ const card1 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN1--name">${item.University}</div>
 								<div class="cardUniversitySearchResultN1--description " >${descriptionReduced}
 								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 						</div>
@@ -69,7 +69,7 @@ const card1 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN1--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN1--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 						</div>
@@ -117,7 +117,7 @@ const card2 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN2--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN2--description " >${descriptionReduced}
 							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 							</div>
 							</div>
 						</div>
@@ -125,7 +125,7 @@ const card2 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN2--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN2--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 						</div>
@@ -172,7 +172,7 @@ const card3 = (item, index, container) => {
 					<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 						<div class="cardUniversitySearchResultN3--description " >${descriptionReduced}
 							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 							</div>
 						</div>
 						<div class="cardUniversitySearchResultN3--name">${item.University}</div>
@@ -180,7 +180,7 @@ const card3 = (item, index, container) => {
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN3--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 							<div class="cardUniversitySearchResultN3--name">${item.University}</div>
@@ -229,7 +229,7 @@ const card4 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN4--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN4--description " >${descriptionReduced}
 								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 						</div>
@@ -237,7 +237,7 @@ const card4 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN4--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN4--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 						</div>
@@ -285,7 +285,7 @@ const card5 = (item, index, container) => {
 						<div class="cardUniversitySearchResultN5--name">${item.University}</div>
 						<div class="cardUniversitySearchResultN5--description " >${descriptionReduced}
 							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 							</div>
 						</div>
 					</div>
@@ -293,7 +293,7 @@ const card5 = (item, index, container) => {
 						<div class="cardUniversitySearchResultN5--name">${item.University}</div>
 						<div class="cardUniversitySearchResultN5--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 						</div>
 					</div>
@@ -340,7 +340,7 @@ const card6 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN6--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN6--description " >${descriptionReduced}
 								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 						</div>
@@ -348,7 +348,7 @@ const card6 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN6--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN6--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 						</div>
@@ -396,7 +396,7 @@ const card7 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN7--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN7--description " >${descriptionReduced}
 								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 						</div>
@@ -404,7 +404,7 @@ const card7 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN7--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN7--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 						</div>
@@ -451,7 +451,7 @@ const card8 = (item, index, container) => {
 						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 							<div class="cardUniversitySearchResultN8--description " >${descriptionReduced}
 								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 							<div class="cardUniversitySearchResultN8--name">${item.University}</div>
@@ -459,7 +459,7 @@ const card8 = (item, index, container) => {
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN8--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 							<div class="cardUniversitySearchResultN8--name">${item.University}</div>
@@ -507,7 +507,7 @@ const card9 = (item, index, container) => {
 						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 							<div class="cardUniversitySearchResultN9--description " >${descriptionReduced}
 								<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 							<div class="cardUniversitySearchResultN9--name">${item.University}</div>
@@ -515,7 +515,7 @@ const card9 = (item, index, container) => {
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN9--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 							<div class="cardUniversitySearchResultN9--name">${item.University}</div>
@@ -563,7 +563,7 @@ const card10 = (item, index, container) => {
 						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 							<div class="cardUniversitySearchResultN10--description " >${descriptionReduced}
 							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 							</div>
 							</div>
 							<div class="cardUniversitySearchResultN10--name">${item.University}</div>
@@ -571,7 +571,7 @@ const card10 = (item, index, container) => {
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN10--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 							<div class="cardUniversitySearchResultN10--name">${item.University}</div>
@@ -620,7 +620,7 @@ const card11 = (item, index, container) => {
 						<div class="cardUniversitySearchResultN11--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN11--description " >${descriptionReduced}
 							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 							</div>
 							</div>
 						</div>
@@ -630,7 +630,7 @@ const card11 = (item, index, container) => {
 								item.AboutUniversity
 							}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 						</div>
@@ -677,7 +677,7 @@ const card12 = (item, index, container) => {
 						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 							<div class="cardUniversitySearchResultN12--description " >${descriptionReduced}
 							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 							</div>
 							</div>
 							<div class="cardUniversitySearchResultN12--name">${item.University}</div>
@@ -687,7 +687,7 @@ const card12 = (item, index, container) => {
 								item.AboutUniversity
 							}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 							<div class="cardUniversitySearchResultN12--name">${item.University}</div>
@@ -736,7 +736,7 @@ const card13 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN13--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN13--description " >${descriptionReduced}
 							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 							</div></div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
@@ -745,7 +745,7 @@ const card13 = (item, index, container) => {
 								item.AboutUniversity
 							}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 						</div>
@@ -792,7 +792,7 @@ const card14 = (item, index, container) => {
 						<div class="cardUniversitySearchResult--center" id="cardUniversitySearchResult--centerShort${index}">
 							<div class="cardUniversitySearchResultN14--description " >${descriptionReduced}
 							<div id="cardUniversitySearchResultArrowMore${index}" class="cardUniversitySearchResultArrowMore">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 							</div></div>
 							<div class="cardUniversitySearchResultN14--name">${item.University}</div>
 						</div>
@@ -801,7 +801,7 @@ const card14 = (item, index, container) => {
 								item.AboutUniversity
 							}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
 							</div>
 							<div class="cardUniversitySearchResultN14--name">${item.University}</div>
