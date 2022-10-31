@@ -56,19 +56,17 @@
 }
 
 .travelBoxSearchInputs {
+	-webkit-appearance: none;
 	width: 300px;
 	padding: 10px;
 	padding-left: 50px;
 	margin-top: 10px;
 	color: var(--clr--hard--grey);
 	border-radius: 5px;
-	border: 1px solid var(--clr--xlight--grey);
-	border-left: 2px solid var(--clr--light--grey);
-	border-bottom: 2px solid var(--clr--light--grey);
+	border: 2px solid var(--clr--medium--grey);
 	font-family: var(--ff--Mont);
 	text-transform: capitalize;
-	border: none;
-	box-shadow: var(--shadow--3d--medium);
+	/* box-shadow: var(--shadow--3d--medium); */
 }
 .travelBoxSearchSelector {
 	width: 335px;
@@ -80,7 +78,7 @@
 	font-family: var(--ff--Mont);
 	text-transform: uppercase;
 	border: none;
-	box-shadow: var(--shadow--3d--medium);
+	border: 2px solid var(--clr--medium--grey);
 	text-align: left;
 	font-weight: 700;
 	cursor: pointer;
