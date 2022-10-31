@@ -141,10 +141,13 @@
 	margin: 0px;
 	font-size: 15px;
 	background-color: white;
-	color: var(--clr--purple);
+	color: var(--clr--hard--grey);
 	font-weight: 900;
 	font-family: var(--ff--Mont);
 	cursor: pointer;
+}
+.travelBoxSearchListCountriesClose:hover {
+	color: var(--clr--purple);
 }
 
 .travelBoxSearchListCountriesItem {
@@ -157,11 +160,11 @@
 	text-align: left;
 	margin: 5px 0px;
 	border-radius: 15px;
+	color: var(--clr--hard--grey);
 }
 
 .travelBoxSearchListCountriesItem:hover {
-	background-color: var(--clr--purple);
-	color: white;
+	color: var(--clr--purple);
 }
 
 .travelBoxSearchListCountriesItemSelected {
