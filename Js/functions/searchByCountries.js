@@ -3,6 +3,8 @@ import { getUniversitiesSearched } from "./searchUniversities.js";
 
 export const searchByCountries = () => {
 	let container = document.getElementById("containerUniversitySearchResult");
+	let containerSearch = document.getElementById("travelBoxSearchContainer");
+
 	let dataUniversities = [];
 	fetch("./exampleKeywords.json")
 		.then((res) => res.json())
@@ -15,7 +17,7 @@ export const searchByCountries = () => {
 	const selectorCountriesList = document.getElementById(
 		"travelBoxSearchListCountriesContainer"
 	);
-	const closeIcon = document.getElementById("closeListCountries");
+	// const closeIcon = document.getElementById("closeListCountries");
 
 	const countryItems = document.getElementsByClassName(
 		"travelBoxSearchListCountriesItem"
@@ -26,17 +28,18 @@ export const searchByCountries = () => {
 
 	selectorCountries.addEventListener("click", () => {
 		separatorContainer.classList.toggle("getBigSmall");
+		containerSearch.classList.toggle("getBiggerHeight");
 		selectorCountriesList.classList.toggle(
 			"ListCountriesContainerHideShow"
 		);
 	});
 
-	closeIcon.addEventListener("click", () => {
-		selectorCountriesList.classList.toggle(
-			"ListCountriesContainerHideShow"
-		);
-		separatorContainer.classList.toggle("getBigSmall");
-	});
+	// closeIcon.addEventListener("click", () => {
+	// 	selectorCountriesList.classList.toggle(
+	// 		"ListCountriesContainerHideShow"
+	// 	);
+	// 	separatorContainer.classList.toggle("getBigSmall");
+	// });
 
 	arrayCountryItems.map((item) => {
 		item.addEventListener("click", () => {
