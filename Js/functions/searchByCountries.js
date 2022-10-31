@@ -62,7 +62,7 @@ export const searchByCountries = () => {
 					);
 				} else {
 					container.innerHTML = "";
-					renderSearchMessage();
+					// renderSearchMessage();
 				}
 			}
 		});
