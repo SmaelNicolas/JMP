@@ -2,6 +2,7 @@ import { renderSearchMessage } from "./renderSearchMessage.js";
 import { getUniversitiesSearched } from "./searchUniversities.js";
 
 export const searchByCountries = () => {
+	let container = document.getElementById("containerUniversitySearchResult");
 	let dataUniversities = [];
 	fetch("./exampleKeywords.json")
 		.then((res) => res.json())
@@ -54,12 +55,15 @@ export const searchByCountries = () => {
 				arrayCountries = arrayCountries.filter(
 					(country) => country !== item.getAttribute("id")
 				);
-				arrayCountries.length > 0
-					? getUniversitiesSearched(
-							arrayCountries.join(" "),
-							dataUniversities
-					  )
-					: renderSearchMessage();
+				if (arrayCountries.length > 0) {
+					getUniversitiesSearched(
+						arrayCountries.join(" "),
+						dataUniversities
+					);
+				} else {
+					container.innerHTML = "";
+					renderSearchMessage();
+				}
 			}
 		});
 	});
