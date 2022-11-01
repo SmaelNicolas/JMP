@@ -1,0 +1,2358 @@
+[
+  {
+    "Continent": "",
+    "Country": "Afghanistan",
+    "City": "Kabul",
+    "Streets": "Parwan-2",
+    "Institution": "Private",
+    "PropertyID": "00000001_UNIVERSITIES",
+    "University": "Kardan University",
+    "AboutInstitution": "Founded 2002",
+    "Link": "http://www.kardan.edu.af",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_10141_1.jpg",
+      "https://whed.net/images/IAUMembers/s_10141_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Albania",
+    "City": "Gjirokastra",
+    "Streets": "Lagja \"18 Shtatori\"",
+    "Institution": "Public",
+    "PropertyID": "00000002_UNIVERSITIES",
+    "University": "Eqrem Çabej University of Gjirokstra",
+    "AboutInstitution": "Founded as the Higher Pedagogical Institute in 1971. Earned university status and present title in 1991",
+    "Link": "http://www.uogj.edu.al",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_19892_1.png",
+      "https://whed.net/images/IAUMembers/s_19892_2.png"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Albania",
+    "City": "Tirana",
+    "Streets": "Rr. Jordan Misja",
+    "Institution": "Private",
+    "PropertyID": "00000003_UNIVERSITIES",
+    "University": "University College Bedër",
+    "AboutInstitution": "Founded in 2011",
+    "Link": "http://beder.edu.al",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_23044_1.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Andorra",
+    "City": "Sant Julià de Lòria",
+    "Streets": "Plaça de la Germandat 7",
+    "Institution": "Public",
+    "PropertyID": "00000004_UNIVERSITIES",
+    "University": "University of Andorra",
+    "AboutInstitution": "Higher education in Andorra started in 1988 with two faculties: the School of Nursing and the School of Computer Systems. The University of Andorra was formally created by law in July 1997. Now, the University of Andorra is constituted by public centres devoted to higher education.",
+    "Link": "http://www.uda.ad",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_19319_1.jpg"
+    ]
+  },
+  {
+    "Continent": "South America",
+    "Country": "Argentina",
+    "City": "Buenos Aires",
+    "Streets": "Rodríguez Peña 640",
+    "Institution": "Private",
+    "PropertyID": "00000005_UNIVERSITIES",
+    "University": "University of Salvador",
+    "AboutInstitution": "Founded 1944 as Instituto Superior de Filosofía, reorganized as faculty 1954 and officially recognized as University 1956. Since 1975, it is administered by a Civil Association",
+    "Link": "http://www.usal.edu.ar",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_17687_4.jpg",
+      "https://whed.net/images/IAUMembers/s_17687_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Armenia",
+    "City": "Yerevan",
+    "Streets": "Koryun 2",
+    "Institution": "Public",
+    "PropertyID": "00000006_UNIVERSITIES",
+    "University": "Yerevan State Medical University after Mkhitar Heratsi",
+    "AboutInstitution": "Founded 1920, acquired present status and title 1995",
+    "Link": "http://www.ysmu.am",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_21705_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Armenia",
+    "City": "Yerevan",
+    "Streets": "Alex Manoogian Street 1",
+    "Institution": "Public",
+    "PropertyID": "00000007_UNIVERSITIES",
+    "University": "Yerevan State University",
+    "AboutInstitution": "Founded 1919.",
+    "Link": "http://www.ysu.am",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_21707_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Oceania",
+    "Country": "Australia",
+    "City": "Wollongong",
+    "Streets": "Administrative Building\rNorthfields Avenue",
+    "Institution": "Public",
+    "PropertyID": "00000008_UNIVERSITIES",
+    "University": "University of Wollongong",
+    "AboutInstitution": "Founded 1951 as Division of New South Wales University of Technology. Became later College of University of New South Wales. In 1975 University of Wollongong was established as an autonomous institution.",
+    "Link": "http://www.uow.edu.au",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_20653_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Oceania",
+    "Country": "Australia",
+    "City": "Penrith",
+    "Streets": "Locked Bag 1797",
+    "Institution": "Public",
+    "PropertyID": "00000009_UNIVERSITIES",
+    "University": "Western Sydney University",
+    "AboutInstitution": "Founded 1989 (University of Western Sydney) as a federated network of three members (UWS Hawkesbury, UWS Macarthur, and UWS Nepean) under the banner of the University of Western Sydney. In 2000 the federated network became a unified entity with six campuses. Rebranded in 2015 as Western Sydney University",
+    "Link": "http://www.uws.edu.au",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_20636_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Austria",
+    "City": "Salzburg",
+    "Streets": "Kapitelgasse 4-6",
+    "Institution": "Public",
+    "PropertyID": "00000010_UNIVERSITIES",
+    "University": "Paris Lodron University of Salzburg",
+    "AboutInstitution": "Founded 1617 as School by Archbishop Paris Lodron, became University 1622, dissolved 1810. Re-established 1962. A State institution financed by the Federal Ministry of Education, Science and Culture.",
+    "Link": "https://www.plus.ac.at",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_19366_1.jpg",
+      "https://whed.net/images/IAUMembers/s_19366_1.png",
+      "https://whed.net/images/IAUMembers/s_19366_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Austria",
+    "City": "Graz",
+    "Streets": "Universitätsplatz 3",
+    "Institution": "Public",
+    "PropertyID": "00000011_UNIVERSITIES",
+    "University": "University of Graz",
+    "AboutInstitution": "Founded 1585 with faculties of philosophy and theology in a Jesuit College. Became lyceum 1782. Re-established as Karl-Franzens Universität 1827. Moved to present campus 1870. Karl-Franzens Universität is an autonomous university under the jurisdiction of the Federal Ministry of Education, Science and Culture.",
+    "Link": "http://www.uni-graz.at",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_10146_1.jpg",
+      "https://whed.net/images/IAUMembers/s_10146_2.jpg",
+      "https://whed.net/images/IAUMembers/s_10146_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Austria",
+    "City": "Wien",
+    "Streets": "Welthandelsplatz 1",
+    "Institution": "Public",
+    "PropertyID": "00000012_UNIVERSITIES",
+    "University": "Vienna University of Economics and Business",
+    "AboutInstitution": "Founded 1898 as Imperial Export Academy, soon took on the characteristics of a university. Received the right to confer doctorates in 1930. Became Vienna University of Economics and Business Administration in 1975. Gained full institutional autonomy in 2004 through the University Act of 2002. Earned current title (Vienna University of Economics and Business) in 2009",
+    "Link": "http://www.wu.ac.at",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_21289_1.jpg",
+      "https://whed.net/images/IAUMembers/s_21289_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Azerbaijan",
+    "City": "Baku",
+    "Streets": "Istiglalliyyat 31",
+    "Institution": "Private",
+    "PropertyID": "00000013_UNIVERSITIES",
+    "University": "Western Caspian University",
+    "AboutInstitution": "Founded 1991. Was also known as Western University",
+    "Link": "http://wcu.edu.az",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_13814_1.jpg",
+      "https://whed.net/images/IAUMembers/s_13814_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Bahrain",
+    "City": "Manama",
+    "Streets": "P.O. Box 5055\rBuilding 166 - Road 23\rBlock 623 - East Al-Ekir",
+    "Institution": "Private",
+    "PropertyID": "00000014_UNIVERSITIES",
+    "University": "Applied Science University",
+    "AboutInstitution": "Founded 2004",
+    "Link": "http://www.asu.edu.bh",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_1031_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Bahrain",
+    "City": "Busaiteen",
+    "Streets": "Building No. 2441 Road 2835\rP.O. Box: 15503",
+    "Institution": "Private",
+    "PropertyID": "00000015_UNIVERSITIES",
+    "University": "Royal College of Surgeons in Ireland - Medical University of Bahrain",
+    "AboutInstitution": "Founded in 2004 on the authority of the Government of the Kingdom of Bahrain and is a constituent university of the Royal College of Surgeons in Ireland. Graduates of the University are awarded degrees from both the Medical University of Bahrain and the National University of Ireland. In addition, graduates in medicine also receive Licentiates from the Royal College of Surgeons in Ireland and the Royal College of Physicians of Ireland. The degrees awarded by RCSI Bahrain are recognised and attested by the Higher Education Council in Bahrain",
+    "Link": "http://www.rcsibahrain.edu.bh",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_14119_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Bahrain",
+    "City": "Sakhir",
+    "Streets": "P.O. Box 32038\rManama",
+    "Institution": "Public",
+    "PropertyID": "00000016_UNIVERSITIES",
+    "University": "University of Bahrain",
+    "AboutInstitution": "Founded 1986, incorporating the University College of Arts, Science and Education, founded 1978 and the Gulf Polytechnic, College of Business and Administration and Engineering, founded 1981",
+    "Link": "http://www.uob.edu.bh",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_20030_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Bangladesh",
+    "City": "Dhaka",
+    "Streets": "408/1, Kuratoli, Khilkhet",
+    "Institution": "Private",
+    "PropertyID": "00000017_UNIVERSITIES",
+    "University": "American International University-Bangladesh",
+    "AboutInstitution": "Founded 1994",
+    "Link": "http://www.aiub.edu",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_908_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Bangladesh",
+    "City": "Dhaka",
+    "Streets": "4/2, Sobhanbag, Mirpur Road\rDhanmondi",
+    "Institution": "Private",
+    "PropertyID": "00000018_UNIVERSITIES",
+    "University": "Daffodil International University",
+    "AboutInstitution": "Founded 2002",
+    "Link": "http://www.daffodilvarsity.edu.bd",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_3457_1.png"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Bangladesh",
+    "City": "Dhaka",
+    "Streets": "2/4 Gabtoli, Mirpur",
+    "Institution": "Private",
+    "PropertyID": "00000019_UNIVERSITIES",
+    "University": "European University of Bangladesh",
+    "AboutInstitution": "Founded in 2012 under the Private University Act of 1992. Originally two locations were used in Dhaka before the current permament single campus was established in 2018",
+    "Link": "http://www.eub.edu.bd",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_22252_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Bangladesh",
+    "City": "Dhaka",
+    "Streets": "4 Embankment Drive Road\rSector-10 (Off Dhaka-Ashulia Road) Uttara Model Town",
+    "Institution": "Private",
+    "PropertyID": "00000020_UNIVERSITIES",
+    "University": "International University of Business, Agriculture and Technology",
+    "AboutInstitution": "Founded 1991, acquired present status 1993",
+    "Link": "http://www.iubat.edu",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_9587_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Bangladesh",
+    "City": "Gazipur",
+    "Streets": "Board Bazar",
+    "Institution": "Private",
+    "PropertyID": "00000021_UNIVERSITIES",
+    "University": "Islamic University of Technology",
+    "AboutInstitution": "Founded by the Organisation of Islamic Cooperation (OIC) 1981, acquired present status 2001",
+    "Link": "http://www.iutoic-dhaka.edu",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_9646_1.jpg",
+      "https://whed.net/images/IAUMembers/s_9646_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Bangladesh",
+    "City": "Dhaka",
+    "Streets": "Plot 5 - 8, Avenue 6 & Lake Drive Road\rSector 17/H\rUttara",
+    "Institution": "Private",
+    "PropertyID": "00000022_UNIVERSITIES",
+    "University": "World University of Bangladesh",
+    "AboutInstitution": "Founded 2001. Acquired present status 2003",
+    "Link": "https://wub.edu.bd",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_21341_1.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Belarus",
+    "City": "Minsk",
+    "Streets": "Nezavisimosty Avenue 65",
+    "Institution": "Public",
+    "PropertyID": "00000023_UNIVERSITIES",
+    "University": "Belarusian National Technical University",
+    "AboutInstitution": "Founded as Belarusian State Polytechnical Institute in 1920. Renamed Belarusian State Polytechnic Academy in 1991. Acquired present status and title in 2002",
+    "Link": "http://www.bntu.by",
+    "Logo": []
+  },
+  {
+    "Continent": "",
+    "Country": "Belarus",
+    "City": "Minsk",
+    "Streets": "Kazintsa Street 21",
+    "Institution": "Private",
+    "PropertyID": "00000024_UNIVERSITIES",
+    "University": "International University \"MITSO\"",
+    "AboutInstitution": "Founded as International Institute of Labour and Social Relations in 1992. Acquired present status and title in 2011",
+    "Link": "http://mitso.by",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_11982_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Belgium",
+    "City": "Ghent",
+    "Streets": "Sint-Pietersnieuwstraat 25",
+    "Institution": "Public",
+    "PropertyID": "00000025_UNIVERSITIES",
+    "University": "Ghent University",
+    "AboutInstitution": "Founded by King William I of the Netherlands in 1817. The official language of the University was originally Latin; this changed to French in 1830 and to Dutch in 1930. Ghent University is today one of the most important academic institutions of Belgium and has an important international educational and scientific role. Acquired present status and title 1991.",
+    "Link": "http://www.ugent.be",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_19857_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Belgium",
+    "City": "Liège",
+    "Streets": "Place du 20 Août, 7",
+    "Institution": "Public",
+    "PropertyID": "00000026_UNIVERSITIES",
+    "University": "University of Liège",
+    "AboutInstitution": "Founded under King William I of the Netherlands in 1817. Designated as a State University following the independence of Belgium in 1835. Provision was made in 1959 for the transfer of the University to a new campus. The University enjoys limited autonomy and receives the major share of its income from the Communauté française de Belgique",
+    "Link": "https://www.uliege.be",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_19607_1.jpg",
+      "https://whed.net/images/IAUMembers/s_19607_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Belgium",
+    "City": "Mons",
+    "Streets": "Place du Parc, 20",
+    "Institution": "Public",
+    "PropertyID": "00000027_UNIVERSITIES",
+    "University": "University of Mons",
+    "AboutInstitution": "Created from the merger of Faculté polytechnique de Mons (Faculty of Engineering, Mons, created 1837) and Université de Mons-Hainaut (University of Mons-Hainaut, created 1899) in 2009",
+    "Link": "https://web.umons.ac.be",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_19622_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Bosnia and Herzegovina",
+    "City": "Mostar",
+    "Streets": "Kneza M. Viševića Humskog",
+    "Institution": "Private",
+    "PropertyID": "00000028_UNIVERSITIES",
+    "University": "Herzegovina University",
+    "AboutInstitution": "Created 2010",
+    "Link": "https://hercegovina.edu.ba",
+    "Logo": []
+  },
+  {
+    "Continent": "",
+    "Country": "Botswana",
+    "City": "Palapye",
+    "Streets": "Private Bag 16",
+    "Institution": "Public",
+    "PropertyID": "00000029_UNIVERSITIES",
+    "University": "Botswana International University of Science and Technology",
+    "AboutInstitution": "Founded 2012.",
+    "Link": "http://www.biust.ac.bw",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_24644_1.jpg",
+      "https://whed.net/images/IAUMembers/s_24644_1.png"
+    ]
+  },
+  {
+    "Continent": "South America",
+    "Country": "Brazil",
+    "City": "São Paulo",
+    "Streets": "Rua Quirino de Andrade, 215",
+    "Institution": "Public",
+    "PropertyID": "00000030_UNIVERSITIES",
+    "University": "Júlio de Mesquita Filho São Paulo State University",
+    "AboutInstitution": "Founded 1976, incorporating previously existing faculties established 1923-1966. An autonomous institution under the jurisdiction of and financially supported by the State of São Paulo.",
+    "Link": "https://www2.unesp.br",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_18625_1.jpg"
+    ]
+  },
+  {
+    "Continent": "South America",
+    "Country": "Brazil",
+    "City": "Campinas",
+    "Streets": "C.P. 6194\rRua da Reitoria, 121 \rCidade Universitária 'Zeferino Vaz' Barão Geraldo",
+    "Institution": "Public",
+    "PropertyID": "00000031_UNIVERSITIES",
+    "University": "University of Campinas",
+    "AboutInstitution": "Founded 1962 by the State legislature of São Paulo as an autonomous institution.",
+    "Link": "http://www.unicamp.br",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_18604_1.jpg"
+    ]
+  },
+  {
+    "Continent": "South America",
+    "Country": "Brazil",
+    "City": "São Paulo",
+    "Streets": "Rua da Reitoria 109\rCidade Universitária Butantã",
+    "Institution": "Public",
+    "PropertyID": "00000032_UNIVERSITIES",
+    "University": "University of São Paulo",
+    "AboutInstitution": "USP was founded in 1934 following the unification of several pre-existing schools. The newly created Faculty of Philosophy, Languages and Literature, and Human Sciences of the State of São Paulo were integrated along with the schools of Law, Medicine, Engineering, Pharmacy, Dentistry, Education, Economics and Veterinary Medicine as well as Luiz de Queiroz College of Agriculture. In the early days, many professors were invited from overseas to lecture, and they brought with them new standards of research from Europe. They assisted in transforming USP into a vital driving force for national progress, and, during the first twenty years of its existence, the University established several new schools. Subsequently, the University has expanded both in the quality of its output and in its size, adding the Institute of Biology in São Paulo and the campuses of São Carlos and Ribeirão Preto in the 1950s. Finally, in 1960, in the city of São Paulo, a new University campus, the \"Cidade Universitária\" was inaugurated. This resulted in the unification of the majority of the schools and faculties in one location",
+    "Link": "https://www5.usp.br",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_18566_1.png",
+      "https://whed.net/images/IAUMembers/s_18566_1.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Brunei Darussalam",
+    "City": "Bandar Seri Begawan",
+    "Streets": "Spg 347, Jalan Pasar Baharu, Gadong",
+    "Institution": "Public",
+    "PropertyID": "00000033_UNIVERSITIES",
+    "University": "Sultan Sharif Ali Islamic University",
+    "AboutInstitution": "Founded 2007",
+    "Link": "http://www.unissa.edu.bn",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_19920_1.jpg",
+      "https://whed.net/images/IAUMembers/s_19920_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Bulgaria",
+    "City": "Stara Zagora",
+    "Streets": "Studentski grad",
+    "Institution": "Public",
+    "PropertyID": "00000034_UNIVERSITIES",
+    "University": "Trakia University",
+    "AboutInstitution": "Founded 1995, incorporating the former Higher Institute of Medicine and Higher Institute of Animal Production and Veterinary Medicine. Three Medical Colleges affiliated to Trakia University 1997",
+    "Link": "http://www.uni-sz.bg",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_16833_1.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Cabo Verde",
+    "City": "Praia",
+    "Streets": "Caixa Postal 775\rCampus Universitário da Cidade da Praía\rPalmarejo Grande",
+    "Institution": "Private",
+    "PropertyID": "00000035_UNIVERSITIES",
+    "University": "Jean Piaget University of Cape Verde",
+    "AboutInstitution": "Founded 2001.",
+    "Link": "http://www.unipiaget.cv",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_18687_1.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Cabo Verde",
+    "City": "Praia",
+    "Streets": "Praça Antonio Loreno\rCP 379C",
+    "Institution": "Public",
+    "PropertyID": "00000036_UNIVERSITIES",
+    "University": "University of Cape Verde",
+    "AboutInstitution": "Founded 2006. Incorporated the Instituto Superior de Educação (ISE), the Instituto Superior de Engenharia e Ciências do Mar (ISECMAR) and the Instituto Nacional de Administração e Gestão (INAG) 2008.",
+    "Link": "http://www.unicv.edu.cv",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_18544_1.jpg",
+      "https://whed.net/images/IAUMembers/s_18544_2.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Cambodia",
+    "City": "Phnom Penh",
+    "Streets": "Bldg No. 069, Concrete Road (Along National Road No. 1)\rPhum Ta Prum, Sangkat Prek Eng\rKhan Chhbar Ampov",
+    "Institution": "Private",
+    "PropertyID": "00000037_UNIVERSITIES",
+    "University": "IIC University of Technology",
+    "AboutInstitution": "Founded as International Institute of Cambodia, acquired present title and status 2008.",
+    "Link": "http://www.iic.edu.kh",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_7723_1.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Cambodia",
+    "City": "Phnom Penh",
+    "Streets": "Northbridge Road\rSangkat Toek Thla, Khan Sen Sok",
+    "Institution": "Private",
+    "PropertyID": "00000038_UNIVERSITIES",
+    "University": "The University of Cambodia",
+    "AboutInstitution": "Founded 2003.",
+    "Link": "http://www.uc.edu.kh",
+    "Logo": []
+  },
+  {
+    "Continent": "",
+    "Country": "Cameroon",
+    "City": "Yaoundé",
+    "Streets": "BP 337",
+    "Institution": "Public",
+    "PropertyID": "00000039_UNIVERSITIES",
+    "University": "University of Yaoundé I",
+    "AboutInstitution": "Founded 1962, replacing the Institut national d'Etudes supérieures, founded 1961. Acquired present status and title 1993. A State institution.",
+    "Link": "http://www.uy1.uninet.cm",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_19665_1.jpg"
+    ]
+  },
+  {
+    "Continent": "North America",
+    "Country": "Canada",
+    "City": "St John's",
+    "Streets": "P.O. Box 4200",
+    "Institution": "Public",
+    "PropertyID": "00000040_UNIVERSITIES",
+    "University": "Memorial University",
+    "AboutInstitution": "Founded 1925 as Memorial University College. Awarded degree-granting status and present title 1949. The only degree-granting post-secondary institution in the Province of Newfoundland and Labrador",
+    "Link": "http://www.mun.ca",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_11558_1.jpg"
+    ]
+  },
+  {
+    "Continent": "North America",
+    "Country": "Canada",
+    "City": "Halifax",
+    "Streets": "923 Robie Street",
+    "Institution": "Public",
+    "PropertyID": "00000041_UNIVERSITIES",
+    "University": "Saint Mary's University",
+    "AboutInstitution": "Founded 1802 as Saint Mary's College, acquired present status and title 1841. From 1970, a public, non-denominational institution.",
+    "Link": "http://smu.ca",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_14271_1.jpg"
+    ]
+  },
+  {
+    "Continent": "North America",
+    "Country": "Canada",
+    "City": "Hamilton",
+    "Streets": "1280 Main Street West",
+    "Institution": "Public",
+    "PropertyID": "00000042_UNIVERSITIES",
+    "University": "McMaster University",
+    "AboutInstitution": "Founded 1887 in Toronto and located in Hamilton 1930. A non-denominational private foundation.",
+    "Link": "http://mcmaster.ca",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_11499_1.jpg"
+    ]
+  },
+  {
+    "Continent": "North America",
+    "Country": "Canada",
+    "City": "Kingston",
+    "Streets": "99 University Avenue",
+    "Institution": "Public",
+    "PropertyID": "00000043_UNIVERSITIES",
+    "University": "Queen's University",
+    "AboutInstitution": "Founded 1841 by Royal Charter issued by Queen Victoria. Modelled on the University of Edinburgh, Scottish academic influences have helped to mould its character. A national institution privately endowed and privately controlled.",
+    "Link": "http://queensu.ca",
+    "Logo": []
+  },
+  {
+    "Continent": "North America",
+    "Country": "Canada",
+    "City": "Toronto",
+    "Streets": "350 Victoria Street",
+    "Institution": "Public",
+    "PropertyID": "00000044_UNIVERSITIES",
+    "University": "Ryerson University",
+    "AboutInstitution": "Founded 1948 as Ryerson Institute of Technology, became Ryerson Polytechnic Institute 1963 and acquired present status and title 1993. Ryerson combines a traditional focus on theory with career-oriented emphasis on applicable skills-through laboratory work, field trips, outside projects, work experience, internships, regular contact with business and industry and work experience in the professional community.",
+    "Link": "http://ryerson.ca",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_14158_1.jpg"
+    ]
+  },
+  {
+    "Continent": "North America",
+    "Country": "Canada",
+    "City": "Ottawa",
+    "Streets": "550 rue Cumberland, pièce 212",
+    "Institution": "Public",
+    "PropertyID": "00000045_UNIVERSITIES",
+    "University": "University of Ottawa",
+    "AboutInstitution": "Founded 1848 as College of Bytown, became College of Ottawa 1933. Acquired present status and title 1965.",
+    "Link": "http://www.uottawa.ca",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_20369_1.png"
+    ]
+  },
+  {
+    "Continent": "North America",
+    "Country": "Canada",
+    "City": "Toronto",
+    "Streets": "4700 Keele Street",
+    "Institution": "Public",
+    "PropertyID": "00000046_UNIVERSITIES",
+    "University": "York University",
+    "AboutInstitution": "Founded 1959. Established originally as affiliate of University of Toronto, the University moved to Glendon campus 1961. The University has 4 campuses in the City of Toronto.",
+    "Link": "http://www.yorku.ca",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_21739_1.jpg"
+    ]
+  },
+  {
+    "Continent": "North America",
+    "Country": "Canada",
+    "City": "Montréal",
+    "Streets": "1455 Maisonneuve Blvd. West",
+    "Institution": "Public",
+    "PropertyID": "00000047_UNIVERSITIES",
+    "University": "Concordia University",
+    "AboutInstitution": "Founded 1974 by the merger of Sir George Williams University, founded 1948, and Loyola College of Montreal, incorporated 1896.",
+    "Link": "http://www.concordia.ca",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_3125_1.jpg"
+    ]
+  },
+  {
+    "Continent": "North America",
+    "Country": "Canada",
+    "City": "Sherbrooke",
+    "Streets": "2500, boul. de l'Université",
+    "Institution": "Public",
+    "PropertyID": "00000048_UNIVERSITIES",
+    "University": "University of Sherbrooke",
+    "AboutInstitution": "Founded 1954. Recognized as a Catholic University through a decree 1957.",
+    "Link": "https://www.usherbrooke.ca",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_19648_1.jpg"
+    ]
+  },
+  {
+    "Continent": "North America",
+    "Country": "Canada",
+    "City": "Regina",
+    "Streets": "3737 Wascana Parkway",
+    "Institution": "Public",
+    "PropertyID": "00000049_UNIVERSITIES",
+    "University": "University of Regina",
+    "AboutInstitution": "Founded 1911 as Regina College, Reorganized 1925 as University of Saskatchewan, 1959 as University of Saskatchewan, Regina Campus, and acquired present status and title 1974.",
+    "Link": "https://www.uregina.ca",
+    "Logo": []
+  },
+  {
+    "Continent": "",
+    "Country": "Chile",
+    "City": "Santiago",
+    "Streets": "Avenida Libertador Bernardo O'Higgins 340",
+    "Institution": "Private",
+    "PropertyID": "00000050_UNIVERSITIES",
+    "University": "Catholic University of Chile",
+    "AboutInstitution": "Founded 1888 by decree of Archbishop of Santiago. Recognized by Pope Leo XIII 1889; became Pontifical University 1930. A private, autonomous institution, with degrees recognized by Chilean Law. Financially supported by State subsidy and tuition fees",
+    "Link": "https://www.uc.cl",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_13652_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "China",
+    "City": "Tianjin",
+    "Streets": "Balitai campus\r94 Weijin Road,\rNankai District",
+    "Institution": "Public",
+    "PropertyID": "00000051_UNIVERSITIES",
+    "University": "Nankai University",
+    "AboutInstitution": "Founded 1919. During the Anti-Japanese War (1937-1945), Nankai, Peking (Beijng) and Tsinghua (Qinghua) universities united in Kunming to form the renowned Southwest Associated University.Incorporated the former Tianjin Institute of Foreign Trade 1994. Part of \"211 Project\" and \"985 Project\" universities. Main administrative body: Ministry of Education",
+    "Link": "http://www.nankai.edu.cn",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_12359_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "China",
+    "City": "Xinzheng",
+    "Streets": "168 Renmin East Road",
+    "Institution": "Private",
+    "PropertyID": "00000052_UNIVERSITIES",
+    "University": "Sias University",
+    "AboutInstitution": "Founded 1998 as Zhengzhou Industry University Sias International University by Fort Hays State University, Zhengzhou University and American SIAS Investment Group. Became independent college, acquired present title 2018. Main administrative body: Henan Provincial Education Department",
+    "Link": "http://www.sias.edu.cn",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_15385_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "China",
+    "City": "Suzhou",
+    "Streets": "111 Ren'ai Road, \rDushu Lake Science and Education Innovation District",
+    "Institution": "Private",
+    "PropertyID": "00000053_UNIVERSITIES",
+    "University": "Xi'an Jiaotong-Liverpool University",
+    "AboutInstitution": "Established 2006 Xi’an Jiaotong-Liverpool University (XJTLU) is an international joint venture university founded by Xi’an Jiaotong University in China and the University of Liverpool in the United Kingdom. Main administrative body: Jiangsu Provincial Educational Department",
+    "Link": "https://www.xjtlu.edu.cn/en/",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_21593_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "China",
+    "City": "Kunming",
+    "Streets": "Donglu Campus \r2 Cuihu North Road,\rWuhua District",
+    "Institution": "Public",
+    "PropertyID": "00000054_UNIVERSITIES",
+    "University": "Yunnan University",
+    "AboutInstitution": "Founded 1922 as Private Donglu University. Renamed Yunnan Provincial University 1934 and Yunnan National University 1938. Acquired present title 1950. Part of \"211 Project\" universities. Under the adminsitration of Yunnan Province",
+    "Link": "http://www.ynu.edu.cn",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_21762_1.jpg",
+      "https://whed.net/images/IAUMembers/s_21762_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "China",
+    "City": "Hangzhou",
+    "Streets": "Zijin Alley Campus\r866 Yuhangtang Road,\rXihu District",
+    "Institution": "Public",
+    "PropertyID": "00000055_UNIVERSITIES",
+    "University": "Zhejiang University",
+    "AboutInstitution": "Founded 1897 as Qiushi Academy. Established as Third National Sun Yat-sen University 1927. Became National Zhejiang University 1928, Moved to Guizhou during the Sino-Japanese War. Moved back to 1946. Separated into several colleges 1952. Merged with Hangzhou University, Zhejiang Agricultural University and Zhejang Medical University to form the new Zhejiang University 1998. Part of \"211 Project \" and \"985 Project\" universities. Main administrative body: Ministry of Education",
+    "Link": "http://www.zju.edu.cn",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_21833_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "China",
+    "City": "Shatin",
+    "Streets": "",
+    "Institution": "Public",
+    "PropertyID": "00000056_UNIVERSITIES",
+    "University": "The Chinese University of Hong Kong",
+    "AboutInstitution": "CUHK is a highly esteemed, forward-looking comprehensive research university, recognized for excellence both regionally and globally. Founded in 1963, it is the second oldest university in Hong Kong. What sets CUHK apart are its deep roots in Chinese culture, its emphasis on bilingualism and multiculturalism, and a unique college system. The University’s founding philosophy is to combine tradition with modernity and to bring together China and the West.",
+    "Link": "http://www.cuhk.edu.hk",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_16414_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "China",
+    "City": "Macao",
+    "Streets": "Avenida Wai Long\rTaipa",
+    "Institution": "Private",
+    "PropertyID": "00000057_UNIVERSITIES",
+    "University": "Macau University of Science and Technology",
+    "AboutInstitution": "Founded 2000.",
+    "Link": "http://www.must.edu.mo",
+    "Logo": []
+  },
+  {
+    "Continent": "Asia",
+    "Country": "China",
+    "City": "Macao",
+    "Streets": "Avenida Padre Tomás Pereira\rTaipa",
+    "Institution": "Public",
+    "PropertyID": "00000058_UNIVERSITIES",
+    "University": "University of Macau",
+    "AboutInstitution": "Founded 1981 as University of East Asia, a private institution. Became public institution 1988. Acquired present status and title 1991. Financially supported by the government, tuition fees and donations.",
+    "Link": "http://www.umac.mo",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_18555_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "China",
+    "City": "Macao",
+    "Streets": "Estrada da Ilha Verde 14-17",
+    "Institution": "Private",
+    "PropertyID": "00000059_UNIVERSITIES",
+    "University": "University of Saint Joseph",
+    "AboutInstitution": "Founded 1996. Formerly known as Instituto Inter-Universitário de Macau (Macao Inter-University Institute). Acquired current status and title 2009.",
+    "Link": "http://www.usj.edu.mo",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_18565_1.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Colombia",
+    "City": "Bogotá",
+    "Streets": "Calle 58 A No. 37",
+    "Institution": "Private",
+    "PropertyID": "00000060_UNIVERSITIES",
+    "University": "Antonio Nariño University",
+    "AboutInstitution": "Founded 1976. Acquired present status 1993",
+    "Link": "https://www.uan.edu.co",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_17166_1.jpg",
+      "https://whed.net/images/IAUMembers/s_17166_2.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Colombia",
+    "City": "Villavicencio",
+    "Streets": "Apartado aéreo 3244\rCarrera 32 No. 34B-26\rBarrio San Fernando",
+    "Institution": "Private",
+    "PropertyID": "00000061_UNIVERSITIES",
+    "University": "University Corporation of the Meta Region",
+    "AboutInstitution": "Founded 1982. Acquired present status 1985",
+    "Link": "http://www.unimeta.edu.co",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_3299_1.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Colombia",
+    "City": "Tunja",
+    "Streets": "Apartado aéreo 1118\rCarrera 2a Este No. 64-169",
+    "Institution": "Private",
+    "PropertyID": "00000062_UNIVERSITIES",
+    "University": "University of Boyacá",
+    "AboutInstitution": "Founded 1979, as a private and non-profit foundation approved by the Colombian Government. Acquired present university status 2004",
+    "Link": "http://www.uniboyaca.edu.co",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_17406_1.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Congo",
+    "City": "Goma",
+    "Streets": "P.O. Box 204\rRoute Sake, n° 4, Bâtiment EPSP, Quartier Les Volcans, Commune de Goma",
+    "Institution": "Public",
+    "PropertyID": "00000063_UNIVERSITIES",
+    "University": "University of Goma",
+    "AboutInstitution": "Founded 1993 as Centre Universitaire du Nord-Kivu à Goma (CUNK/GOMA), became Centre Universitaire Extension de Goma (CUEG) in 1996 and operated under the supervision of the University of Kisangani. Acquired current title and status in 2005 via ministerial order N° 055/MINESU/RS/2005 of 15 Octobre 2005, creating an autonomous public institution",
+    "Link": "https://unigom.ac.cd",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_26601_1.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Costa Rica",
+    "City": "San José",
+    "Streets": "Apartado 2060\rCiudad Universitaria Rodrígo Facio",
+    "Institution": "Public",
+    "PropertyID": "00000064_UNIVERSITIES",
+    "University": "University of Costa Rica",
+    "AboutInstitution": "Founded 1940, incorporating former schools of the Universidad de Santo Tomás. An autonomous institution.",
+    "Link": "http://www.ucr.ac.cr",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_17438_1.jpg",
+      "https://whed.net/images/IAUMembers/s_17438_2.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Côte d'Ivoire",
+    "City": "Grand-Bassam",
+    "Streets": "B.P. 564",
+    "Institution": "Private",
+    "PropertyID": "00000065_UNIVERSITIES",
+    "University": "International University of Grand-Bassam",
+    "AboutInstitution": "Created in 2005 to offer an American-style curriculum in English. Formally accredited as a university in 2007 by Decree n° 2007-477.",
+    "Link": "https://iugb.org",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_26643_1.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Côte d'Ivoire",
+    "City": "Korhogo",
+    "Streets": "BP 1328",
+    "Institution": "Public",
+    "PropertyID": "00000066_UNIVERSITIES",
+    "University": "Peleforo Gon Coulibaly University",
+    "AboutInstitution": "Created 1996 as Regional Higher Education Unit (URES) of Korhogo. Acquired current status and title 2012.",
+    "Link": "http://www.univ-pgc.edu.ci",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_24093_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Croatia",
+    "City": "Zagreb",
+    "Streets": "Trg Republike Hrvatske 14",
+    "Institution": "Public",
+    "PropertyID": "00000067_UNIVERSITIES",
+    "University": "University of Zagreb",
+    "AboutInstitution": "Founded 1669 as Royal Academy of Sciences by edict of Emperor Leopold I granting University status to the existing Jesuit Academy of the Royal Free City of Zagreb. Reorganized 1874 as University of Zagreb, the largest and oldest Croatian university",
+    "Link": "http://www.unizg.hr",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_16010_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Croatia",
+    "City": "Zagreb",
+    "Streets": "Palmotićeva 82",
+    "Institution": "Private",
+    "PropertyID": "00000068_UNIVERSITIES",
+    "University": "VERN' University",
+    "AboutInstitution": "Created 2000 as one of the first business colleges in Croatia. Began operating as a higher education institution in 2000 and became a business university of applied science in 2007. Acquired university status 2020.",
+    "Link": "https://www.vern.hr",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_22672_1.jpg",
+      "https://whed.net/images/IAUMembers/s_22672_2.jpg",
+      "https://whed.net/images/IAUMembers/s_22672_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Cyprus",
+    "City": "Limassol",
+    "Streets": "30 Arch. Kyprianos Street",
+    "Institution": "Public",
+    "PropertyID": "00000069_UNIVERSITIES",
+    "University": "Cyprus University of Technology",
+    "AboutInstitution": "Founded 2003. Admitted its first students 2007",
+    "Link": "http://www.cut.ac.cy",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_3443_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Cyprus",
+    "City": "Nicosia",
+    "Streets": "University House \"Anastasios G. Leventis\"\rP.O. Box 20537",
+    "Institution": "Public",
+    "PropertyID": "00000070_UNIVERSITIES",
+    "University": "University of Cyprus",
+    "AboutInstitution": "Founded 1989. Acquired present status 1992",
+    "Link": "http://www.ucy.ac.cy",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_20126_1.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Czechia",
+    "City": "Prague 1",
+    "Streets": "Ovocný trh 560/5",
+    "Institution": "Public",
+    "PropertyID": "00000071_UNIVERSITIES",
+    "University": "Charles University",
+    "AboutInstitution": "Founded 1348 by King Charles IV. Became a State institution 1773 when the Society of Jesus was dissolved. Divided in 1882 into separate Czech and German universities each bearing the title Charles-Ferdinand. Present title adopted 1918. Closed in November 1939 during the German occupation; reopened 1945 at which time the German university was abolished. Acquired present status 1999. Was previously know as Charles University in Prague (Univerzita Karlova v Praze).",
+    "Link": "http://www.cuni.cz",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_20671_1.png"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Czechia",
+    "City": "Prague 6 - Dejvice",
+    "Streets": "Jugoslávských partizánů 1580/3",
+    "Institution": "Public",
+    "PropertyID": "00000072_UNIVERSITIES",
+    "University": "Czech Technical University in Prague",
+    "AboutInstitution": "Founded as Czech State Engineering School in 1707. Became Polytechnic in 1803. Granted university status in 1864. Closed in 1939 during the German occupation. Reopened in 1945. A State institution. Acquired present status in 1999.",
+    "Link": "http://www.cvut.cz",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_4414_1.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Czechia",
+    "City": "Brno",
+    "Streets": "Žerotínovo nám 9",
+    "Institution": "Public",
+    "PropertyID": "00000073_UNIVERSITIES",
+    "University": "Masaryk University",
+    "AboutInstitution": "Founded in 1919 with Faculties of Law, Medecine, Science and Arts; Faculty of Education established in 1947, Economics and Administration in 1990, Informatics in 1994, Social Studies in 1998 and Sports Studies in 2002. Closed 1939-1945 during the German occupation. Became Jan Evangelista Purkyně University in 1960; Renamed Masaryk University again since 1989.",
+    "Link": "http://www.muni.cz",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_11438_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Denmark",
+    "City": "Roskilde",
+    "Streets": "Universitetsvej 1",
+    "Institution": "Public",
+    "PropertyID": "00000074_UNIVERSITIES",
+    "University": "Roskilde University",
+    "AboutInstitution": "Founded 1972 by Government decree. A State Institution employing new teaching and learning methods based on an 'integrated' approach to higher education and placing emphasis on group work",
+    "Link": "https://ruc.dk",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_14064_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Denmark",
+    "City": "København",
+    "Streets": "Postboks 2177\rNørregade 10",
+    "Institution": "Public",
+    "PropertyID": "00000075_UNIVERSITIES",
+    "University": "University of Copenhagen",
+    "AboutInstitution": "Founded 1479. Acquired present status 2007 following the merger between the former Den Kgl. Veterinær- og Landbohøjskole (The Royal Veterinary and Agricultural University) and the Danmarks Farmaceutiske Universitet (The Danish University of Pharmaceutical Sciences). Financed by the State",
+    "Link": "https://www.ku.dk",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_10745_1.jpg",
+      "https://whed.net/images/IAUMembers/s_10745_2.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Ecuador",
+    "City": "Loja",
+    "Streets": "Casilla Postal 11-01-608\rBarrio San Cayetano Alto s/n",
+    "Institution": "Private",
+    "PropertyID": "00000076_UNIVERSITIES",
+    "University": "Private Technical University of Loja",
+    "AboutInstitution": "Founded 1971 as School by the Marist Brothers. A private Institution under the jurisdiction of the Comunidad de Misioneros y Misioneras de Cristo Redentor, largely financed by the State",
+    "Link": "https://www.utpl.edu.ec",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_18374_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Africa",
+    "Country": "Egypt",
+    "City": "Alexandria",
+    "Streets": "22 Al-Guish Avenue\rEl Chatby",
+    "Institution": "Public",
+    "PropertyID": "00000077_UNIVERSITIES",
+    "University": "Alexandria University",
+    "AboutInstitution": "Founded 1942 as State University, incorporating former branches of the Faculties of Arts, Law, and Engineering of Fouad I University (Cairo), and known as Farouk University until 1953. Faculty of Medicine and Colleges of Education at Tanta detached 1972 to form new University.",
+    "Link": "http://www.alexu.edu.eg",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_6571_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Africa",
+    "Country": "Egypt",
+    "City": "New Cairo",
+    "Streets": "Al Tagamoa Al Khames\rEnd of 90th Street\rFifth Settlement",
+    "Institution": "Private",
+    "PropertyID": "00000078_UNIVERSITIES",
+    "University": "Future University in Egypt",
+    "AboutInstitution": "Founded 2006.",
+    "Link": "https://www.fue.edu.eg",
+    "Logo": []
+  },
+  {
+    "Continent": "Africa",
+    "Country": "Egypt",
+    "City": "6th of October City",
+    "Streets": "P.O. Box 77\rAl Motamayez District",
+    "Institution": "Private",
+    "PropertyID": "00000079_UNIVERSITIES",
+    "University": "Misr University for Science and Technology",
+    "AboutInstitution": "Founded 1996.",
+    "Link": "http://www.must.edu.eg",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_11951_1.jpg",
+      "https://whed.net/images/IAUMembers/s_11951_2.jpg",
+      "https://whed.net/images/IAUMembers/s_11951_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Africa",
+    "Country": "Egypt",
+    "City": "Sadat City",
+    "Streets": "",
+    "Institution": "Public",
+    "PropertyID": "00000080_UNIVERSITIES",
+    "University": "University of Sadat City",
+    "AboutInstitution": "Created 1992 as a branch of Menoufia University. Acquired current title and status 2013.",
+    "Link": "http://www.usc.edu.eg",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_20464_1.png"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Eswatini",
+    "City": "Kwaluseni",
+    "Streets": "Private Bag 4",
+    "Institution": "Public",
+    "PropertyID": "00000081_UNIVERSITIES",
+    "University": "University of Eswatini",
+    "AboutInstitution": "Founded 1982, the University was formerly University College of Swaziland, a Constituent College of the University of Botswana, Lesotho and Swaziland (founded 1976). Was previously known as the University of Swaziland.",
+    "Link": "http://www.uniswa.sz",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_20527_1.jpg",
+      "https://whed.net/images/IAUMembers/s_20527_2.jpg",
+      "https://whed.net/images/IAUMembers/s_20527_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Africa",
+    "Country": "Ethiopia",
+    "City": "Bahir Dar",
+    "Streets": "Peda Street 07\rPO Box 79",
+    "Institution": "Public",
+    "PropertyID": "00000082_UNIVERSITIES",
+    "University": "Bahir Dar University",
+    "AboutInstitution": "Founded 2000 following merger of Bahir Dar Teachers College and Bahir Dar Polytechnic Institute (Bahir Dar Teachers College, initially known as College of Pedagogy founded 1972 following a tripartite agreement signed between the Ethiopian Government, UNESCO and UNDP; Bahir Dar Polytechnic Institute created 1963 based on an agreement between the former USSR and the Imperial Government of Ethiopia)",
+    "Link": "https://www.bdu.edu.et",
+    "Logo": []
+  },
+  {
+    "Continent": "Africa",
+    "Country": "Ethiopia",
+    "City": "Hawassa",
+    "Streets": "PO Box 05",
+    "Institution": "Public",
+    "PropertyID": "00000083_UNIVERSITIES",
+    "University": "Hawassa University",
+    "AboutInstitution": "Founded 2000 following merger of Hawassa College of Agriculture (ACA), Dilla College of Teachers Education and Health Sciences (DCTEHS) and Wondo Genet College of Forestry (WGCF). Previously known as Debub University. Acquired present title 2006",
+    "Link": "https://www.hu.edu.et",
+    "Logo": []
+  },
+  {
+    "Continent": "Africa",
+    "Country": "Ethiopia",
+    "City": "Jimma",
+    "Streets": "PO Box 378",
+    "Institution": "Public",
+    "PropertyID": "00000084_UNIVERSITIES",
+    "University": "Jimma University",
+    "AboutInstitution": "Founded 1999 through amalgamation of Jimma College of Agriculture (founded 1952) and Jimma Institute of Health Sciences (founded 1983).",
+    "Link": "https://www.ju.edu.et",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_9932_1.jpg",
+      "https://whed.net/images/IAUMembers/s_9932_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Africa",
+    "Country": "Ethiopia",
+    "City": "Addis Ababa",
+    "Streets": "Lideta Sub-City\rWereda 10\rRoosevelt Street",
+    "Institution": "Private",
+    "PropertyID": "00000085_UNIVERSITIES",
+    "University": "St. Mary's University",
+    "AboutInstitution": "Created 1998 as St. Mary's College and became a university in 2013 after HERQA's evaluation",
+    "Link": "http://www.smuc.edu.et",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_15770_1.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Faroe Islands",
+    "City": "Tórshavn",
+    "Streets": "J.C.Svabos gøta 14, Box 272",
+    "Institution": "Public",
+    "PropertyID": "00000086_UNIVERSITIES",
+    "University": "University of the Faroe Islands",
+    "AboutInstitution": "Created 1965 as an academy by the Faroese Parliament. Reorganised as a university in 1987.",
+    "Link": "http://setur.fo",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_23214_1.jpg",
+      "https://whed.net/images/IAUMembers/s_23214_2.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Fiji",
+    "City": "Suva",
+    "Streets": "P.O. Box 1168",
+    "Institution": "Public",
+    "PropertyID": "00000087_UNIVERSITIES",
+    "University": "University of the South Pacific",
+    "AboutInstitution": "Founded 1968. Acquired present status 1970. It is jointly owned by the governments of 12 member countries: Cook Islands, Fiji, Kiribati, Marshall Islands, Nauru, Niue, Solomon Islands, Tokelau, Tonga, Tuvalu, Vanuatu and Samoa.",
+    "Link": "http://www.usp.ac.fj",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_20577_1.jpg",
+      "https://whed.net/images/IAUMembers/s_20577_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Finland",
+    "City": "Helsinki",
+    "Streets": "Ratapihantie 13",
+    "Institution": "Public",
+    "PropertyID": "00000088_UNIVERSITIES",
+    "University": "Haaga-Helia University of Applied Sciences",
+    "AboutInstitution": "Founded 1992. Acquired present title 2007, following merger with Haaga ammattikorkeakoulu (Haaga Polytechnic). Formerly known as Helsingin liiketalouden ammattikorkeakoulu Helsingfors yrkeshögskola för företagsekonomi (Helsinki Business Polytechnic).",
+    "Link": "http://www.haaga-helia.fi",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_6922_1.jpg",
+      "https://whed.net/images/IAUMembers/s_6922_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Finland",
+    "City": "Helsinki",
+    "Streets": "P.O. Box 3\r(Fabianinkatu 33)",
+    "Institution": "Public",
+    "PropertyID": "00000089_UNIVERSITIES",
+    "University": "University of Helsinki",
+    "AboutInstitution": "Founded as Royal Academy of Turku 1640. Transferred to Helsinki 1828. The first and only university in the country until 1919. \rThe University of Helsinki is part of the Seinäjoki University Consortium (UCS) which brings together  University of Tampere, Helsinki University of the Arts - Sibelius Academy, University of Vaasa, University of Turku, the University Association of South Ostrobothnia, the Natural Resources Institute Finland and the Migration Institute of Finland. The Seinäjoki University Consortium is one of six university consortia in Finland and is coordinate by Tampere University",
+    "Link": "https://www.helsinki.fi/en",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_7163_1.jpg",
+      "https://whed.net/images/IAUMembers/s_7163_2.jpg",
+      "https://whed.net/images/IAUMembers/s_7163_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Finland",
+    "City": "Jyväskylä",
+    "Streets": "Seminaarinkatu 15\rP.O. Box 35",
+    "Institution": "Public",
+    "PropertyID": "00000090_UNIVERSITIES",
+    "University": "University of Jyväskylä",
+    "AboutInstitution": "Founded 1863 as the first Finnish-speaking teacher training college, Jyväskylä Teacher Seminary. JYU became Jyväskylä College of Education in 1934 and acquired its present status and title, University of Jyväskylä, in 1966. The University of Jyväskylä is part of the Kajaani University Consortium (KUC) a networked academic community focused on scientific research, university teaching and community relations. The Kajaani University Consortium consists of four networked universities (Eastern Finland, Lapland, Jyväskylä and Oulu) that have units in Kajaani and Sotkamo. The Consortium is coordinated by University of Oulu.",
+    "Link": "https://www.jyu.fi",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_10028_1.jpg",
+      "https://whed.net/images/IAUMembers/s_10028_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Finland",
+    "City": "Rovaniemi",
+    "Streets": "P.O. Box 122\rYliopistonkatu 8",
+    "Institution": "Public",
+    "PropertyID": "00000091_UNIVERSITIES",
+    "University": "University of Lapland",
+    "AboutInstitution": "Founded 1979. A State institution. The University of Lapland is part of the Kajaani University Consortium (KUC)  a networked academic community focused on scientific research, university teaching and community relations. The Kajaani University Consortium consists of four networked universities (Eastern Finland, Lapland, Jyväskylä and Oulu) that have units in Kajaani and Sotkamo. The Consortium is coordinated by University of Oulu. University of Lapland is also member of the University of the Arctic (Uartic), a network of over 200 universities, colleges, research institutes and other organizations concerned with education and research in and about the North",
+    "Link": "https://www.ulapland.fi",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_10850_1.jpg",
+      "https://whed.net/images/IAUMembers/s_10850_2.jpg",
+      "https://whed.net/images/IAUMembers/s_10850_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Finland",
+    "City": "Vaasa",
+    "Streets": "P.O. Box 700\rWolffintie 34",
+    "Institution": "Public",
+    "PropertyID": "00000092_UNIVERSITIES",
+    "University": "University of Vaasa",
+    "AboutInstitution": "Founded 1968 as private School of Economics and Business Administration. Became state institution 1977. Acquired present status and title 1991. The University of Vaasa is part of the Seinäjoki University Consortium (UCS) which brings together University of Tampere, Helsinki University of the Arts - Sibelius Academy, University of Turku, the University Association of South Ostrobothnia, the Natural Resources Institute Finland and the Migration Institute of Finland. The Seinäjoki University Consortium is one of six university consortia in Finland and is coordinate by Tampere University",
+    "Link": "https://www.uwasa.fi",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_20808_1.jpg",
+      "https://whed.net/images/IAUMembers/s_20808_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "France",
+    "City": "Paris",
+    "Streets": "12, place du Panthéon",
+    "Institution": "Public",
+    "PropertyID": "00000093_UNIVERSITIES",
+    "University": "Paris 1 Panthéon-Sorbonne University",
+    "AboutInstitution": "Founded 1971",
+    "Link": "https://www.pantheonsorbonne.fr",
+    "Logo": []
+  },
+  {
+    "Continent": "Europe",
+    "Country": "France",
+    "City": "Saint-Denis",
+    "Streets": "2, rue de la Liberté",
+    "Institution": "Public",
+    "PropertyID": "00000094_UNIVERSITIES",
+    "University": "University of Paris 8 Vincennes - Saint-Denis",
+    "AboutInstitution": "Founded as experimental academic centre 1969. Moved to Saint Denis 1980. Member of the Community of Universities and Institutions - COMUE Université Paris-Lumières (Décret n° 2014-1677 - 29 décembre 2014)",
+    "Link": "https://www.univ-paris8.fr",
+    "Logo": []
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Georgia",
+    "City": "Tbilisi",
+    "Streets": "Kakutsa Cholokashvili Ave 3/5",
+    "Institution": "Public",
+    "PropertyID": "00000095_UNIVERSITIES",
+    "University": "Ilia State University",
+    "AboutInstitution": "Created 2006 following the merger between 'Tbilisi 'Ilia Čavčavadze' State University of Languages and Culture' (Tbilisis 'Ilia Čavčavadzis' Sakhelobis Enata da Kulturata Sakhelmtsipo Universiteti, founded 1948) and Tbilisi Sulkhan-Saba Orbeliani State Pedagogical University (Tbilisis Sulkhan-Saba Orbelianis Sakhelobis Sakhelmtsipo Pedagogiuri Universiteti, founded 1935). Previously known as Ilia Čavčavadze Sakhelmtsipo Universiteti (Ilia Čavčavadze State University). Acquired present title 2010",
+    "Link": "http://www.iliauni.edu.ge",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_7728_1.jpg",
+      "https://whed.net/images/IAUMembers/s_7728_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Georgia",
+    "City": "Tbilisi",
+    "Streets": "1, Chavchavadze Ave.",
+    "Institution": "Public",
+    "PropertyID": "00000096_UNIVERSITIES",
+    "University": "Ivane Javakhishvili Tbilisi State University",
+    "AboutInstitution": "The first-ever national university in the Caucasus was founded and opened in Tbilisi in 1918 laying the foundation for a European-type higher school in Georgia, based on Georgian educational traditions. The idea of foundation of an university first emerged as far back as the early 19th century amid intensification of the struggle for liberation from Russian empire. The first-ever national University in the Caucasus was opened on 26 January 1918, the day of commemoration of King David the Builder (new style 8 February). Upon the nomination of Ivane Javakhishvili, the Council of Professors elected Petre Melikishvili as the first rector of the university. Ivane Javakhishvili took charge of the faculty of philosophy. Tbilisi State University is one of the largest higher educational institutions in the South Caucasus",
+    "Link": "https://www.tsu.ge",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_9702_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Georgia",
+    "City": "Tbilisi",
+    "Streets": "1a Evgeni Mikeladze Str",
+    "Institution": "Private",
+    "PropertyID": "00000097_UNIVERSITIES",
+    "University": "New Vision University",
+    "AboutInstitution": "New Vision University is a civic, non-profit private institution founded in 2013. NVU mission is to expand human vision through promotion of education, research and innovation. The university inspires individuals to advance and share knowledge, skills and values to contribute to the well-being of the society. NVU is committed to social responsibility and promotes equal access to education to students from around the world. NVU is aspired to create open, innovative and collaborative environment to ensure student engagement and serve the society on a national and international scale",
+    "Link": "http://www.newvision.ge",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_23296_1.jpg",
+      "https://whed.net/images/IAUMembers/s_23296_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Germany",
+    "City": "Heidelberg",
+    "Streets": "P.O. Box 105760\rGrabengasse 1",
+    "Institution": "Public",
+    "PropertyID": "00000098_UNIVERSITIES",
+    "University": "Heidelberg University",
+    "AboutInstitution": "Founded 1386 by Rupert I, Elector of the Palatinate. The character of the University was profoundly affected by the Renaissance and the Reformation. It was reorganized as an independent institution by the Grand Duke Charles Frederick of Baden in 1803 and is now an autonomous University financially supported by the State of Baden-Württemberg, and under the jurisdiction of its Ministry of Science and Art.",
+    "Link": "http://www.uni-heidelberg.de",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_19340_1.jpg",
+      "https://whed.net/images/IAUMembers/s_19340_2.jpg",
+      "https://whed.net/images/IAUMembers/s_19340_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Germany",
+    "City": "Berlin",
+    "Streets": "Unter den Linden 6",
+    "Institution": "Public",
+    "PropertyID": "00000099_UNIVERSITIES",
+    "University": "Humboldt University Berlin",
+    "AboutInstitution": "Founded 1810 as Friedrich-Wilhelms-Universität. Reorganized 1946 and renamed 1948 Humboldt-Universität zu Berlin. Faculty structure replaced under 1968 reform by series of subject sections, and replaced following reunification 1990. An independent institution financially supported by the 'Land' of Berlin.",
+    "Link": "http://www.hu-berlin.de",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_7627_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Germany",
+    "City": "Lüneburg",
+    "Streets": "Scharnhorststrasse 1",
+    "Institution": "Public",
+    "PropertyID": "00000100_UNIVERSITIES",
+    "University": "Leuphana University of Lüneburg",
+    "AboutInstitution": "Founded 1946 as a teacher training college, acquired university status in the late 1970s. Today integrates two formerly independent institutions of higher education – the University of Lüneburg and the University of Applied Sciences. Became a foundation under public law – the highest degree of autonomy awarded to public universities - 2003",
+    "Link": "http://www.leuphana.de",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_10919_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Italy",
+    "City": "Parma",
+    "Streets": "Via Università 12",
+    "Institution": "Public",
+    "PropertyID": "00000101_UNIVERSITIES",
+    "University": "University of Parma",
+    "AboutInstitution": "Founded 962. A State institution enjoying administrative autonomy.",
+    "Link": "http://www.unipr.it",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_18790_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Italy",
+    "City": "Roma",
+    "Streets": "Piazzale Aldo Moro 5",
+    "Institution": "Public",
+    "PropertyID": "00000102_UNIVERSITIES",
+    "University": "University of Rome La Sapienza",
+    "AboutInstitution": "Founded 1303 by Pope Boniface VIII. Acquired present status 1935. A State institution enjoying administrative autonomy. Financially supported by the State",
+    "Link": "https://www.uniroma1.it/en",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_14486_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Italy",
+    "City": "Roma",
+    "Streets": "Viale Regina Elena 295",
+    "Institution": "Private",
+    "PropertyID": "00000103_UNIVERSITIES",
+    "University": "University of Rome Unitelma Sapienza",
+    "AboutInstitution": "Founded 2004",
+    "Link": "https://www.unitelmasapienza.it/it",
+    "Logo": []
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Italy",
+    "City": "Sassari",
+    "Streets": "Piazza Università 21",
+    "Institution": "Public",
+    "PropertyID": "00000104_UNIVERSITIES",
+    "University": "University of Sassari",
+    "AboutInstitution": "Founded 1562 as Studium Generale and recognized by Bull of Pope Paul V. Established as University 1617, reorganized 1766. A State institution enjoying administrative autonomy",
+    "Link": "https://www.uniss.it",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_18797_1.jpg",
+      "https://whed.net/images/IAUMembers/s_18797_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Italy",
+    "City": "Teramo",
+    "Streets": "via Renato Balzarini, 1",
+    "Institution": "Public",
+    "PropertyID": "00000105_UNIVERSITIES",
+    "University": "University of Teramo",
+    "AboutInstitution": "Founded 1993",
+    "Link": "http://www.unite.it",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_18799_1.jpg"
+    ]
+  },
+  {
+    "Continent": "North America",
+    "Country": "Jamaica",
+    "City": "Kingston",
+    "Streets": "Regional Headquarters Building\r2a Hermitage Road",
+    "Institution": "Public",
+    "PropertyID": "00000106_UNIVERSITIES",
+    "University": "The University of the West Indies, Mona Campus",
+    "AboutInstitution": "Founded 1948; incorporated by Royal Charter 1962. The University is supported by and serves 15 different territories in the West Indies. An international institution recognized worldwide for its scholarship in Science, Medicine, Social Sciences, Agriculture and Humanities. The UWI campus in Mona, Jamaica serves as the headquarters of the University of the West Indies (UWI) system",
+    "Link": "https://www.mona.uwi.edu",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_16615_1.jpg",
+      "https://whed.net/images/IAUMembers/s_16615_2.jpg",
+      "https://whed.net/images/IAUMembers/s_16615_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Japan",
+    "City": "Hachioji-shi",
+    "Streets": "742-1 Higashinakano",
+    "Institution": "Private",
+    "PropertyID": "00000107_UNIVERSITIES",
+    "University": "Chuo University",
+    "AboutInstitution": "Founded 1885 as Igirisu Horitsu Gakko (the English Law School), recognized as University 1903. Reorganized 1949.",
+    "Link": "http://www.chuo-u.ac.jp",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_2819_1.jpg",
+      "https://whed.net/images/IAUMembers/s_2819_2.jpg",
+      "https://whed.net/images/IAUMembers/s_2819_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Japan",
+    "City": "Sapporo-shi",
+    "Streets": "Nishi 5 Kita 8, Kita-ku",
+    "Institution": "Public",
+    "PropertyID": "00000108_UNIVERSITIES",
+    "University": "Hokkaido University",
+    "AboutInstitution": "Founded 1876 as school, became Sapporo Agricultural College 1876. Became part of Tohuku Imperial University in Sendai 1907-1918. Renamed Hokkaido University 1947. Acquired present status of National University Corporation Hokkaido University 2004.",
+    "Link": "http://www.hokudai.ac.jp",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_7509_1.jpg",
+      "https://whed.net/images/IAUMembers/s_7509_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Japan",
+    "City": "Machida-shi",
+    "Streets": "3758 Tokiwa-machi",
+    "Institution": "Private",
+    "PropertyID": "00000109_UNIVERSITIES",
+    "University": "J. F. Oberlin University",
+    "AboutInstitution": "Founded 1946 as Obirin Gakuen (Obirin University). Changed english name 2006.",
+    "Link": "http://www.obirin.ac.jp",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_12957_1.png"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Japan",
+    "City": "Tokyo",
+    "Streets": "2-15-45 Mita\rMinato-ku",
+    "Institution": "Private",
+    "PropertyID": "00000110_UNIVERSITIES",
+    "University": "Keio University",
+    "AboutInstitution": "Founded 1858 as private School to teach Dutch; became private University 1890. Graduate divisions opened 1906. School of Medicine founded 1917 followed by the opening of University Hospital 1920; Faculty of Engineering (1944); School of Library Science (1951); Business School (1962); Shonan Fujisawa Campus (Faculty of Policy Management and Faculty of Environmental Information opened 1990); Graduate School of Media and Governance (1994); Faculty of Nursing and Medical Care (2001); Law School (2004). Merged with Kyoritsu Yakka Daigaku (Kyoritsu College of Pharmacy) 2008.",
+    "Link": "http://www.keio.ac.jp/index-en.html",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_10264_1.jpg",
+      "https://whed.net/images/IAUMembers/s_10264_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Japan",
+    "City": "Kyoto-shi",
+    "Streets": "6 Kasame-cho, Saiin Ukyo-ku",
+    "Institution": "Private",
+    "PropertyID": "00000111_UNIVERSITIES",
+    "University": "Kyoto University of Foreign Studies",
+    "AboutInstitution": "Founded 1947 as College, acquired present status and title 1959.",
+    "Link": "http://www.kufs.ac.jp",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_10697_1.jpg",
+      "https://whed.net/images/IAUMembers/s_10697_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Japan",
+    "City": "Nagoya-shi",
+    "Streets": "18 Yamazato-cho\rShowa-ku",
+    "Institution": "Private",
+    "PropertyID": "00000112_UNIVERSITIES",
+    "University": "Nanzan University",
+    "AboutInstitution": "Founded 1932 as Nanzan Middle School for Boys by the Society of the Divine Word, acquired present status 1949.",
+    "Link": "http://www.nanzan-u.ac.jp",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_12366_1.jpg",
+      "https://whed.net/images/IAUMembers/s_12366_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Japan",
+    "City": "Higashiosaka-shi",
+    "Streets": "4-1-10 Mikuriya Sakae-machi",
+    "Institution": "Private",
+    "PropertyID": "00000113_UNIVERSITIES",
+    "University": "Osaka University of Commerce",
+    "AboutInstitution": "Founded 1928, acquired present status 1949.",
+    "Link": "http://ouc.daishodai.ac.jp",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_13164_1.jpg",
+      "https://whed.net/images/IAUMembers/s_13164_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Japan",
+    "City": "Obu-shi",
+    "Streets": "55 Nakouyama, Yokone-machi",
+    "Institution": "Private",
+    "PropertyID": "00000114_UNIVERSITIES",
+    "University": "Shigakkan University",
+    "AboutInstitution": "Founded 1905 as Sewing School, known as Chukyo Joshi Daigaku (Chukyo Women's University) in 1963. Acquired current title and became co-educational 1 April 2010.",
+    "Link": "http://www.sgk.ac.jp",
+    "Logo": []
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Japan",
+    "City": "Tokyo",
+    "Streets": "7-1 Kioicho, Chiyoda-ku",
+    "Institution": "Private",
+    "PropertyID": "00000115_UNIVERSITIES",
+    "University": "Sophia University",
+    "AboutInstitution": "Founded 1913 as a College, recognized as University in 1928. Graduate School added 1951. The University is a private Institution directed by the Society of Jesus. Financed from tuition and service fees, grants from public and private bodies, and donations.",
+    "Link": "http://www.sophia.ac.jp",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_9953_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Japan",
+    "City": "Tokyo",
+    "Streets": "3-25-8 Nishi-shinbashi\rMinato-ku",
+    "Institution": "Private",
+    "PropertyID": "00000116_UNIVERSITIES",
+    "University": "The Jikei University School of Medicine",
+    "AboutInstitution": "Founded 1881 as School of Medicine, became College 1921. Acquired University status 1952.",
+    "Link": "http://www.jikei.ac.jp",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_16728_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Japan",
+    "City": "Hiratsuka-shi",
+    "Streets": "4-1-1 Kitakaname",
+    "Institution": "Private",
+    "PropertyID": "00000117_UNIVERSITIES",
+    "University": "Tokai University",
+    "AboutInstitution": "Founded 1942 as Aerial Science College, recognized 1946 as Tokai University, and officially authorized by the Ministry of Education. From 2008, Tokai Daigaku (Tokai University) Kyushu Tokai Daigaku (Kyushu Tokai University) and Hokkaido Tokai Daigaku (Hokkaido Tokai University) were integrated under one banner as Tokai University.",
+    "Link": "http://www.u-tokai.ac.jp",
+    "Logo": []
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Japan",
+    "City": "Tokyo",
+    "Streets": "5-28-20 Hakusan\rBunkyo-ku",
+    "Institution": "Private",
+    "PropertyID": "00000118_UNIVERSITIES",
+    "University": "Toyo University",
+    "AboutInstitution": "Founded 1887 as 'Tetsugaku-kan' (Academy of Philosophy). Became University and acquired present title 1906. Campuses are located in downtown Tokyo (main campus) and its vicinity (3 other campuses). It is a comprehensive university, consisting of 11 faculties and 44 departments, with a total of approximately 30,000 students.",
+    "Link": "http://www.toyo.ac.jp",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_16822_1.jpg",
+      "https://whed.net/images/IAUMembers/s_16822_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Japan",
+    "City": "Tsukuba",
+    "Streets": "1-1-1 Tennodai",
+    "Institution": "Public",
+    "PropertyID": "00000119_UNIVERSITIES",
+    "University": "University of Tsukuba",
+    "AboutInstitution": "Established in 1872 as modern Japan's first national institute of higher education, which started as the Normal School, later renamed Tokyo Higher Normal School, the first teachers' college in Japan. Became Tokyo University of Education in 1947. Reorganized as a comprehensive research university in Tsukuba Science City in 1973. Merged with University of Library and Information Science in 2002. In 2004, Japanese national universities were transformed into national university corporations (NUCs).",
+    "Link": "http://www.tsukuba.ac.jp/en",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_16921_1.jpg",
+      "https://whed.net/images/IAUMembers/s_16921_2.jpg",
+      "https://whed.net/images/IAUMembers/s_16921_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Jordan",
+    "City": "Amman",
+    "Streets": "P.O. Box 183\rAl Salt Road",
+    "Institution": "Private",
+    "PropertyID": "00000120_UNIVERSITIES",
+    "University": "Al-Ahliyya Amman University",
+    "AboutInstitution": "Founded 1990",
+    "Link": "http://www.ammanu.edu.jo",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_9825_1.jpg",
+      "https://whed.net/images/IAUMembers/s_9825_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Jordan",
+    "City": "Amman",
+    "Streets": "P.O. Box 130\rAirport Road",
+    "Institution": "Private",
+    "PropertyID": "00000121_UNIVERSITIES",
+    "University": "Al-Zaytoonah University of Jordan",
+    "AboutInstitution": "Founded 1993",
+    "Link": "http://www.zuj.edu.jo",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_9824_1.jpg",
+      "https://whed.net/images/IAUMembers/s_9824_2.jpg",
+      "https://whed.net/images/IAUMembers/s_9824_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Jordan",
+    "City": "Amman",
+    "Streets": "P.O.Box: 2882",
+    "Institution": "Private",
+    "PropertyID": "00000122_UNIVERSITIES",
+    "University": "American University of Madaba",
+    "AboutInstitution": "Founded 2005, first students admitted 2011",
+    "Link": "http://www.aum.edu.jo",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_24901_1.jpg",
+      "https://whed.net/images/IAUMembers/s_24901_2.jpg",
+      "https://whed.net/images/IAUMembers/s_24901_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Jordan",
+    "City": "Amman",
+    "Streets": "Jordan Street–Mubis\rP.O. Box 2234",
+    "Institution": "Private",
+    "PropertyID": "00000123_UNIVERSITIES",
+    "University": "Amman Arab University",
+    "AboutInstitution": "Founded 1997, Academic operation started 2000",
+    "Link": "http://www.aau.edu.jo",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_9826_1.jpg",
+      "https://whed.net/images/IAUMembers/s_9826_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Jordan",
+    "City": "Amman",
+    "Streets": "Al Arab st. 21\rP.O.Box 166​",
+    "Institution": "Private",
+    "PropertyID": "00000124_UNIVERSITIES",
+    "University": "Applied Science Private University",
+    "AboutInstitution": "Founded 1991, the largest private University in Jordan",
+    "Link": "http://www.asu.edu.jo",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_9820_1.jpg",
+      "https://whed.net/images/IAUMembers/s_9820_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Jordan",
+    "City": "Aqaba",
+    "Streets": "South of Aqaba, Rear Ports Road, Opposite Aqaba Development Corporation Stores",
+    "Institution": "Private",
+    "PropertyID": "00000125_UNIVERSITIES",
+    "University": "Aqaba University of Technology",
+    "AboutInstitution": "Founded 2014",
+    "Link": "http://www.aut.edu.jo/eng/Default.aspx",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_25612_1.jpg",
+      "https://whed.net/images/IAUMembers/s_25612_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Jordan",
+    "City": "Irbid",
+    "Streets": "P.O. Box 733",
+    "Institution": "Private",
+    "PropertyID": "00000126_UNIVERSITIES",
+    "University": "Jadara University",
+    "AboutInstitution": "Founded 2005",
+    "Link": "http://www.jadara.edu.jo",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_9737_2.jpg",
+      "https://whed.net/images/IAUMembers/s_9737_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Jordan",
+    "City": "Amman",
+    "Streets": "Airport Road",
+    "Institution": "Private",
+    "PropertyID": "00000127_UNIVERSITIES",
+    "University": "Middle East University",
+    "AboutInstitution": "Created in 2005 with Master’s programs. At the beginning of the academic year 2008/2009, the university started its second phase, at undergraduate level",
+    "Link": "http://www.meu.edu.jo",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_11648_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Jordan",
+    "City": "Amman",
+    "Streets": "P.O. Box 1\rJarash Road, 20 KM out of Amman",
+    "Institution": "Private",
+    "PropertyID": "00000128_UNIVERSITIES",
+    "University": "Philadelphia University",
+    "AboutInstitution": "Founded 1989, acquired present status 1991",
+    "Link": "http://www.philadelphia.edu.jo",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_9829_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Jordan",
+    "City": "Amman",
+    "Streets": "P.O. Box 1438",
+    "Institution": "Private",
+    "PropertyID": "00000129_UNIVERSITIES",
+    "University": "Princess Sumaya University for Technology",
+    "AboutInstitution": "Founded 1991",
+    "Link": "http://www.psut.edu.jo",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_9812_1.jpg",
+      "https://whed.net/images/IAUMembers/s_9812_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Jordan",
+    "City": "Zarqa",
+    "Streets": "P.O. Box 330127",
+    "Institution": "Public",
+    "PropertyID": "00000130_UNIVERSITIES",
+    "University": "The Hashemite University",
+    "AboutInstitution": "Founded 1992",
+    "Link": "http://www.hu.edu.jo",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_747_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Jordan",
+    "City": "Amman",
+    "Streets": "P.O. Box 961343",
+    "Institution": "Private",
+    "PropertyID": "00000131_UNIVERSITIES",
+    "University": "University of Petra",
+    "AboutInstitution": "Founded 1991 as Jordan University for Women. Acquired present status 2000",
+    "Link": "http://www.uop.edu.jo",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_9819_1.jpg",
+      "https://whed.net/images/IAUMembers/s_9819_2.jpg",
+      "https://whed.net/images/IAUMembers/s_9819_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Jordan",
+    "City": "Irbid",
+    "Streets": "Shafiq Irshidat Street\rP.O. Box 566",
+    "Institution": "Public",
+    "PropertyID": "00000132_UNIVERSITIES",
+    "University": "Yarmouk University",
+    "AboutInstitution": "Founded 1976 by Royal Decree with Faculty of Arts and Science. A State Institution enjoying academic and administrative autonomy. Largely financed by the State.",
+    "Link": "http://www.yu.edu.jo",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_9822_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Kazakhstan",
+    "City": "Almaty",
+    "Streets": "prosp. Al Farabi 71/8",
+    "Institution": "Public",
+    "PropertyID": "00000133_UNIVERSITIES",
+    "University": "Al-Farabi Kazakh National University",
+    "AboutInstitution": "Founded 1934, became an autonomous state institution 1993, acquired present status and title 2001.",
+    "Link": "http://www.kaznu.kz",
+    "Logo": []
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Kazakhstan",
+    "City": "Óskemen",
+    "Streets": "ul. Serikbayeva 19",
+    "Institution": "Public",
+    "PropertyID": "00000134_UNIVERSITIES",
+    "University": "D. Serikbayev East Kazakhstan State Technical University",
+    "AboutInstitution": "Founded 1958, acquired present status 1996 and title 1997, named after D. Serikbaev.",
+    "Link": "http://www.ektu.kz",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_21054_1.jpeg",
+      "https://whed.net/images/IAUMembers/s_21054_2.jpeg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Kazakhstan",
+    "City": "Almaty",
+    "Streets": "Muratbayev, 200",
+    "Institution": "Public",
+    "PropertyID": "00000135_UNIVERSITIES",
+    "University": "Kazakh Abylai Khan University of International Relations and World Languages",
+    "AboutInstitution": "The history of the formation and development of Kazakh Ablai khan University of International Relations and World Languages is closely related to the development of foreign language teaching in the country. It was established as Teacher Training Institute of Foreign Languages in the Soviet period in 1941, after gaining the status of university it began a new page in its history. In 1998 University acquired present status.",
+    "Link": "http://www.ablaikhan.kz",
+    "Logo": []
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Kazakhstan",
+    "City": "Nur-Sultan",
+    "Streets": "prosp. Kabanbay Batyr 53",
+    "Institution": "Public",
+    "PropertyID": "00000136_UNIVERSITIES",
+    "University": "Nazarbayev University",
+    "AboutInstitution": "Created 2010",
+    "Link": "http://nu.edu.kz",
+    "Logo": []
+  },
+  {
+    "Continent": "Africa",
+    "Country": "Kenya",
+    "City": "Nairobi",
+    "Streets": "Main Campus - Thika Road, Ruaraka\rP.O Box 56808",
+    "Institution": "Private",
+    "PropertyID": "00000137_UNIVERSITIES",
+    "University": "KCA University",
+    "AboutInstitution": "Founded 1989 as Kenya College of Accountancy. Acquired current title 2007 and received charter 2013",
+    "Link": "http://www.kca.ac.ke",
+    "Logo": []
+  },
+  {
+    "Continent": "Africa",
+    "Country": "Kenya",
+    "City": "Nairobi",
+    "Streets": "PO Box 43844",
+    "Institution": "Public",
+    "PropertyID": "00000138_UNIVERSITIES",
+    "University": "Kenyatta University",
+    "AboutInstitution": "Founded 1965 as Kenyatta University College, acquired present status and title 1985.",
+    "Link": "http://www.ku.ac.ke",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_10287_1.jpg",
+      "https://whed.net/images/IAUMembers/s_10287_2.jpg",
+      "https://whed.net/images/IAUMembers/s_10287_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Africa",
+    "Country": "Kenya",
+    "City": "Nairobi",
+    "Streets": "P.O Box 29677",
+    "Institution": "Private",
+    "PropertyID": "00000139_UNIVERSITIES",
+    "University": "Management University of Africa",
+    "AboutInstitution": "Founded 1954 as Kenya Institute of Management (KIM). Acquired present status and title 2011.",
+    "Link": "https://www.mua.ac.ke",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_11332_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Africa",
+    "Country": "Kenya",
+    "City": "Eldoret",
+    "Streets": "P.O Box 3900",
+    "Institution": "Public",
+    "PropertyID": "00000140_UNIVERSITIES",
+    "University": "Moi University",
+    "AboutInstitution": "Founded 1984",
+    "Link": "https://www.mu.ac.ke",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_12011_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Africa",
+    "Country": "Kenya",
+    "City": "Nairobi",
+    "Streets": "Madaraka Estate\rOle Sangale Road\rPO Box 59857\rCity Square",
+    "Institution": "Private",
+    "PropertyID": "00000141_UNIVERSITIES",
+    "University": "Strathmore University",
+    "AboutInstitution": "Founded 1961. Acquired present status 2002 and awarded charter 2008.",
+    "Link": "http://www.strathmore.edu",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_15898_1.jpg",
+      "https://whed.net/images/IAUMembers/s_15898_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Africa",
+    "Country": "Kenya",
+    "City": "Nairobi",
+    "Streets": "PO Box 62157",
+    "Institution": "Private",
+    "PropertyID": "00000142_UNIVERSITIES",
+    "University": "The Catholic University of Eastern Africa",
+    "AboutInstitution": "Founded 1984 as the Catholic Higher Institute of Eastern Africa. Acquired present status and title 1992.",
+    "Link": "http://www.cuea.edu",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_16407_1.jpg",
+      "https://whed.net/images/IAUMembers/s_16407_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Africa",
+    "Country": "Kenya",
+    "City": "Nairobi",
+    "Streets": "P. O. Box 14634",
+    "Institution": "Private",
+    "PropertyID": "00000143_UNIVERSITIES",
+    "University": "United States International University",
+    "AboutInstitution": "Founded 1969. Acquired status 1999. Merged with the California School of Professional Psychology (CSPP) forming the Alliant International University. USIU-Africa separated itself from the new entity, becoming an independent institution 2005, and receiving its own accreditation as United States International University, from the Western Association of Schools and Colleges (WASC) 2008. Acquired current title 2014.",
+    "Link": "http://www.usiu.ac.ke",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_17094_1.jpg",
+      "https://whed.net/images/IAUMembers/s_17094_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Africa",
+    "Country": "Kenya",
+    "City": "Nairobi",
+    "Streets": "PO Box 30197",
+    "Institution": "Public",
+    "PropertyID": "00000144_UNIVERSITIES",
+    "University": "University of Nairobi",
+    "AboutInstitution": "Founded 1956 as Royal Technical College of East Africa, became University College Nairobi 1963 and acquired present status and title 1970.",
+    "Link": "https://www.uonbi.ac.ke",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_20319_1.jpg",
+      "https://whed.net/images/IAUMembers/s_20319_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Kyrgyzstan",
+    "City": "Biškek",
+    "Streets": "55, Chui Molodaya Gvardia",
+    "Institution": "Private",
+    "PropertyID": "00000145_UNIVERSITIES",
+    "University": "Adam University",
+    "AboutInstitution": "Created 1994.",
+    "Link": "https://bafe.edu.kg",
+    "Logo": []
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Lebanon",
+    "City": "Beirut",
+    "Streets": "P.O. Box 14-5355\rMunicipal Stadium Street - Yasmine Building",
+    "Institution": "Private",
+    "PropertyID": "00000146_UNIVERSITIES",
+    "University": "Al Imam Al Ouzai University",
+    "AboutInstitution": "Founded 1979 as Al Imam Al Ouzai College for Islamic Studies. Acquired present status and title 1986",
+    "Link": "http://www.ouzai.org",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_9842_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Lebanon",
+    "City": "Beirut",
+    "Streets": "P.O. Box 11-0236\rRiad El Solh",
+    "Institution": "Private",
+    "PropertyID": "00000147_UNIVERSITIES",
+    "University": "American University of Beirut",
+    "AboutInstitution": "Founded 1866 as Syrian Protestant College with School of Medicine added 1867 and Pharmacy 1871. Rechartered as American University of Beirut 1920. Institutional Accreditation granted 2004. A private non-denominational institution under charter from the educational authorities of the State of New York, USA, with a self-perpetuating Board of Trustees. Supported by fees, income from an endowment, and private gifts and donations. No organic relationship with any government, religious body, etc.",
+    "Link": "http://www.aub.edu.lb",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_917_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Lebanon",
+    "City": "Beirut",
+    "Streets": "Tarik El Jadida\rP.O.Box 11 5020\rRiad El Solh",
+    "Institution": "Private",
+    "PropertyID": "00000148_UNIVERSITIES",
+    "University": "Beirut Arab University",
+    "AboutInstitution": "Founded 1960 by the Lebanese El-Bir and El-Ihsan Society",
+    "Link": "http://www.bau.edu.lb",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_9852_1.jpg",
+      "https://whed.net/images/IAUMembers/s_9852_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Lebanon",
+    "City": "Batroon",
+    "Streets": "Rue Hadady\rP.O. Box 4001",
+    "Institution": "Private",
+    "PropertyID": "00000149_UNIVERSITIES",
+    "University": "Holy Family University - Batroon",
+    "AboutInstitution": "Founded 2009",
+    "Link": "http://www.usf.edu.lb",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_7537_1.png"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Lebanon",
+    "City": "Jounieh",
+    "Streets": "P.O. Box 446",
+    "Institution": "Private",
+    "PropertyID": "00000150_UNIVERSITIES",
+    "University": "Holy Spirit University of Kaslik",
+    "AboutInstitution": "Founded 1961 and run by the Lebanese Maronite Order",
+    "Link": "http://www.usek.edu.lb",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_19833_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Lebanon",
+    "City": "Khaldeh",
+    "Streets": "P.O. Box 30014\rKhaldeh Highway",
+    "Institution": "Private",
+    "PropertyID": "00000151_UNIVERSITIES",
+    "University": "Islamic University of Lebanon",
+    "AboutInstitution": "Founded 1994, sponsored by the Higher Islamic Shiite Council",
+    "Link": "http://www.iul.edu.lb",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_751_1.jpg",
+      "https://whed.net/images/IAUMembers/s_751_2.jpg",
+      "https://whed.net/images/IAUMembers/s_751_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Lebanon",
+    "City": "Beirut",
+    "Streets": "Mouseitbeh\rP.O. Box 146404, Mazraa",
+    "Institution": "Private",
+    "PropertyID": "00000152_UNIVERSITIES",
+    "University": "Lebanese International University",
+    "AboutInstitution": "Founded 2001 as Jamiat Al Bekaa (Al Bekaa University), acquired present name 2005. Operates six campuses in Lebanon, four campuses in Yemen, one in Senegal and one in Mauritania",
+    "Link": "http://www.liu.edu.lb",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_10888_1.png"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Lebanon",
+    "City": "Zouk Mosbeh",
+    "Streets": "P.O. Box 72\rZouk Mikael",
+    "Institution": "Private",
+    "PropertyID": "00000153_UNIVERSITIES",
+    "University": "Notre Dame University-Louaizé",
+    "AboutInstitution": "Founded 1978 as Louaizé Centre for Higher Education, affiliated to Beirut University College. Acquired present status and title 1987",
+    "Link": "http://www.ndu.edu.lb",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_12893_1.jpg",
+      "https://whed.net/images/IAUMembers/s_12893_1.png"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Lebanon",
+    "City": "Mechref",
+    "Streets": "P.O. Box 10 Damour - Chouf 2010",
+    "Institution": "Private",
+    "PropertyID": "00000154_UNIVERSITIES",
+    "University": "Rafik Hariri University",
+    "AboutInstitution": "Founded 1999. Previously known as Hariri Canadian University (Moujamaa al Hariri al Kanadi). Acquired current title 2011",
+    "Link": "http://www.rhu.edu.lb",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_13876_1.jpg",
+      "https://whed.net/images/IAUMembers/s_13876_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Lebanon",
+    "City": "Beirut",
+    "Streets": "BP 17-5208\rMar Mikhaël, Rue de Damas",
+    "Institution": "Private",
+    "PropertyID": "00000155_UNIVERSITIES",
+    "University": "Saint-Joseph University of Beirut",
+    "AboutInstitution": "Founded 1875 by the Society of Jesus. Title of University confirmed by Pope Leo XIII 1881. Faculty of Medicine established 1883 by agreement with French Government. A private institution. Received some financial assistance from the French State until 1975 when the University became an autonomous institution financed by tuition fees and government subsidies. University Regional Centres at: Ras Maska (North Lebanon), Zahlé/Hazerta (Bekaa) and Saïda-Bramieh (South Lebanon). University Foreign Centres in Abudhabi (United Arab Emirates)",
+    "Link": "http://www.usj.edu.lb",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_19834_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Lebanon",
+    "City": "Tripoli",
+    "Streets": "P.O. Box 100",
+    "Institution": "Private",
+    "PropertyID": "00000156_UNIVERSITIES",
+    "University": "University of Balamand",
+    "AboutInstitution": "Founded 1936. Acquired present title and status 1988",
+    "Link": "http://www.balamand.edu.lb",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_9841_1.jpg",
+      "https://whed.net/images/IAUMembers/s_9841_2.jpg",
+      "https://whed.net/images/IAUMembers/s_9841_3.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Lesotho",
+    "City": "Maseru",
+    "Streets": "P.O. Roma 180",
+    "Institution": "Public",
+    "PropertyID": "00000157_UNIVERSITIES",
+    "University": "National University of Lesotho",
+    "AboutInstitution": "Founded 1945 as Pius XII College, became University of Basutoland, Bechuanaland Protectorate and Swaziland 1966; part of the trinational University of Botswana, Lesotho and Swaziland 1966. Acquired present status 1975.",
+    "Link": "http://www.nul.ls",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_12549_1.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Liberia",
+    "City": "Monrovia",
+    "Streets": "Opposite CDC Headquarter, Congo Town\rPost Box 1881",
+    "Institution": "Private",
+    "PropertyID": "00000158_UNIVERSITIES",
+    "University": "BlueCrest University College",
+    "AboutInstitution": "Created 2013 as a centre of excellence in information technology, became a vocational training institute, BlueCrest International I.T. Institute, in 2014 and acquired degree-awarding powers in 2015",
+    "Link": "https://liberia.bluecrestcollege.com",
+    "Logo": []
+  },
+  {
+    "Continent": "",
+    "Country": "Liberia",
+    "City": "Monrovia",
+    "Streets": "P.O. Box 1040",
+    "Institution": "Private",
+    "PropertyID": "00000159_UNIVERSITIES",
+    "University": "Starz University",
+    "AboutInstitution": "Created 2009 as Starz Institute of Technology, a technical and vocational institution. Acquired Associate Degree-awarding status in 2012 and acquired university status in 2015.",
+    "Link": "https://starzit.com",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_28027_1.jpg",
+      "https://whed.net/images/IAUMembers/s_28027_2.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Lithuania",
+    "City": "Vilnius",
+    "Streets": "Ateities street 20",
+    "Institution": "Public",
+    "PropertyID": "00000160_UNIVERSITIES",
+    "University": "Mykolas Romeris University",
+    "AboutInstitution": "Founded 1990. Renamed Lietuvos Teisės Universitetas (Law University of Lithuania) 2000. Acquired present title and status 2004",
+    "Link": "http://www.mruni.eu",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_12258_1.jpg",
+      "https://whed.net/images/IAUMembers/s_12258_2.jpg",
+      "https://whed.net/images/IAUMembers/s_12258_3.jpg"
+    ]
+  },
+  {
+    "Continent": "Europe",
+    "Country": "Lithuania",
+    "City": "Vilnius",
+    "Streets": "Universiteto street 3",
+    "Institution": "Public",
+    "PropertyID": "00000161_UNIVERSITIES",
+    "University": "Vilnius University",
+    "AboutInstitution": "Founded 1579 as Academica et Universitas Vilnensis with two Faculties: Philosophy and Theology. Reorganized 1781 and again 1803 as the Imperial University of Vilnius. Closed by Tsarist Government 1832 when Faculties of Medicine and Theology became separate Academies. Reopened 1919. Closed during German occupation 1943.",
+    "Link": "http://www.vu.lt",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_20892_1.jpg",
+      "https://whed.net/images/IAUMembers/s_20892_2.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Madagascar",
+    "City": "Antananarivo",
+    "Streets": "BP 566\rAmbohitsaina",
+    "Institution": "Public",
+    "PropertyID": "00000162_UNIVERSITIES",
+    "University": "University of Antananarivo",
+    "AboutInstitution": "Founded 1955 as Institut des Hautes Etudes tracing origins to School of Medicine (1896) and School of Law (1941). Became Université de Madagascar 1960. Reorganized 1973 with six main divisions, and 1976 as a decentralized institution with six Regional Centres. Acquired present status as independent university 1988.",
+    "Link": "http://www.univ-antananarivo.mg",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_19547_1.jpg"
+    ]
+  },
+  {
+    "Continent": "",
+    "Country": "Malawi",
+    "City": "Zomba",
+    "Streets": "P.O. Box 278",
+    "Institution": "Public",
+    "PropertyID": "00000163_UNIVERSITIES",
+    "University": "University of Malawi",
+    "AboutInstitution": "Founded 1964, integrating all the country's facilities for further and higher education.",
+    "Link": "http://www.unima.mw",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_20268_1.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Malaysia",
+    "City": "Bedong",
+    "Streets": "Jalan Bedong, Semeling",
+    "Institution": "Private",
+    "PropertyID": "00000164_UNIVERSITIES",
+    "University": "AIMST University",
+    "AboutInstitution": "Founded 2001",
+    "Link": "http://www.aimst.edu.my",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_8103_1.jpg",
+      "https://whed.net/images/IAUMembers/s_8103_2.jpg",
+      "https://whed.net/images/IAUMembers/s_8103_3.jpg",
+      "https://whed.net/images/IAUMembers/s_8103_4.jpg"
+    ]
+  },
+  {
+    "Continent": "Asia",
+    "Country": "Malaysia",
+    "City": "Petaling Jaya",
+    "Streets": "Wisma Lincoln, No. 12-18, Jalan SS 6/12",
+    "Institution": "Private",
+    "PropertyID": "00000165_UNIVERSITIES",
+    "University": "Lincoln University College",
+    "AboutInstitution": "Created 2002",
+    "Link": "http://www.lincoln.edu.my",
+    "Logo": [
+      "https://whed.net/images/IAUMembers/s_10477_2.jpg",
+      "https://whed.net/images/IAUMembers/s_10477_1.jpg"
+    ]
+  }
+]
