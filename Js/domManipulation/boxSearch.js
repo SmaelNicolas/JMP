@@ -13,6 +13,7 @@ export const boxSearch = () => {
 
 	travelSearchSelector.addEventListener("change", (e) => {
 		let value = e.target.value;
+		let inputValue = travelBoxSearchInput.innerHTML;
 		if (travelSearchSelector.value === "noSearch") {
 			container.innerHTML = "";
 		} else {
@@ -21,12 +22,12 @@ export const boxSearch = () => {
 		}
 	});
 
-	travelBoxSearchInput.addEventListener("change", (e) => {
-		let value = e.target.value;
-		if (value === "") {
-			container.innerHTML = "";
-		} else {
-			getUniversitiesSearched(value, dataUniversities);
-		}
-	});
+	// travelBoxSearchInput.addEventListener("change", (e) => {
+	// 	let value = e.target.value;
+	// 	if (value === "") {
+	// 		container.innerHTML = "";
+	// 	} else {
+	// 		getUniversitiesSearched(value, dataUniversities);
+	// 	}
+	// });
 };
