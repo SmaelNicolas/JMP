@@ -20,17 +20,17 @@ export const getUniversitiesSearched = async (query, arrayUniversities) => {
 			// 		keyword.toLowerCase() === word &&
 			// 		universitiesWithKeyword.push(uni)
 			// );
-			uni.Country.toLowerCase().includes(word) &&
+			uni.Country.toLowerCase().includes(word, 0) &&
 				universitiesWithKeyword.push(uni);
-			uni.University.toLowerCase().includes(word) &&
+			uni.University.toLowerCase().includes(word, 0) &&
 				universitiesWithKeyword.push(uni);
-			uni.Institution.toLowerCase().includes(word) &&
+			uni.Institution.toLowerCase().includes(word, 0) &&
 				universitiesWithKeyword.push(uni);
-			uni.City.toLowerCase().includes(word) &&
+			uni.City.toLowerCase().includes(word, 0) &&
 				universitiesWithKeyword.push(uni);
-			uni.Continent.toLowerCase().includes(word) &&
+			uni.Continent.toLowerCase().includes(word, 0) &&
 				universitiesWithKeyword.push(uni);
-			uni.Streets.toLowerCase().includes(word) &&
+			uni.Streets.toLowerCase().includes(word, 0) &&
 				universitiesWithKeyword.push(uni);
 		});
 	});
@@ -41,8 +41,11 @@ export const getUniversitiesSearched = async (query, arrayUniversities) => {
 			(query.toLowerCase() === item.Continent.toLowerCase() ||
 				query.toLowerCase() === item.Country.toLowerCase() ||
 				query.toLowerCase() === item.City.toLowerCase() ||
-				item.Streets.toLowerCase().includes(query.toLowerCase()) ||
-				item.University.toLowerCase().includes(query.toLowerCase()) ||
+				item.Streets.toLowerCase().includes(query.toLowerCase(), 0) ||
+				item.University.toLowerCase().includes(
+					query.toLowerCase(),
+					0
+				) ||
 				query.toLowerCase() === item.Institution.toLowerCase()) &&
 			item
 	);
