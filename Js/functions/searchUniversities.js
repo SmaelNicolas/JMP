@@ -4,6 +4,7 @@ import { renderUniversities } from "./renderUniversities.js";
 
 export const getUniversitiesSearched = async (query, arrayUniversities) => {
 	let container = document.getElementById("containerUniversitySearchResult");
+	if (query === "") return;
 	//reset del container de cards
 	container.innerHTML = "";
 	// if (/^\s*$/.test(query)) return renderSearchMessage();

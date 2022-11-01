@@ -64,7 +64,7 @@ export const searchByCountries = () => {
 						dataUniversities
 					);
 				} else {
-					container.innerHTML = "";
+					// container.innerHTML = "";
 					// renderSearchMessage();
 				}
 			}
