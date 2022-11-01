@@ -4,6 +4,7 @@ import { getUniversitiesSearched } from "./searchUniversities.js";
 export const searchByCountries = () => {
 	let container = document.getElementById("containerUniversitySearchResult");
 	let containerSearch = document.getElementById("travelBoxSearchContainer");
+	let travelSearchSelector = document.getElementById("travelSearchSelector");
 
 	let dataUniversities = [];
 	fetch("./exampleKeywords.json")
@@ -50,6 +51,7 @@ export const searchByCountries = () => {
 				)
 			) {
 				arrayCountries.push(item.getAttribute("id"));
+				travelSearchSelector.innerHTML = item.getAttribute("id");
 				getUniversitiesSearched(
 					arrayCountries.join(" "),
 					dataUniversities
@@ -58,6 +60,7 @@ export const searchByCountries = () => {
 				arrayCountries = arrayCountries.filter(
 					(country) => country !== item.getAttribute("id")
 				);
+				travelSearchSelector.innerHTML = "COUNTRY";
 				if (arrayCountries.length > 0) {
 					getUniversitiesSearched(
 						arrayCountries.join(" "),
