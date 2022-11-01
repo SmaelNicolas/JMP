@@ -1,5 +1,6 @@
 export const createSuggestions = async () => {
 	let input = document.getElementById("travelBoxSearchInput");
+
 	let containerSuggestion = document.getElementById(
 		"travelContainerSuggestion"
 	);
@@ -56,7 +57,6 @@ export const createSuggestions = async () => {
 			node.classList.add("travelBoxSearchListCountriesItem");
 			containerSuggestion.appendChild(node);
 			node.addEventListener("click", () => {
-				console.log(word);
 				node.classList.toggle(
 					"travelBoxSearchListCountriesItemSelected"
 				);
