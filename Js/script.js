@@ -2,7 +2,7 @@ import { addCountryToSelector } from "./domManipulation/addCountryToSelector.js"
 import { boxSearch } from "./domManipulation/boxSearch.js";
 import { getUniversitiesSearched } from "./functions/searchUniversities.js";
 
-fetch("./exampleKeywords.json")
+fetch("./testUniversities.json")
 	.then((res) => res.json())
 	.then((res) => firstRender(res));
 
