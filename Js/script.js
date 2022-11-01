@@ -3,7 +3,7 @@ import { boxSearch } from "./domManipulation/boxSearch.js";
 import { createSuggestions } from "./domManipulation/createSugestions.js";
 import { getUniversitiesSearched } from "./functions/searchUniversities.js";
 
-fetch("./exampleKeywords.json")
+fetch("./testUniversities.json")
 	.then((res) => res.json())
 	.then((res) => firstRender(res));
 

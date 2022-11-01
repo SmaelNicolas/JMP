@@ -7,7 +7,7 @@ export const searchByCountries = () => {
 	let travelSearchSelector = document.getElementById("travelSearchSelector");
 
 	let dataUniversities = [];
-	fetch("./exampleKeywords.json")
+	fetch("./testUniversities.json")
 		.then((res) => res.json())
 		.then((res) => (dataUniversities = res));
 
