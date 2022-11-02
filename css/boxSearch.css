@@ -131,6 +131,7 @@
 	z-index: 100;
 	display: none;
 }
+
 .travelBoxSearchListCountriesContainer::-webkit-scrollbar {
 	display: none; /* Safari and Chrome */
 }
@@ -149,7 +150,12 @@
 	padding: 10px;
 	margin: 0px;
 	font-size: 15px;
-	background-color: white;
+	background: rgb(255, 255, 255);
+	background: linear-gradient(
+		90deg,
+		rgba(255, 255, 255, 0.7371323529411764) 0%,
+		rgba(255, 255, 255, 1) 100%
+	);
 	color: var(--clr--hard--grey);
 	font-weight: 900;
 	font-family: var(--ff--Mont);
@@ -177,13 +183,20 @@
 	color: var(--clr--purple);
 }
 
+.travelBoxSearchListNamesItemSelected,
 .travelBoxSearchListCountriesItemSelected {
 	background-color: var(--clr--purple);
 	color: white;
 }
+.travelBoxSearchListNamesItemSelected,
 .travelBoxSearchListCountriesItemSelected:hover {
 	background-color: var(--clr--purple);
 	color: white !important;
+}
+
+.travelBoxSearchListCountriesItemInfo {
+	font-size: 10px;
+	color: var(--clr--light--grey);
 }
 
 .getBigSmall {
