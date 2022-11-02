@@ -6,7 +6,7 @@ export const searchByCountries = () => {
 	let containerSearch = document.getElementById("travelBoxSearchContainer");
 
 	let dataUniversities = [];
-	fetch("./testUniversities.json")
+	fetch("./universities.json")
 		.then((res) => res.json())
 		.then((res) => (dataUniversities = res));
 

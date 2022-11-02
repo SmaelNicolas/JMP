@@ -5,7 +5,7 @@ export const addCountryToSelector = () => {
 		"travelBoxSearchListCountriesContainer"
 	);
 
-	fetch("./testUniversities.json")
+	fetch("./universities.json")
 		.then((res) => res.json())
 		.then((res) => getAllCountrys(res));
 
