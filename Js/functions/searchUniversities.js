@@ -7,6 +7,7 @@ export const getUniversitiesSearched = async (query, arrayUniversities) => {
 	if (query === "") return;
 	//reset del container de cards
 	container.innerHTML = "";
+
 	// if (/^\s*$/.test(query)) return renderSearchMessage();
 	// if (query.replace(" ", "").length === 0) return renderSearchMessage();
 	const queryWordsArray = query.toLowerCase().split(" ");

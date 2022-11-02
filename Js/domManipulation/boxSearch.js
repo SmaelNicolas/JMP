@@ -4,8 +4,8 @@ export const boxSearch = () => {
 	let container = document.getElementById("containerUniversitySearchResult");
 
 	let dataUniversities = [];
-	let travelSearchSelector = document.getElementById("travelSearchSelector");
 	let travelBoxSearchInput = document.getElementById("travelBoxSearchInput");
+	let travelSearchSelector = document.getElementById("travelSearchSelector");
 
 	fetch("./universities.json")
 		.then((res) => res.json())
