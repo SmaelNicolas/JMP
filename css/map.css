@@ -1,11 +1,10 @@
 .map {
 	width: 100% !important;
-	height: 160px !important;
+	height: 220px !important;
 	border-radius: 5px;
-	z-index: 1;
-	margin-bottom: 55px;
+	z-index: 4;
 	background-image: url("../Assets/icons/loading.webp");
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 	background-position: center;
 	box-shadow: var(--shadow--3d--small);
 }
