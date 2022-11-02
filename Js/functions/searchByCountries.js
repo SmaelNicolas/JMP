@@ -2,12 +2,12 @@ import { renderSearchMessage } from "./renderSearchMessage.js";
 import { getUniversitiesSearched } from "./searchUniversities.js";
 
 export const searchByCountries = () => {
-	let container = document.getElementById("containerUniversitySearchResult");
 	let containerSearch = document.getElementById("travelBoxSearchContainer");
 	let travelSearchSelector = document.getElementById("travelSearchSelector");
+	let travelBoxSearchInput = document.getElementById("travelBoxSearchInput");
 
 	let dataUniversities = [];
-	fetch("./testUniversities.json")
+	fetch("./universities.json")
 		.then((res) => res.json())
 		.then((res) => (dataUniversities = res));
 
@@ -27,24 +27,24 @@ export const searchByCountries = () => {
 
 	let arrayCountries = [];
 
+	travelBoxSearchInput.addEventListener("click", () => {
+		selectorCountriesList.classList.remove(
+			"ListCountriesContainerHideShow"
+		);
+		containerSearch.classList.remove("getBiggerHeight");
+	});
+
 	selectorCountries.addEventListener("click", () => {
-		// separatorContainer.classList.toggle("getBigSmall");
 		containerSearch.classList.toggle("getBiggerHeight");
 		selectorCountriesList.classList.toggle(
 			"ListCountriesContainerHideShow"
 		);
 	});
 
-	// closeIcon.addEventListener("click", () => {
-	// 	selectorCountriesList.classList.toggle(
-	// 		"ListCountriesContainerHideShow"
-	// 	);
-	// 	separatorContainer.classList.toggle("getBigSmall");
-	// });
-
 	arrayCountryItems.map((item) => {
 		item.addEventListener("click", () => {
 			item.classList.toggle("travelBoxSearchListCountriesItemSelected");
+			travelBoxSearchInput.value = "";
 			if (
 				item.classList.contains(
 					"travelBoxSearchListCountriesItemSelected"

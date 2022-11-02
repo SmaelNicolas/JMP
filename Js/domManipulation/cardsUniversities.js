@@ -1,4 +1,4 @@
-import { reduceString } from "../functions/reduceString.js";
+import { reduceStreet, reduceString } from "../functions/reduceString.js";
 
 export const handleCardsByName = (item, index, container) => {
 	if (item.University.length <= 12) return card9(item, index, container);
@@ -27,7 +27,8 @@ export const handleCardsByName = (item, index, container) => {
 };
 
 const card1 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.AboutInstitution);
+	let descriptionReduced = reduceString(item.AboutUniversity);
+	let streetReduced = reduceStreet(item.Streets);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
@@ -45,7 +46,7 @@ const card1 = (item, index, container) => {
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
-					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
 				</div>
@@ -67,7 +68,7 @@ const card1 = (item, index, container) => {
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN1--name">${item.University}</div>
-							<div class="cardUniversitySearchResultN1--description" >${item.AboutInstitution}
+							<div class="cardUniversitySearchResultN1--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -83,7 +84,8 @@ const card1 = (item, index, container) => {
 };
 
 const card2 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.AboutInstitution);
+	let descriptionReduced = reduceString(item.AboutUniversity);
+	let streetReduced = reduceStreet(item.Streets);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
@@ -101,7 +103,7 @@ const card2 = (item, index, container) => {
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
-					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
 				</div>
@@ -123,7 +125,7 @@ const card2 = (item, index, container) => {
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN2--name">${item.University}</div>
-							<div class="cardUniversitySearchResultN2--description" >${item.AboutInstitution}
+							<div class="cardUniversitySearchResultN2--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -139,7 +141,8 @@ const card2 = (item, index, container) => {
 };
 
 const card3 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.AboutInstitution);
+	let descriptionReduced = reduceString(item.AboutUniversity);
+	let streetReduced = reduceStreet(item.Streets);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
@@ -157,7 +160,7 @@ const card3 = (item, index, container) => {
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
-					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
 				</div>
@@ -178,7 +181,7 @@ const card3 = (item, index, container) => {
 						<div class="cardUniversitySearchResultN3--name">${item.University}</div>
 					</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
-							<div class="cardUniversitySearchResultN3--description" >${item.AboutInstitution}
+							<div class="cardUniversitySearchResultN3--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -195,7 +198,8 @@ const card3 = (item, index, container) => {
 };
 
 const card4 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.AboutInstitution);
+	let descriptionReduced = reduceString(item.AboutUniversity);
+	let streetReduced = reduceStreet(item.Streets);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
@@ -213,7 +217,7 @@ const card4 = (item, index, container) => {
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
-					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
 				</div>
@@ -235,7 +239,7 @@ const card4 = (item, index, container) => {
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN4--name">${item.University}</div>
-							<div class="cardUniversitySearchResultN4--description" >${item.AboutInstitution}
+							<div class="cardUniversitySearchResultN4--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -251,7 +255,8 @@ const card4 = (item, index, container) => {
 };
 
 const card5 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.AboutInstitution);
+	let descriptionReduced = reduceString(item.AboutUniversity);
+	let streetReduced = reduceStreet(item.Streets);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
@@ -269,7 +274,7 @@ const card5 = (item, index, container) => {
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
-					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
 				</div>
@@ -291,7 +296,7 @@ const card5 = (item, index, container) => {
 					</div>
 					<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 						<div class="cardUniversitySearchResultN5--name">${item.University}</div>
-						<div class="cardUniversitySearchResultN5--description" >${item.AboutInstitution}
+						<div class="cardUniversitySearchResultN5--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -306,7 +311,8 @@ const card5 = (item, index, container) => {
 };
 
 const card6 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.AboutInstitution);
+	let descriptionReduced = reduceString(item.AboutUniversity);
+	let streetReduced = reduceStreet(item.Streets);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
@@ -324,7 +330,7 @@ const card6 = (item, index, container) => {
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
-					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
 				</div>
@@ -346,7 +352,7 @@ const card6 = (item, index, container) => {
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN6--name">${item.University}</div>
-							<div class="cardUniversitySearchResultN6--description" >${item.AboutInstitution}
+							<div class="cardUniversitySearchResultN6--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -362,7 +368,8 @@ const card6 = (item, index, container) => {
 };
 
 const card7 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.AboutInstitution);
+	let descriptionReduced = reduceString(item.AboutUniversity);
+	let streetReduced = reduceStreet(item.Streets);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
@@ -380,7 +387,7 @@ const card7 = (item, index, container) => {
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
-					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
 				</div>
@@ -402,7 +409,7 @@ const card7 = (item, index, container) => {
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN7--name">${item.University}</div>
-							<div class="cardUniversitySearchResultN7--description" >${item.AboutInstitution}
+							<div class="cardUniversitySearchResultN7--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -418,7 +425,8 @@ const card7 = (item, index, container) => {
 };
 
 const card8 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.AboutInstitution);
+	let descriptionReduced = reduceString(item.AboutUniversity);
+	let streetReduced = reduceStreet(item.Streets);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
@@ -436,7 +444,7 @@ const card8 = (item, index, container) => {
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
-					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
 				</div>
@@ -457,7 +465,7 @@ const card8 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN8--name">${item.University}</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
-							<div class="cardUniversitySearchResultN8--description" >${item.AboutInstitution}
+							<div class="cardUniversitySearchResultN8--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -474,7 +482,8 @@ const card8 = (item, index, container) => {
 };
 
 const card9 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.AboutInstitution);
+	let descriptionReduced = reduceString(item.AboutUniversity);
+	let streetReduced = reduceStreet(item.Streets);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
@@ -492,7 +501,7 @@ const card9 = (item, index, container) => {
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
-					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
 				</div>
@@ -513,7 +522,7 @@ const card9 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN9--name">${item.University}</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
-							<div class="cardUniversitySearchResultN9--description" >${item.AboutInstitution}
+							<div class="cardUniversitySearchResultN9--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -530,7 +539,8 @@ const card9 = (item, index, container) => {
 };
 
 const card10 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.AboutInstitution);
+	let descriptionReduced = reduceString(item.AboutUniversity);
+	let streetReduced = reduceStreet(item.Streets);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
@@ -548,7 +558,7 @@ const card10 = (item, index, container) => {
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
-					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
 				</div>
@@ -569,9 +579,7 @@ const card10 = (item, index, container) => {
 							<div class="cardUniversitySearchResultN10--name">${item.University}</div>
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
-							<div class="cardUniversitySearchResultN10--description" >${
-								item.AboutInstitution
-							}
+							<div class="cardUniversitySearchResultN10--description" >${item.AboutUniversity}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
 								</div>
@@ -588,7 +596,8 @@ const card10 = (item, index, container) => {
 };
 
 const card11 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.AboutInstitution);
+	let descriptionReduced = reduceString(item.AboutUniversity);
+	let streetReduced = reduceStreet(item.Streets);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
@@ -606,7 +615,7 @@ const card11 = (item, index, container) => {
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
-					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
 				</div>
@@ -629,7 +638,7 @@ const card11 = (item, index, container) => {
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN11--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN11--description " >${
-								item.AboutInstitution
+								item.AboutUniversity
 							}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
@@ -646,7 +655,8 @@ const card11 = (item, index, container) => {
 };
 
 const card12 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.AboutInstitution);
+	let descriptionReduced = reduceString(item.AboutUniversity);
+	let streetReduced = reduceStreet(item.Streets);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
@@ -664,7 +674,7 @@ const card12 = (item, index, container) => {
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
-					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
 				</div>
@@ -686,7 +696,7 @@ const card12 = (item, index, container) => {
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN12--description " >${
-								item.AboutInstitution
+								item.AboutUniversity
 							}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
@@ -704,7 +714,8 @@ const card12 = (item, index, container) => {
 };
 
 const card13 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.AboutInstitution);
+	let descriptionReduced = reduceString(item.AboutUniversity);
+	let streetReduced = reduceStreet(item.Streets);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
@@ -722,7 +733,7 @@ const card13 = (item, index, container) => {
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
-					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
 				</div>
@@ -744,7 +755,7 @@ const card13 = (item, index, container) => {
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN13--name">${item.University}</div>
 							<div class="cardUniversitySearchResultN13--description " >${
-								item.AboutInstitution
+								item.AboutUniversity
 							}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
@@ -761,7 +772,8 @@ const card13 = (item, index, container) => {
 };
 
 const card14 = (item, index, container) => {
-	let descriptionReduced = reduceString(item.AboutInstitution);
+	let descriptionReduced = reduceString(item.AboutUniversity);
+	let streetReduced = reduceStreet(item.Streets);
 	let node = document.createElement("div");
 	node.innerHTML = `<div id="cardAndMap${
 		item.PropertyID
@@ -779,7 +791,7 @@ const card14 = (item, index, container) => {
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
 					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
-					<div class="cardUniversitySearchResultInfoHover--street">${item.Streets}</div>
+					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
 				</div>
@@ -800,7 +812,7 @@ const card14 = (item, index, container) => {
 						</div>
 						<div class="cardUniversitySearchResult--center cardUniversitySearchResult--center--hide" id="cardUniversitySearchResult--centerLong${index}">
 							<div class="cardUniversitySearchResultN14--description " >${
-								item.AboutInstitution
+								item.AboutUniversity
 							}
 								<div id="cardUniversitySearchResultArrowLess${index}" class="cardUniversitySearchResultArrowLess">
 								<svg xmlns="http://www.w3.org/2000/svg" style="height:100%; width:100%;" viewBox="0 0 448 512" fill="#999" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
