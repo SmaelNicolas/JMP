@@ -1,5 +1,4 @@
 import { renderErrorMessage } from "./renderErrorMessage.js";
-import { renderSearchMessage } from "./renderSearchMessage.js";
 import { renderUniversities } from "./renderUniversities.js";
 
 export const getUniversitiesSearched = async (query, arrayUniversities) => {
