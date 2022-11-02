@@ -15,11 +15,11 @@ export const getUniversitiesSearched = async (query, arrayUniversities) => {
 	//filtro el arreglo con los que coincidan con alguna de las keywords
 	await queryWordsArray.map((word) => {
 		arrayUniversities.map((uni) => {
-			// uni.KeyWords.map(
-			// 	(keyword) =>
-			// 		keyword.toLowerCase() === word &&
-			// 		universitiesWithKeyword.push(uni)
-			// );
+			uni.KeyWords.map(
+				(keyword) =>
+					keyword.toLowerCase() === word &&
+					universitiesWithKeyword.push(uni)
+			);
 			uni.Country.toLowerCase().includes(word, 0) &&
 				universitiesWithKeyword.push(uni);
 			uni.University.toLowerCase().includes(word, 0) &&
