@@ -1,14 +1,14 @@
-import { addCountryToSelector } from "./domManipulation/addCountryToSelector.js";
 import { boxSearch } from "./domManipulation/boxSearch.js";
-import { createSuggestions } from "./domManipulation/createSugestions.js";
+import { createSugestionsNameUnis } from "./domManipulation/createSugestionsNameUnis.js";
+import { createSuggestionsCountrys } from "./domManipulation/createSuggestionsCountrys.js";
 import { getUniversitiesSearched } from "./functions/searchUniversities.js";
 
 fetch("./universities.json")
 	.then((res) => res.json())
 	.then((res) => firstRender(res));
 
-addCountryToSelector();
-createSuggestions();
+createSuggestionsCountrys();
+createSugestionsNameUnis();
 
 boxSearch();
 
