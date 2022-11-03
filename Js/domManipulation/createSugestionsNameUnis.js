@@ -9,6 +9,7 @@ export const createSugestionsNameUnis = async () => {
 	let containerSearch = document.getElementById("travelBoxSearchContainer");
 	let input = document.getElementById("travelBoxSearchInput");
 	let clearAllSuggestion = document.getElementById("closeListSuggestion");
+	let expandContainer = document.getElementById("expandTravelBoxSearch");
 	fetch("./universities.json")
 		.then((res) => res.json())
 		.then((res) => {
@@ -41,7 +42,7 @@ export const createSugestionsNameUnis = async () => {
 			nodeSubInfo.classList.add("travelBoxSearchListCountriesItemInfo");
 			node.appendChild(nodeSubInfo);
 			containerSuggestion.appendChild(node);
-			eventListenerSuggestion(node, uni);
+			eventListenerSuggestion(node, uni, nodeSubInfo);
 		});
 	};
 	const addSuggestionToHtml = (value) => {
@@ -68,11 +69,11 @@ export const createSugestionsNameUnis = async () => {
 				);
 				node.appendChild(nodeSubInfo);
 				containerSuggestion.appendChild(node);
-				eventListenerSuggestion(node, uni);
+				eventListenerSuggestion(node, uni, nodeSubInfo);
 			}
 		});
 	};
-	const eventListenerSuggestion = (node, uni) => {
+	const eventListenerSuggestion = (node, uni, nodeSubInfo) => {
 		node.addEventListener("click", () => {
 			node.classList.toggle("travelBoxSearchListNamesItemSelected");
 			if (
@@ -85,6 +86,16 @@ export const createSugestionsNameUnis = async () => {
 				);
 			}
 			unisSelected.length > 0 && renderUniversities(unisSelected);
+		});
+		node.addEventListener("mouseenter", () => {
+			nodeSubInfo.classList.toggle(
+				"addColorTravelBoxSearchListCountriesItemInfo"
+			);
+		});
+		node.addEventListener("mouseleave", () => {
+			nodeSubInfo.classList.toggle(
+				"addColorTravelBoxSearchListCountriesItemInfo"
+			);
 		});
 	};
 	const eventListerClearAll = (node) => {
@@ -118,5 +129,7 @@ export const createSugestionsNameUnis = async () => {
 	input.addEventListener("click", (e) => {
 		containerSuggestion.classList.toggle("showSuggestionsContainer");
 		containerSearch.classList.toggle("getBiggerHeight");
+		expandContainer.classList.toggle("getBiggerSeparator");
+		containerSearch.classList.remove("getBiggerCountries");
 	});
 };

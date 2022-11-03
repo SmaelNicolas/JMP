@@ -20,6 +20,10 @@ export const createSuggestionsCountrys = () => {
 	});
 	let selectorCountries = document.getElementById("travelSearchSelector");
 	let travelSearchSelector = document.getElementById("travelSearchSelector");
+	let expandContainer = document.getElementById("expandTravelBoxSearch");
+	let containerSuggestion = document.getElementById(
+		"travelContainerSuggestion"
+	);
 
 	const countryItems = document.getElementsByClassName(
 		"travelBoxSearchListCountriesItem"
@@ -57,10 +61,13 @@ export const createSuggestionsCountrys = () => {
 	};
 
 	selectorCountries.addEventListener("click", () => {
-		containerSearch.classList.toggle("getBiggerHeight");
+		containerSearch.classList.remove("getBiggerHeight");
+		containerSearch.classList.toggle("getBiggerCountries");
 		selectorCountriesList.classList.toggle(
 			"ListCountriesContainerHideShow"
 		);
+		expandContainer.classList.remove("getBiggerSeparator");
+		containerSuggestion.classList.remove("showSuggestionsContainer");
 	});
 
 	clearAllCountriesSelected.addEventListener("click", () => {
