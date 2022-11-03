@@ -13,11 +13,7 @@ export const createMap = async (fullAdress, index) => {
 		zoom: 12,
 	});
 
-	const marker1 = new mapboxgl.Marker({ color: "red" })
+	const marker1 = new mapboxgl.Marker({ color: "#E3325E" })
 		.setLngLat([latitud, longitud])
 		.addTo(map);
-
-	// const marker2 = new mapboxgl.Marker({ color: "black", rotation: 45 })
-	// 	.setLngLat([-61.541938, -39.002735])
-	// 	.addTo(map);
 };
