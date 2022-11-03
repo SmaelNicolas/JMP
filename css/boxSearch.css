@@ -332,6 +332,16 @@
 		justify-content: flex-start;
 		align-items: center;
 	}
+	.getBiggerCountries {
+		height: 400px;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	.getBiggerSeparator {
+		height: 190px;
+		justify-content: flex-start;
+		align-items: center;
+	}
 }
 
 @media only screen and (max-width: 410px) {
