@@ -78,6 +78,7 @@ export const createSuggestionsCountrys = () => {
 			box.classList.remove("travelBoxSearchListCountriesItemSelected");
 		});
 		arrayCountries = [];
+		travelSearchSelector.innerHTML = "COUNTRY";
 	});
 
 	const eventListenerCountries = (node) => {
