@@ -76,7 +76,6 @@
 @media only screen and (max-width: 1175px) {
 	.containerUniversitySearchResult {
 		width: 100%;
-		background-color: green;
 	}
 	.cardAndMap--containerPar {
 		flex-direction: row;
