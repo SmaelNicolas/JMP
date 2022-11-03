@@ -1,4 +1,4 @@
-import { getUniversitiesSearched } from "../functions/searchUniversities.js";
+import { getUniversitiesSearchedByCountry } from "../functions/searchByCountry.js";
 
 export const createSuggestionsCountrys = () => {
 	let containerSearch = document.getElementById("travelBoxSearchContainer");
@@ -84,8 +84,8 @@ export const createSuggestionsCountrys = () => {
 			) {
 				arrayCountries.push(node.getAttribute("id"));
 				travelSearchSelector.innerHTML = node.getAttribute("id");
-				getUniversitiesSearched(
-					arrayCountries.join(" "),
+				getUniversitiesSearchedByCountry(
+					arrayCountries,
 					dataUniversities
 				);
 			} else {
@@ -94,8 +94,8 @@ export const createSuggestionsCountrys = () => {
 				);
 				travelSearchSelector.innerHTML = "COUNTRY";
 				if (arrayCountries.length > 0) {
-					getUniversitiesSearched(
-						arrayCountries.join(" "),
+					getUniversitiesSearchedByCountry(
+						arrayCountries,
 						dataUniversities
 					);
 				} else {
