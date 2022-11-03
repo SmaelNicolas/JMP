@@ -22,33 +22,33 @@ export const getUniversitiesSearched = async (query, arrayUniversities) => {
 			);
 			uni.Country.toLowerCase().includes(word, 0) &&
 				universitiesWithKeyword.push(uni);
-			uni.University.toLowerCase().includes(word, 0) &&
-				universitiesWithKeyword.push(uni);
-			uni.Institution.toLowerCase().includes(word, 0) &&
-				universitiesWithKeyword.push(uni);
-			uni.City.toLowerCase().includes(word, 0) &&
-				universitiesWithKeyword.push(uni);
-			uni.Continent.toLowerCase().includes(word, 0) &&
-				universitiesWithKeyword.push(uni);
-			uni.Streets.toLowerCase().includes(word, 0) &&
-				universitiesWithKeyword.push(uni);
+			// uni.University.toLowerCase().includes(word, 0) &&
+			// 	universitiesWithKeyword.push(uni);
+			// uni.Institution.toLowerCase().includes(word, 0) &&
+			// 	universitiesWithKeyword.push(uni);
+			// uni.City.toLowerCase().includes(word, 0) &&
+			// 	universitiesWithKeyword.push(uni);
+			// uni.Continent.toLowerCase().includes(word, 0) &&
+			// 	universitiesWithKeyword.push(uni);
+			// uni.Streets.toLowerCase().includes(word, 0) &&
+			// 	universitiesWithKeyword.push(uni);
 		});
 	});
 
 	//filtro el arreglo con los que coincidan con el lugar
-	const universitiesSearchedArrayByLocation = arrayUniversities.filter(
-		(item) =>
-			(query.toLowerCase() === item.Continent.toLowerCase() ||
-				query.toLowerCase() === item.Country.toLowerCase() ||
-				query.toLowerCase() === item.City.toLowerCase() ||
-				item.Streets.toLowerCase().includes(query.toLowerCase(), 0) ||
-				item.University.toLowerCase().includes(
-					query.toLowerCase(),
-					0
-				) ||
-				query.toLowerCase() === item.Institution.toLowerCase()) &&
-			item
-	);
+	// const universitiesSearchedArrayByLocation = arrayUniversities.filter(
+	// 	(item) =>
+	// 		(query.toLowerCase() === item.Continent.toLowerCase() ||
+	// 			query.toLowerCase() === item.Country.toLowerCase() ||
+	// 			query.toLowerCase() === item.City.toLowerCase() ||
+	// 			item.Streets.toLowerCase().includes(query.toLowerCase(), 0) ||
+	// 			item.University.toLowerCase().includes(
+	// 				query.toLowerCase(),
+	// 				0
+	// 			) ||
+	// 			query.toLowerCase() === item.Institution.toLowerCase()) &&
+	// 		item
+	// );
 
 	// let arrayComplete = [];
 	// //recorre todos los arreglos de todas las palabras y guarda los que son distintos de undefined en un nuevo arreglo
@@ -56,9 +56,9 @@ export const getUniversitiesSearched = async (query, arrayUniversities) => {
 	// 	array.map((prod) => prod !== undefined && arrayComplete.push(prod))
 	// );
 
-	universitiesWithKeyword = universitiesWithKeyword.concat(
-		universitiesSearchedArrayByLocation
-	);
+	// universitiesWithKeyword = universitiesWithKeyword.concat(
+	// 	universitiesSearchedArrayByLocation
+	// );
 
 	//elimina todos los duplicados del nuevo arreglo para devolver valores unicos y existentes
 	let uniqueUniversitiesArray = [...new Set(universitiesWithKeyword)];
