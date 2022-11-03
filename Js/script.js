@@ -1,7 +1,7 @@
 import { boxSearch } from "./domManipulation/boxSearch.js";
 import { createSugestionsNameUnis } from "./domManipulation/createSugestionsNameUnis.js";
 import { createSuggestionsCountrys } from "./domManipulation/createSuggestionsCountrys.js";
-import { getUniversitiesSearched } from "./functions/searchUniversities.js";
+import { getUniversitiesSearchedByCountry } from "./functions/searchByCountry.js";
 
 fetch("./universities.json")
 	.then((res) => res.json())
@@ -12,6 +12,13 @@ createSugestionsNameUnis();
 
 boxSearch();
 
+let initialCountries = [
+	"Australia",
+	"United States",
+	"United Kingdom",
+	"Canada",
+	"Spain",
+];
 const firstRender = (array) => {
-	getUniversitiesSearched("Argentina", array);
+	getUniversitiesSearchedByCountry(initialCountries, array);
 };
