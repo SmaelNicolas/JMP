@@ -8,7 +8,7 @@ export const createMap = async (fullAdress, index) => {
 	const map = new mapboxgl.Map({
 		container: `map${index}`,
 		// Choose from Mapbox's core styles, or make your own style with Mapbox Studio
-		style: "mapbox://styles/mapbox/streets-v11",
+		style: "mapbox://styles/nicosmael/cla2f1ozo000w14nudmazwnku",
 		center: [latitud, longitud],
 		zoom: 12,
 	});
