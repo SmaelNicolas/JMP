@@ -329,12 +329,12 @@
 		left: 2px;
 	}
 	.getBiggerHeight {
-		height: 480px;
+		height: 460px;
 		justify-content: flex-start;
 		align-items: center;
 	}
 	.getBiggerCountries {
-		height: 480px;
+		height: 460px;
 		justify-content: flex-start;
 		align-items: center;
 	}
@@ -345,6 +345,22 @@
 	}
 }
 
+@media only screen and (max-width: 650px) {
+	.getBiggerHeight {
+		height: 440px;
+	}
+	.getBiggerCountries {
+		height: 440px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.getBiggerHeight {
+		height: 420px;
+	}
+	.getBiggerCountries {
+		height: 420px;
+	}
+}
 @media only screen and (max-width: 410px) {
 	.travelBoxSearchInputs {
 		width: 220px;
