@@ -50,11 +50,11 @@ const card1 = (item, index, container) => {
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
 				}" id="cardUniversitySearchResultInfoHover${index}">
 				<div class="cardUniversitySearchResultInfoContainerOne">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
@@ -107,11 +107,11 @@ const card2 = (item, index, container) => {
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
 				}" id="cardUniversitySearchResultInfoHover${index}">
 				<div class="cardUniversitySearchResultInfoContainerOne">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
@@ -164,11 +164,11 @@ const card3 = (item, index, container) => {
 			(index + 1) % 2 === 0 ? "Par" : "Impar"
 		}" id="cardUniversitySearchResultInfoHover${index}">
 		<div class="cardUniversitySearchResultInfoContainerOne">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
@@ -221,11 +221,11 @@ const card4 = (item, index, container) => {
 			(index + 1) % 2 === 0 ? "Par" : "Impar"
 		}" id="cardUniversitySearchResultInfoHover${index}">
 		<div class="cardUniversitySearchResultInfoContainerOne">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
@@ -278,11 +278,11 @@ const card5 = (item, index, container) => {
 			(index + 1) % 2 === 0 ? "Par" : "Impar"
 		}" id="cardUniversitySearchResultInfoHover${index}">
 		<div class="cardUniversitySearchResultInfoContainerOne">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
@@ -334,11 +334,11 @@ const card6 = (item, index, container) => {
 			(index + 1) % 2 === 0 ? "Par" : "Impar"
 		}" id="cardUniversitySearchResultInfoHover${index}">
 		<div class="cardUniversitySearchResultInfoContainerOne">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
@@ -391,11 +391,11 @@ const card7 = (item, index, container) => {
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
 				}" id="cardUniversitySearchResultInfoHover${index}">
 				<div class="cardUniversitySearchResultInfoContainerOne">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
@@ -448,11 +448,11 @@ const card8 = (item, index, container) => {
 			(index + 1) % 2 === 0 ? "Par" : "Impar"
 		}" id="cardUniversitySearchResultInfoHover${index}">
 		<div class="cardUniversitySearchResultInfoContainerOne">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
@@ -505,11 +505,11 @@ const card9 = (item, index, container) => {
 			(index + 1) % 2 === 0 ? "Par" : "Impar"
 		}" id="cardUniversitySearchResultInfoHover${index}">
 		<div class="cardUniversitySearchResultInfoContainerOne">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
@@ -562,11 +562,11 @@ const card10 = (item, index, container) => {
 			(index + 1) % 2 === 0 ? "Par" : "Impar"
 		}" id="cardUniversitySearchResultInfoHover${index}">
 		<div class="cardUniversitySearchResultInfoContainerOne">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
@@ -619,11 +619,11 @@ const card11 = (item, index, container) => {
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
 				}" id="cardUniversitySearchResultInfoHover${index}">
 				<div class="cardUniversitySearchResultInfoContainerOne">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
@@ -678,11 +678,11 @@ const card12 = (item, index, container) => {
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
 				}" id="cardUniversitySearchResultInfoHover${index}">
 				<div class="cardUniversitySearchResultInfoContainerOne">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
@@ -737,11 +737,11 @@ const card13 = (item, index, container) => {
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
 				}" id="cardUniversitySearchResultInfoHover${index}">
 				<div class="cardUniversitySearchResultInfoContainerOne">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
@@ -795,11 +795,11 @@ const card14 = (item, index, container) => {
 					(index + 1) % 2 === 0 ? "Par" : "Impar"
 				}" id="cardUniversitySearchResultInfoHover${index}">
 				<div class="cardUniversitySearchResultInfoContainerOne">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../institution.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/institution.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--type">${item.Institution}</div>
 					</div>
 					<div class="cardUniversitySearchResultInfoContainerTwo">
-					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../streets.svg"/>
+					<img  class="cardUniversitySearchResultInfoHover--iconUni" src="../../Assets/icons/streets.svg"/>
 					<div class="cardUniversitySearchResultInfoHover--street">${streetReduced}</div>
 					</div>
 				</div>
