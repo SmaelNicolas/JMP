@@ -304,6 +304,7 @@
 	.travelBoxSearchContainer {
 		width: 100%;
 		flex-direction: column;
+		padding-bottom: 5px;
 	}
 	.travelBoxSearchLabelsContainer {
 		width: 100%;
@@ -328,12 +329,12 @@
 		left: 2px;
 	}
 	.getBiggerHeight {
-		height: 400px;
+		height: 480px;
 		justify-content: flex-start;
 		align-items: center;
 	}
 	.getBiggerCountries {
-		height: 400px;
+		height: 480px;
 		justify-content: flex-start;
 		align-items: center;
 	}
