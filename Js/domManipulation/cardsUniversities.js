@@ -1,5 +1,6 @@
 import { reduceStreet, reduceString } from "../functions/reduceString.js";
 
+//FUNCION QUE RECIBE UNA UNIVERSIDAD Y SEGUN EL LARGO DEL TITULO RENDERIZA LA CARD CORRESPONDIENTE
 export const handleCardsByName = (item, index, container) => {
 	if (item.University.length <= 12) return card9(item, index, container);
 	if (item.University.length === 13) {
@@ -25,6 +26,14 @@ export const handleCardsByName = (item, index, container) => {
 		return card11(item, index, container);
 	if (item.University.length > 60) return card13(item, index, container);
 };
+
+// 14 FUNCIONES QUE RENDERIZAN LAS CARDS CON SUS RESPECTIVAS INFORMACIONES.
+//ITEM = universidad
+//INDEX = POSICION PARA MANEJAR LOS MAPAS Y SI ES PAR O IMPAR LA CARD (LA posicion en donde se renderiza segun la busqueda)
+//container = container donde se renderizan todas las cards.
+//reduceString = funcion que acorta la descripcion para luego ser mostrada cuando se expanda
+// reduceStreet = funcion que acorta la calle para no superponer al mapa
+//node = nodo div para insertar la informacion y luego insertar el nodo al contenedor
 
 const card1 = (item, index, container) => {
 	let descriptionReduced = reduceString(item.AboutUniversity);

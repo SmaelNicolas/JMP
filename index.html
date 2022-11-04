@@ -4,36 +4,39 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Maquetado</title>
+		<title>Universities</title>
 
-		<!-- MAPAS -->
+		<!-- Link Estilos de mapa + Scripts -->
 		<link
 			href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css"
 			rel="stylesheet" />
 		<script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
 		<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/build/ol.js"></script>
-		<!-- FIN MAPAS -->
-		<!-- ESTILOS -->
+		<!-- FIN  Link Estilos de mapa + Scripts -->
+
+		<!-- ESTILOS CSS -->
 		<link rel="stylesheet" href="./css/style.css" />
-		<!-- FIN ESTILOS -->
+		<!-- FIN ESTILOS CSS -->
 	</head>
 
 	<body>
-		<div class="travelSearchContainer">
+		<!-- CONTAINER PAGINA COMPLETA -->
+		<main class="travelSearchContainer">
+			<!-- CONTAINER SEARCH  -->
 			<div id="travelBoxSearchContainer" class="travelBoxSearchContainer">
+				<!-- TITLE -->
 				<div
 					class="travelBoxSearchLabelsContainer"
 					id="travelBoxSearchLabelsContainer">
-					<div
-						class="travelBoxSearchLabels"
-						id="topUniversitiesLabel">
+					<h1 class="travelBoxSearchLabels" id="topUniversitiesLabel">
 						Top
 						<span class="travelBoxSearchLabelsSpan">
 							Universities
 						</span>
-					</div>
+					</h1>
 				</div>
 				<div class="travelBoxSearchInputsContainer">
+					<!-- SEARCH BY NAME -->
 					<div class="travelBoxSearchInputWithIcon">
 						<img
 							class="travelBoxSearchInputsIcon"
@@ -54,6 +57,7 @@
 						</div>
 					</div>
 					<div id="expandTravelBoxSearch"></div>
+					<!-- SEARCH BY COUNTRY -->
 					<div class="travelBoxSearchCountrysContainer">
 						<div
 							class="travelBoxSearchSelector"
@@ -73,10 +77,11 @@
 				</div>
 			</div>
 			<div id="separatorContainerForCards"></div>
+			<!-- CONTAINER RENDER ALL CARDS -->
 			<div
 				id="containerUniversitySearchResult"
 				class="containerUniversitySearchResult"></div>
-		</div>
+		</main>
 
 		<script type="module" src="./Js/script.js"></script>
 	</body>

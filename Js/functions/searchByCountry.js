@@ -7,7 +7,7 @@ export const getUniversitiesSearchedByCountry = async (
 ) => {
 	let container = document.getElementById("containerUniversitySearchResult");
 	container.innerHTML = "";
-	// filtro el arreglo con los que coincidan con el lugar
+	// FILTRA EL ARREGLO DE UNIVERSIDADES QUE COINCIDAN CON EL LUGAR
 	let universitiesSearch = [];
 	arrayUniversities.map((item) =>
 		query.filter((uni) => {
@@ -15,9 +15,12 @@ export const getUniversitiesSearchedByCountry = async (
 				universitiesSearch.push(item);
 		})
 	);
-	//elimina todos los duplicados del nuevo arreglo para devolver valores unicos y existentes
+
+	//ELIMINA TODOS LOS DUPLICADOS DEL ARREGLO PARA DEVOLVER VALORES UNICOS
 	let uniqueUniversitiesArray = [...new Set(universitiesSearch)];
-	//elimina todos los que tiene almenos un campo vacio
+
+	// ELIMINA TODAS LAS UNIVERSIDADES QUE TIENEN AL MENOS UN CAMPO VACIO.
+	//LOS CAMPOS QUE CONTROLA SON LOS NECESARIOS PARA RENDERIZAR UNA CARD COMPLETA
 	let finalUniversitiesSearch = uniqueUniversitiesArray.filter(
 		(uni) =>
 			uni.AboutUniversity !== "" &&
@@ -26,7 +29,8 @@ export const getUniversitiesSearchedByCountry = async (
 			uni.Streets !== ""
 	);
 
-	// devuelve la busqueda sin repetidos , sin indefinidos, sin vacios
+	// DEVUELVE LA BUSQUEDA SIN REPETIDOS, INDEFINIDOS NI VACIOS
+	// LLAMA A LA FUNCION QUE RENDERIZA LAS UNIVERSIDADES
 	finalUniversitiesSearch.length > 0
 		? renderUniversities(finalUniversitiesSearch)
 		: renderErrorMessage();

@@ -1,4 +1,7 @@
 export const getLatitudeLongitude = async (query) => {
+	// api https://www.geoapify.com/
+	//FUNCION QUE LLAMA A LA API CON LA UBICACION COMPLETA PARA OBTENE LAS COORDENADAS
+	// apiKey=ed205a9953a047aeb1b861457ecf9c6a , cambiar la key en caso de crearse una cuenta nueva
 	let coordinates = {};
 	let errorInApi = false;
 

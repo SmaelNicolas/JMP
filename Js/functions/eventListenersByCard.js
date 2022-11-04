@@ -1,7 +1,7 @@
 import { createMap } from "./createMap.js";
 
 export const eventListenerByCards = (PropertyID, index, fullAdress) => {
-	//hover in sobre el card para ver mapa
+	//HOVER IN SOBRE LA CARD PARA MOSTRAR EL MAPA
 	document
 		.getElementById(`cardAndMap${PropertyID}`)
 		.addEventListener("mouseenter", () => {
@@ -23,7 +23,7 @@ export const eventListenerByCards = (PropertyID, index, fullAdress) => {
 			createMap(fullAdress, index);
 		});
 
-	//hover out sobre el card para ocultar mapa
+	//HOVER OUT SOBRE EL CONTENEDOR DE LA CARD PARA OCULTAR EL MAPA
 	document
 		.getElementById(`cardAndMap${PropertyID}`)
 		.addEventListener("mouseleave", () => {
@@ -44,7 +44,7 @@ export const eventListenerByCards = (PropertyID, index, fullAdress) => {
 				: "";
 		});
 
-	//click en arrow  agregar descripcion completa
+	//CLICK EN ARROW PARA MOSTRAR LA DESCRIPCION COMPLETA
 	document
 		.getElementById(`cardUniversitySearchResultArrowMore${index}`)
 		.addEventListener("click", () => {
@@ -60,7 +60,7 @@ export const eventListenerByCards = (PropertyID, index, fullAdress) => {
 				.classList.toggle("cardUniversitySearchResult--center--hide");
 		});
 
-	//click en arrow agregar descripcion reducida
+	//CLICK EN ARROW PARA MOSTRAR LA DESCRIPCION REDUCIDA
 	document
 		.getElementById(`cardUniversitySearchResultArrowLess${index}`)
 		.addEventListener("click", () => {
@@ -76,7 +76,7 @@ export const eventListenerByCards = (PropertyID, index, fullAdress) => {
 				.classList.toggle("cardUniversitySearchResult--center--hide");
 		});
 
-	//click en heart gris cambia a rojo. ¿Agrega a favoritos?
+	//CLICK EN EL CORAZON NEGRO PARA CAMBIARLO A COLOR ROJO
 	document
 		.getElementById(`cardUniversitySearchResult--fav--grey${index}`)
 		.addEventListener("click", () => {
@@ -88,7 +88,7 @@ export const eventListenerByCards = (PropertyID, index, fullAdress) => {
 				.classList.toggle("hideBox");
 		});
 
-	//click en heart rojo cambia a gris. ¿Agrega a favoritos?
+	//CLICK EN EL CORAZON ROJO PARA CAMBIARLO A COLOR NEGRO
 	document
 		.getElementById(`cardUniversitySearchResult--fav--red${index}`)
 		.addEventListener("click", () => {

@@ -1,17 +1,19 @@
-import { boxSearch } from "./domManipulation/boxSearch.js";
-import { createSugestionsNameUnis } from "./domManipulation/createSugestionsNameUnis.js";
-import { createSuggestionsCountrys } from "./domManipulation/createSuggestionsCountrys.js";
+import { handleSugestionsNameUnis } from "./domManipulation/handleSugestionsNameUnis.js";
+import { handleSuggestionsCountrys } from "./domManipulation/handleSuggestionsCountrys.js";
 import { getUniversitiesSearchedByCountry } from "./functions/searchByCountry.js";
 
+// LLAMADO AL JSON PARA LEER LA INFO
 fetch("./universities.json")
 	.then((res) => res.json())
 	.then((res) => firstRender(res));
 
-createSuggestionsCountrys();
-createSugestionsNameUnis();
+// FUNCION QUE CREA Y MANEJA EL PANEL DE SUGERENCIAS DE TODOS LOS PAISES DISPONIBLES
+handleSuggestionsCountrys();
 
-boxSearch();
+// FUNCION QUE CREA Y MANEJA EL PANEL DE SUGERENCIAS DE TODOS LOS NOMBRES DE LAS UNIVERSIDADES
+handleSugestionsNameUnis();
 
+// ARRAY DE UNIVERSIDADES QUE SE VAN A RENDERIZAR AL CARGAR LA PAGINA
 let initialCountries = [
 	"Australia",
 	"United States",
@@ -19,6 +21,8 @@ let initialCountries = [
 	"Canada",
 	"Spain",
 ];
+
+// FUNCION QUE RENDERIZA LAS PRIMERAS PAGINAS , LUEGO DE HABER LEIDO EL .JSON PARA OBTENER LA INFORMACION NECESARIA
 const firstRender = (array) => {
 	getUniversitiesSearchedByCountry(initialCountries, array);
 };
