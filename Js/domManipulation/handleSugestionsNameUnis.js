@@ -1,5 +1,4 @@
 import { renderUniversities } from "../functions/renderUniversities.js";
-
 export const handleSugestionsNameUnis = async () => {
 	let dataUniversities = [];
 	let unisSelected = [];
@@ -12,7 +11,7 @@ export const handleSugestionsNameUnis = async () => {
 	let expandContainer = document.getElementById("expandTravelBoxSearch");
 
 	//LEE EL JSON PARA OBTENER LA LISTA DE NOMBRES DISPONIBLES
-	fetch("./universities.json")
+	fetch("../../data/universities.json")
 		.then((res) => res.json())
 		.then((res) => {
 			createSuggestions(sortUniversities(res));

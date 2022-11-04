@@ -3,7 +3,7 @@ import { handleSuggestionsCountrys } from "./domManipulation/handleSuggestionsCo
 import { getUniversitiesSearchedByCountry } from "./functions/searchByCountry.js";
 
 // LLAMADO AL JSON PARA LEER LA INFO
-fetch("./universities.json")
+fetch("../data/universities.json")
 	.then((res) => res.json())
 	.then((res) => firstRender(res));
 

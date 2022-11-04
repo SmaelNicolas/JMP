@@ -1,5 +1,4 @@
 import { getUniversitiesSearchedByCountry } from "../functions/searchByCountry.js";
-
 export const handleSuggestionsCountrys = () => {
 	let containerSearch = document.getElementById("travelBoxSearchContainer");
 	let suggestionListCountries = document.getElementById(
@@ -27,7 +26,7 @@ export const handleSuggestionsCountrys = () => {
 	let dataUniversities = [];
 
 	//LEE EL JSON PARA OBTENER LA LISTA DE PAISES DISPONIBLES
-	fetch("./universities.json")
+	fetch("../../data/universities.json")
 		.then((res) => res.json())
 		.then((res) => {
 			dataUniversities = res;
