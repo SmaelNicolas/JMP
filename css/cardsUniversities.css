@@ -120,6 +120,9 @@
 	cursor: pointer;
 	padding: 5px 20px 0px 0px;
 }
+.hideBoxHeartUnis {
+	display: none;
+}
 /* SECCION DE LINK */
 .cardUniversitySearchResult--link {
 	width: max-content;

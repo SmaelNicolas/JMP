@@ -82,10 +82,10 @@ export const eventListenerByCards = (PropertyID, index, fullAdress) => {
 		.addEventListener("click", () => {
 			document
 				.getElementById(`cardUniversitySearchResult--fav--grey${index}`)
-				.classList.toggle("hideBox");
+				.classList.toggle("hideBoxHeartUnis");
 			document
 				.getElementById(`cardUniversitySearchResult--fav--red${index}`)
-				.classList.toggle("hideBox");
+				.classList.toggle("hideBoxHeartUnis");
 		});
 
 	//CLICK EN EL CORAZON ROJO PARA CAMBIARLO A COLOR NEGRO
@@ -94,9 +94,9 @@ export const eventListenerByCards = (PropertyID, index, fullAdress) => {
 		.addEventListener("click", () => {
 			document
 				.getElementById(`cardUniversitySearchResult--fav--red${index}`)
-				.classList.toggle("hideBox");
+				.classList.toggle("hideBoxHeartUnis");
 			document
 				.getElementById(`cardUniversitySearchResult--fav--grey${index}`)
-				.classList.toggle("hideBox");
+				.classList.toggle("hideBoxHeartUnis");
 		});
 };
