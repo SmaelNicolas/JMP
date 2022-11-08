@@ -139,6 +139,10 @@ export const handleSugestionsNameUnis = async () => {
 	input.addEventListener("keyup", (e) => {
 		let value = e.target.value;
 		addSuggestionToHtml(value);
+		containerSuggestion.classList.add("showSuggestionsContainer");
+		containerSearch.classList.add("getBiggerHeight");
+		expandContainer.classList.add("getBiggerSeparator");
+		containerSearch.classList.remove("getBiggerCountries");
 	});
 
 	//MANEJA LAS VISTAS CUANDO SE HACE CLICK EN EL BUSCADOR
