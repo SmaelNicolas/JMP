@@ -1,3 +1,4 @@
+import { initialCountries } from "../functions/getInitialCountries.js";
 import { getUniversitiesSearchedByCountry } from "../functions/searchByCountry.js";
 export const handleSuggestionsCountrys = () => {
 	let containerSearch = document.getElementById("travelBoxSearchContainer");
@@ -24,6 +25,7 @@ export const handleSuggestionsCountrys = () => {
 
 	let arrayCountries = [];
 	let dataUniversities = [];
+	let initialDataUniversities = [];
 
 	//LEE EL JSON PARA OBTENER LA LISTA DE PAISES DISPONIBLES
 	fetch("../../data/universities.json")
@@ -31,7 +33,30 @@ export const handleSuggestionsCountrys = () => {
 		.then((res) => {
 			dataUniversities = res;
 			getAllCountrys(res);
+			initialCountries.map((country) => {
+				res.map(
+					(uni) =>
+						uni.Country === country &&
+						initialDataUniversities.push(uni)
+				);
+			});
+			sortInitialUniversities(initialDataUniversities);
 		});
+
+	// ORDENA LAS UNIVERSIDADES ALFABETICAMENTE SEGUN EL pais
+	const sortInitialUniversities = (value) => {
+		return value.sort((a, b) => {
+			const firstcountryUni = a.Country.toUpperCase();
+			const secondCountryUni = b.Country.toUpperCase();
+			if (firstcountryUni < secondCountryUni) {
+				return -1;
+			}
+			if (firstcountryUni > secondCountryUni) {
+				return 1;
+			}
+			return 0;
+		});
+	};
 
 	//CREA EL ARREGLO DE PAISES Y ELIMINA DUPLICADOS, LLAMA A LA FUNCION QUE LOS VA A RENDERIZAR.
 	const getAllCountrys = (dataUniversities) => {
@@ -76,6 +101,10 @@ export const handleSuggestionsCountrys = () => {
 		});
 		arrayCountries = [];
 		travelSearchSelector.innerHTML = "COUNTRY";
+		getUniversitiesSearchedByCountry(
+			initialCountries,
+			initialDataUniversities
+		);
 	});
 
 	//FUNCION QUE LE ASIGNA EL EVENT LISTENER A CADA PAIS
