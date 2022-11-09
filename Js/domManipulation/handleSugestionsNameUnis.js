@@ -1,6 +1,9 @@
+import { initialCountries } from "../functions/getInitialCountries.js";
 import { renderUniversities } from "../functions/renderUniversities.js";
+import { getUniversitiesSearchedByCountry } from "../functions/searchByCountry.js";
 export const handleSugestionsNameUnis = async () => {
 	let dataUniversities = [];
+	let initialDataUniversities = [];
 	let unisSelected = [];
 	let containerSuggestion = document.getElementById(
 		"travelContainerSuggestion"
@@ -16,6 +19,14 @@ export const handleSugestionsNameUnis = async () => {
 		.then((res) => {
 			createSuggestions(sortUniversities(res));
 			dataUniversities = sortUniversities(res);
+			initialCountries.map((country) => {
+				res.map(
+					(uni) =>
+						uni.Country === country &&
+						initialDataUniversities.push(uni)
+				);
+			});
+			sortInitialUniversities(initialDataUniversities);
 		});
 
 	// ORDENA LAS UNIVERSIDADES ALFABETICAMENTE SEGUN EL NOMBRE
@@ -27,6 +38,22 @@ export const handleSugestionsNameUnis = async () => {
 				return -1;
 			}
 			if (firstNameUni > secondNameUni) {
+				return 1;
+			}
+			return 0;
+		});
+	};
+
+	// ORDENA LAS UNIVERSIDADES ALFABETICAMENTE SEGUN EL pais
+
+	const sortInitialUniversities = (value) => {
+		return value.sort((a, b) => {
+			const firstcountryUni = a.Country.toUpperCase();
+			const secondCountryUni = b.Country.toUpperCase();
+			if (firstcountryUni < secondCountryUni) {
+				return -1;
+			}
+			if (firstcountryUni > secondCountryUni) {
 				return 1;
 			}
 			return 0;
@@ -81,6 +108,13 @@ export const handleSugestionsNameUnis = async () => {
 				eventListenerSuggestion(node, uni, nodeSubInfo);
 			}
 		});
+		if (containerSuggestion.children.length === 1) {
+			let nodeError = document.createElement("div");
+			nodeError.classList.add("travelBoxSearchListCountriesError");
+			nodeError.id = "listSuggestionError";
+			nodeError.innerHTML = " No se encontraron resultados";
+			containerSuggestion.appendChild(nodeError);
+		}
 	};
 
 	//AGREGA LAS FUNCIONALIDADES DE SELECCIONAR AL HACER CLICK EN EL NOMBRE Y
@@ -133,6 +167,10 @@ export const handleSugestionsNameUnis = async () => {
 			box.classList.remove("travelBoxSearchListNamesItemSelected");
 		});
 		unisSelected = [];
+		getUniversitiesSearchedByCountry(
+			initialCountries,
+			initialDataUniversities
+		);
 	});
 
 	//ACUALIZA LA LISTA DE RECOMENDACIONES LUEGO QUE SE ESCRIBIO UN CARACTER
