@@ -79,6 +79,10 @@
 	}
 	.cardAndMap--containerPar {
 		flex-direction: row;
+		width: 800px;
+	}
+	.cardAndMap--containerImpar {
+		width: 800px;
 	}
 }
 
