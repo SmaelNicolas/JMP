@@ -22,6 +22,7 @@
 	margin: 0 auto;
 	box-shadow: var(--shadow--3d--big);
 	background-color: white;
+	padding: 8%;
 }
 
 .travelBoxSearchLabelsContainer {
@@ -64,7 +65,6 @@
 }
 
 .travelBoxSearchInputs {
-	-webkit-appearance: none;
 	width: 300px;
 	padding: 10px;
 	padding-left: 50px;
@@ -211,13 +211,11 @@
 .getBiggerHeight {
 	height: 350px;
 	align-items: flex-start;
-	padding-top: 50px;
 }
 
 .getBiggerCountries {
 	height: 350px;
 	align-items: flex-start;
-	padding-top: 50px;
 }
 
 .getBiggerSeparator {
