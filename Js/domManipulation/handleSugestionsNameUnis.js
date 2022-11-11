@@ -64,17 +64,7 @@ export const handleSugestionsNameUnis = async () => {
 	// Y LE ASIGNA A CADA NOMBRE SU EVENT LISTENER
 	const createSuggestions = async (arrrayUnis) => {
 		await arrrayUnis.map((uni) => {
-			let node = document.createElement("div");
-			let nodeSubInfo = document.createElement("div");
-			node.id = uni.University;
-			nodeSubInfo.id = `${uni.University}Info`;
-			node.innerHTML = uni.University;
-			nodeSubInfo.innerHTML = `${uni.Streets}, ${uni.City} , ${uni.Country}  `;
-			node.classList.add("travelBoxSearchListCountriesItem");
-			nodeSubInfo.classList.add("travelBoxSearchListCountriesItemInfo");
-			node.appendChild(nodeSubInfo);
-			containerSuggestion.appendChild(node);
-			eventListenerSuggestion(node, uni, nodeSubInfo);
+			createNodeToList(uni);
 		});
 	};
 
@@ -90,62 +80,22 @@ export const handleSugestionsNameUnis = async () => {
 		containerSuggestion.appendChild(clearAll);
 		eventListerClearAll(clearAll);
 		dataUniversities.map((uni) => {
-			if (
-				uni.University.toLowerCase().startsWith(value.toLowerCase(), 0)
-			) {
-				let node = document.createElement("div");
-				let nodeSubInfo = document.createElement("div");
-				node.id = uni.University;
-				nodeSubInfo.id = `${uni.University}Info`;
-				node.innerHTML = uni.University;
-				nodeSubInfo.innerHTML = `${uni.Streets}, ${uni.City} , ${uni.Country}  `;
-				node.classList.add("travelBoxSearchListCountriesItem");
-				nodeSubInfo.classList.add(
-					"travelBoxSearchListCountriesItemInfo"
-				);
-				node.appendChild(nodeSubInfo);
-				containerSuggestion.appendChild(node);
-				eventListenerSuggestion(node, uni, nodeSubInfo);
-			}
+			// BUSCA POR NOMBRE
+			uni.University.toLowerCase().startsWith(value.toLowerCase(), 0) &&
+				createNodeToList(uni);
+
+			// BUSCA POR KEYWORDS
 			uni.KeyWords.length > 0 &&
 				uni.KeyWords.map((key) => {
-					if (
-						key.toLowerCase().startsWith(value.toLowerCase(), 0) &&
-						document.getElementById(`${uni.University}`) === null
-					) {
-						let node = document.createElement("div");
-						let nodeSubInfo = document.createElement("div");
-						node.id = uni.University;
-						nodeSubInfo.id = `${uni.University}Info`;
-						node.innerHTML = uni.University;
-						nodeSubInfo.innerHTML = `${uni.Streets}, ${uni.City} , ${uni.Country}  `;
-						node.classList.add("travelBoxSearchListCountriesItem");
-						nodeSubInfo.classList.add(
-							"travelBoxSearchListCountriesItemInfo"
-						);
-						node.appendChild(nodeSubInfo);
-						containerSuggestion.appendChild(node);
-						eventListenerSuggestion(node, uni, nodeSubInfo);
-					}
+					key.toLowerCase().startsWith(value.toLowerCase(), 0) &&
+						document.getElementById(`${uni.University}`) === null &&
+						createNodeToList(uni);
 				});
-			if (
-				uni.AboutUniversity.includes(value) &&
-				document.getElementById(`${uni.University}`) === null
-			) {
-				let node = document.createElement("div");
-				let nodeSubInfo = document.createElement("div");
-				node.id = uni.University;
-				nodeSubInfo.id = `${uni.University}Info`;
-				node.innerHTML = uni.University;
-				nodeSubInfo.innerHTML = `${uni.Streets}, ${uni.City} , ${uni.Country}  `;
-				node.classList.add("travelBoxSearchListCountriesItem");
-				nodeSubInfo.classList.add(
-					"travelBoxSearchListCountriesItemInfo"
-				);
-				node.appendChild(nodeSubInfo);
-				containerSuggestion.appendChild(node);
-				eventListenerSuggestion(node, uni, nodeSubInfo);
-			}
+
+			// BUSCA POR DESCRIPCION
+			uni.AboutUniversity.toLowerCase().includes(value.toLowerCase()) &&
+				document.getElementById(`${uni.University}`) === null &&
+				createNodeToList(uni);
 		});
 
 		if (containerSuggestion.children.length === 1) {
@@ -155,6 +105,20 @@ export const handleSugestionsNameUnis = async () => {
 			nodeError.innerHTML = " No se encontraron resultados";
 			containerSuggestion.appendChild(nodeError);
 		}
+	};
+
+	const createNodeToList = (uni) => {
+		let node = document.createElement("div");
+		let nodeSubInfo = document.createElement("div");
+		node.id = uni.University;
+		nodeSubInfo.id = `${uni.University}Info`;
+		node.innerHTML = uni.University;
+		nodeSubInfo.innerHTML = `${uni.Streets}, ${uni.City} , ${uni.Country}  `;
+		node.classList.add("travelBoxSearchListCountriesItem");
+		nodeSubInfo.classList.add("travelBoxSearchListCountriesItemInfo");
+		node.appendChild(nodeSubInfo);
+		containerSuggestion.appendChild(node);
+		eventListenerSuggestion(node, uni, nodeSubInfo);
 	};
 
 	//AGREGA LAS FUNCIONALIDADES DE SELECCIONAR AL HACER CLICK EN EL NOMBRE Y
