@@ -22,7 +22,7 @@
 	margin: 0 auto;
 	box-shadow: var(--shadow--3d--big);
 	background-color: white;
-	padding: 8%;
+	padding: 8% 0px;
 }
 
 .travelBoxSearchLabelsContainer {
