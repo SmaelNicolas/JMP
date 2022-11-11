@@ -107,7 +107,47 @@ export const handleSugestionsNameUnis = async () => {
 				containerSuggestion.appendChild(node);
 				eventListenerSuggestion(node, uni, nodeSubInfo);
 			}
+			uni.KeyWords.length > 0 &&
+				uni.KeyWords.map((key) => {
+					if (
+						key.toLowerCase().startsWith(value.toLowerCase(), 0) &&
+						document.getElementById(`${uni.University}`) === null
+					) {
+						let node = document.createElement("div");
+						let nodeSubInfo = document.createElement("div");
+						node.id = uni.University;
+						nodeSubInfo.id = `${uni.University}Info`;
+						node.innerHTML = uni.University;
+						nodeSubInfo.innerHTML = `${uni.Streets}, ${uni.City} , ${uni.Country}  `;
+						node.classList.add("travelBoxSearchListCountriesItem");
+						nodeSubInfo.classList.add(
+							"travelBoxSearchListCountriesItemInfo"
+						);
+						node.appendChild(nodeSubInfo);
+						containerSuggestion.appendChild(node);
+						eventListenerSuggestion(node, uni, nodeSubInfo);
+					}
+				});
+			if (
+				uni.AboutUniversity.includes(value) &&
+				document.getElementById(`${uni.University}`) === null
+			) {
+				let node = document.createElement("div");
+				let nodeSubInfo = document.createElement("div");
+				node.id = uni.University;
+				nodeSubInfo.id = `${uni.University}Info`;
+				node.innerHTML = uni.University;
+				nodeSubInfo.innerHTML = `${uni.Streets}, ${uni.City} , ${uni.Country}  `;
+				node.classList.add("travelBoxSearchListCountriesItem");
+				nodeSubInfo.classList.add(
+					"travelBoxSearchListCountriesItemInfo"
+				);
+				node.appendChild(nodeSubInfo);
+				containerSuggestion.appendChild(node);
+				eventListenerSuggestion(node, uni, nodeSubInfo);
+			}
 		});
+
 		if (containerSuggestion.children.length === 1) {
 			let nodeError = document.createElement("div");
 			nodeError.classList.add("travelBoxSearchListCountriesError");
@@ -154,6 +194,10 @@ export const handleSugestionsNameUnis = async () => {
 			allSelected.forEach((box) => {
 				box.classList.remove("travelBoxSearchListNamesItemSelected");
 			});
+			getUniversitiesSearchedByCountry(
+				initialCountries,
+				initialDataUniversities
+			);
 		});
 		unisSelected = [];
 	};
@@ -167,6 +211,7 @@ export const handleSugestionsNameUnis = async () => {
 			box.classList.remove("travelBoxSearchListNamesItemSelected");
 		});
 		unisSelected = [];
+		console.log(initialDataUniversities);
 		getUniversitiesSearchedByCountry(
 			initialCountries,
 			initialDataUniversities
