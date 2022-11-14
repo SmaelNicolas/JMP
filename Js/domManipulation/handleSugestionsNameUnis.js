@@ -72,6 +72,9 @@ export const handleSugestionsNameUnis = async () => {
 	//SI COINCIDE CREA EL NOMBRE Y LE ASIGNA SUS FUNCIONALIDADES
 	//VA CAMBIANDO POR CADA CARACTER QUE  SE AGREGA
 	const addSuggestionToHtml = (value) => {
+		let unisNameCoincidence = [];
+		let unisKeywordCoincidence = [];
+		let unisDescriptionCoincidence = [];
 		containerSuggestion.innerHTML = "";
 		let clearAll = document.createElement("div");
 		clearAll.id = "closeListCountries";
@@ -82,20 +85,29 @@ export const handleSugestionsNameUnis = async () => {
 		dataUniversities.map((uni) => {
 			// BUSCA POR NOMBRE
 			uni.University.toLowerCase().startsWith(value.toLowerCase(), 0) &&
-				createNodeToList(uni);
+				unisNameCoincidence.push(uni);
 
 			// BUSCA POR KEYWORDS
 			uni.KeyWords.length > 0 &&
 				uni.KeyWords.map((key) => {
 					key.toLowerCase().startsWith(value.toLowerCase(), 0) &&
 						document.getElementById(`${uni.University}`) === null &&
-						createNodeToList(uni);
+						unisKeywordCoincidence.push(uni);
 				});
 
 			// BUSCA POR DESCRIPCION
 			uni.AboutUniversity.toLowerCase().includes(value.toLowerCase()) &&
 				document.getElementById(`${uni.University}`) === null &&
-				createNodeToList(uni);
+				unisDescriptionCoincidence.push(uni);
+		});
+		unisNameCoincidence.map((uni) => {
+			createNodeToList(uni);
+		});
+		unisKeywordCoincidence.map((uni) => {
+			createNodeToList(uni);
+		});
+		unisDescriptionCoincidence.map((uni) => {
+			createNodeToList(uni);
 		});
 
 		if (containerSuggestion.children.length === 1) {
@@ -110,6 +122,7 @@ export const handleSugestionsNameUnis = async () => {
 	const createNodeToList = (uni) => {
 		let node = document.createElement("div");
 		let nodeSubInfo = document.createElement("div");
+		if (document.getElementById(uni.University)) return;
 		node.id = uni.University;
 		nodeSubInfo.id = `${uni.University}Info`;
 		node.innerHTML = uni.University;
